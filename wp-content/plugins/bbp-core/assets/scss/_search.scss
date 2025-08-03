@@ -1,0 +1,168 @@
+.ama-search-widget {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  #ama-search-result {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    border: 1px solid rgb(230, 238, 239);
+    border-radius: 4px;
+    box-shadow: 0 3px 4px 0 rgb(4 73 89 / 6%);
+    margin-top: 25px !important;
+    padding: 20px 25px;
+    font-size: 14px;
+    font-weight: 400;
+    transition: all 0.4s;
+    top: 45px;
+    z-index: 99;
+  }
+
+  .header_search_keyword {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: 500;
+    justify-content: center;
+    margin-top: 10px;
+
+    span {
+      font-size: 14px;
+      margin-right: 10px;
+    }
+
+    ul {
+      margin: 0;
+
+      li {
+        display: inline-block;
+        margin: 0 3px 0;
+
+        a {
+          display: block;
+          font-size: 13px;
+          padding: 0 19px;
+          border-radius: 45px;
+          background: var(--bbpc_color);
+          color: #fff;
+          font-weight: normal;
+
+          &.header-search-form__keywords-label {
+            color: var(--black_800);
+          }
+        }
+      }
+    }
+  }
+
+  .search-box {
+    z-index: 99;
+    position: relative;
+
+    svg {
+      position: absolute;
+      right: 8px;
+      top: 49.59999%;
+      transform: translateY(-50%);
+      line-height: 22px;
+      padding: 10px;
+      border-radius: 4px;
+      border-left-color: transparent;
+      box-sizing: border-box;
+      color: var(--bbpc_brand_color);
+    }
+
+    input#searchInput {
+      border: 0 solid transparent;
+      box-shadow: none;
+    }
+
+    input {
+      width: 100%;
+      border-radius: 4px;
+      line-height: 35px;
+      text-indent: 15px;
+      padding-right: 43px;
+    }
+
+    #searchInput+.spinner {
+      position: absolute;
+      right: 45px;
+      top: 50% !important;
+      transform: translateY(-55%);
+      display: none;
+      background: #fff;
+      z-index: 999;
+
+      img {
+        width: 22px;
+      }
+    }
+  }
+
+  .elementor {
+    img {
+      height: auto;
+      max-width: 100%;
+      border: none;
+      border-radius: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+}
+
+ul.list-unstyled {
+  padding-left: 0;
+}
+
+.ama-search-keyword-wrapper {
+  .header_search_keyword {
+    ul li a {
+      color: var(--black_600);
+      background: var(--black_50);
+      font-weight: normal;
+    }
+  }
+}
+
+.solved-topic-bar {
+  display: inline;
+}
+
+.forum-meta {
+  li {
+    padding: 0;
+  }
+}
+
+
+.bbpc_search_form_wrapper {
+  .input-wrapper {
+      input[type="search"] {
+          &::-webkit-search-cancel-button {
+              -webkit-appearance: none;
+              display: inline-block;
+              width: 12px;
+              height: 12px;
+              margin-right: 30px;
+              background:
+                  linear-gradient(45deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 43%,#000 45%,#000 55%,rgba(0,0,0,0) 57%,rgba(0,0,0,0) 100%),
+                  linear-gradient(135deg, transparent 0%,transparent 43%,#000 45%,#000 55%,transparent 57%,transparent 100%);
+          }
+
+          &.right {
+              &::-webkit-search-cancel-button {
+                  margin-right: 50px;
+              }
+          }
+      }
+  }
+}
+
+input#searchInput {
+  padding-left: 50px;
+}

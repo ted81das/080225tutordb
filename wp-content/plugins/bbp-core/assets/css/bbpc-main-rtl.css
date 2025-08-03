@@ -1,0 +1,97 @@
+.forum-meta .topics, .forum-meta .replies {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.forum-with-topics .topic-table .topic-contents .user .user-img {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.forum-with-topics .topic-table .topic-heading .icon-text svg {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.h_doc_documentation_area .nav {
+  padding-right: 0;
+}
+
+.forum-meta .topics svg, .forum-meta .replies svg {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.community-area .nav-tabs .nav-item button {
+  margin-right: 0;
+  margin-left: 30px;
+}
+
+.community-topic-widget-box span:nth-child(2) {
+  padding-right: 0;
+  padding-left: 8px;
+}
+
+.community-topic-widget-box span:nth-child(4) {
+  padding-left: 0;
+  padding-right: 8px;
+}
+
+.single-forum-post-widget .post-reach {
+  border-left: none;
+  padding-left: 0;
+  padding-right: 15px;
+  border-right: 1px solid #e6e6e6;
+}
+
+.single-forum-post-widget .post-info .author {
+  margin-right: 0;
+  margin-left: 15px;
+}
+.single-forum-post-widget .post-info .author img {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.single-forum-post-widget .post-info .post-time {
+  margin-right: 0;
+  margin-left: 15px;
+}
+.single-forum-post-widget .post-info .post-time img {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.single-forum-post-widget .post-info .post-category {
+  margin-right: 0;
+  margin-left: 15px;
+}
+.single-forum-post-widget .post-info .post-category img {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.single-forum-post-widget .post-reach > div img {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.forum-post-widget .post-filter-widget .single-filter-item {
+  margin-right: 0;
+  margin-left: 40px;
+}
+.forum-post-widget .post-filter-widget .single-filter-item:last-child {
+  margin-left: 0;
+}
+
+.community-post:hover {
+  transform: translateX(-10px);
+}
+.community-post .post-content .author-avatar {
+  margin-right: 0;
+  margin-left: 25px;
+}
+
+.community-topic-widget-box img {
+  margin-right: 0;
+  margin-left: 24px;
+}
+
+/*# sourceMappingURL=bbpc-main-rtl.css.map */

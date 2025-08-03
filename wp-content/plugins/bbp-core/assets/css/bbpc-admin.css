@@ -1,0 +1,401 @@
+/** === Codestar options / Pro Alert === **/
+.csf-field-image_select figure {
+  width: 100px;
+}
+
+.bbp-core-settings {
+  max-width: 1200px;
+}
+
+.csf-field .csf-title {
+  width: 30%;
+}
+
+.csf-field .csf-fieldset {
+  width: calc(70% - 25px);
+}
+
+/** === Codestar Fontawesome replaced with Dashicons === **/
+.csf-field .chosen-container-single .chosen-single div b:before,
+.csf-nav ul li .csf-arrow:after {
+  content: "\f347";
+  font-family: dashicons;
+  font-size: 12px;
+}
+
+.csf-field .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:before {
+  content: "\f335" !important;
+  font-family: dashicons;
+}
+
+.csf-field .chosen-container-active.chosen-with-drop .chosen-single div b:before {
+  content: "\f343";
+  font-family: dashicons;
+}
+
+body.bbpc-no-pro .st-pro-notice.csf-field {
+  position: relative;
+  cursor: pointer;
+}
+body.bbpc-no-pro .st-pro-notice.csf-field::before {
+  content: "Pro";
+  background-color: #f1bd6c;
+  color: #000;
+  padding: 3px 10px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+body.bbpc-no-pro .st-pro-notice.csf-field::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  z-index: 2;
+}
+body.bbpc-no-pro .st-pro-notice .csf-fieldset, body.bbpc-no-pro .st-pro-notice .csf-title {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.upgrade-link {
+  background-color: #f1bd6c;
+  color: #000;
+  padding: 2px 6px;
+}
+
+.swal2-styled.swal2-confirm.upgrade-premium-button {
+  background-color: #f1bd6c;
+  outline: none;
+  box-shadow: none !important;
+}
+
+.swal2-title.upgrade-premium-heading {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: -15px;
+}
+
+.pro-notification-body-text {
+  font-size: 15px;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.swal2-styled.swal2-confirm.upgrade-premium-button > a {
+  color: black;
+  font-weight: normal;
+}
+
+.swal2-footer.notification-pro-footer-wrap {
+  border-top: none;
+  margin: 8px 0px 0px;
+  padding: 0px;
+}
+
+.swal2-html-container {
+  line-height: 1.6;
+}
+
+#customize-controls .csf-field-image_select img {
+  width: 85px;
+  height: auto;
+}
+
+.notice.is-dismissible.bottom-10 {
+  padding-bottom: 15px;
+}
+
+.notice-warning.eaz-notice {
+  background: #ffffbe;
+}
+
+.header-notify-icon .notify-icon {
+  padding-top: 10px;
+  margin: auto;
+}
+
+.bbpc-core-main * {
+  box-sizing: border-box;
+}
+
+.bbp-core-main .bbp-core-intro {
+  font-size: 16px;
+}
+
+.bbpc-stat-cards {
+  display: flex;
+  gap: 30px;
+}
+
+.bbpc-stat-card {
+  background-color: #fff;
+}
+
+.bbpc-dashboard {
+  display: flex;
+}
+
+.bbpc-panel {
+  width: 250px;
+  border-right: 1px solid #ccc;
+  margin-right: 20px;
+}
+
+.bbpc-logo {
+  margin-bottom: 50px;
+}
+
+.bbpc-stats {
+  flex-basis: 3;
+}
+
+.bbpc-heading {
+  margin-bottom: 60px;
+}
+
+.bbpc-card-heading h2 {
+  margin: 0;
+  background: #ddd;
+  padding: 10px;
+  line-height: 1;
+}
+
+/* Menu */
+.bbpc-group-menu li a {
+  border: 1px solid #6831c1;
+  background: #6831c1;
+  color: #fff;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: block;
+  font-size: 15px;
+  width: calc(100% - 20px);
+  padding: 10px 20px;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+
+.bbpc-card-data {
+  padding: 15px 25px;
+}
+
+.forum-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.forum-info li {
+  flex: 50%;
+  margin-bottom: 20px;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 18px;
+}
+
+.forum-info li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#bbpc-forum {
+  transition: 0.3s all ease;
+}
+
+#bbpc-forum:hover {
+  color: var(--clr-white);
+}
+
+.bbpc-approve-btn {
+  margin-left: 7px;
+  margin-right: 3px;
+  border: 1px solid #2DB22D;
+  color: #2DB22D;
+  border-radius: 50%;
+}
+.bbpc-approve-btn:hover {
+  border: 1px solid #07a207;
+  color: #07a207;
+}
+
+.bbpc-filter-btn-settings .csf--sibling.csf--active {
+  border: 1px solid #2DB22D;
+  background-color: #2DB22D;
+}
+
+/** === FS contents === **/
+#fs_connect .fs-header .fs-plugin-icon,
+#fs_connect .fs-header .fs-plugin-icon img {
+  height: auto;
+}
+#fs_connect .fs-content h2 {
+  font-size: 28px;
+  margin: 15px auto;
+  line-height: 1.2 !important;
+}
+#fs_connect .fs-content p {
+  font-size: 16px !important;
+  text-align: center;
+  line-height: 1.7;
+}
+#fs_connect .fs-box-container {
+  border-radius: 15px;
+}
+
+/** === Notification & Mini profile CSS === **/
+.csf-field-fieldset .csf-fieldset-content[data-depend-id=bbpc_notification_location] > .csf-field, .csf-field-fieldset .csf-fieldset-content[data-depend-id=bbpc_profile_location] > .csf-field {
+  width: 100%;
+  display: flex;
+}
+.csf-field-fieldset .csf-fieldset-content[data-depend-id=bbpc_notification_location] > .csf-field .csf-after-text, .csf-field-fieldset .csf-fieldset-content[data-depend-id=bbpc_profile_location] > .csf-field .csf-after-text {
+  font-size: 12px;
+}
+.csf-field-fieldset .csf-fieldset-content[data-depend-id=bbpc_notification_location] > .csf-field input, .csf-field-fieldset .csf-fieldset-content[data-depend-id=bbpc_profile_location] > .csf-field input {
+  width: 95%;
+}
+.csf-field-fieldset .csf-fieldset-content[data-depend-id=bbpc_notification_location] > .csf-field.csf-field-select > .csf-fieldset, .csf-field-fieldset .csf-fieldset-content[data-depend-id=bbpc_profile_location] > .csf-field.csf-field-select > .csf-fieldset {
+  display: flex;
+  gap: 10px;
+}
+
+#bbpc_forum_option_link, #bbpc_topic_option_link {
+  text-decoration: none;
+  width: 220px;
+  background: #050505;
+  display: block;
+  color: rgba(255, 255, 255, 0.7019607843);
+  text-transform: uppercase;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-shadow: 2px 2px black;
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+/** === Offer Notice design === **/
+.bbpc-offer-wrap {
+  background-color: #7474FC;
+  color: #fff;
+  width: 100%; /* Set full width */
+  position: relative;
+  border-radius: 10px;
+}
+
+.bbpc-offer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  width: 80%;
+  align-items: center; /* Align items vertically center */
+  justify-items: center; /* Align items horizontally center */
+  box-sizing: border-box;
+  padding: 10px;
+}
+.bbpc-offer .dismiss-btn {
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  transform: translate(-50%, -20px);
+  font-weight: 400;
+  z-index: 1;
+}
+.bbpc-offer .bbpc-col {
+  padding: 20px;
+  position: relative;
+  display: flex;
+  gap: 10px;
+  width: 280px;
+}
+.bbpc-offer .bbpc-col .bbpc-col-box label {
+  margin-bottom: 5px;
+  display: block;
+  color: #fff;
+}
+.bbpc-offer .bbpc-col:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  height: 65px;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.bbpc-offer .bbpc-col img {
+  width: 30px;
+  height: 30px;
+  filter: invert(1);
+}
+.bbpc-offer .bbpc-col .bbpc-col-text p {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.bbpc-offer .bbpc-col .bbpc-col-text p strong {
+  font-size: 1.2em;
+}
+.bbpc-offer .bbpc-col .buy-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #FFC107;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.bbpc-offer .bbpc-col .buy-btn:hover {
+  background-color: #FFA000;
+}
+
+.coupon-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.coupon-container #coupon {
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #333;
+  font-weight: bold;
+  border-radius: 5px;
+  width: auto;
+  padding: 4px 10px;
+}
+.coupon-container .copy-btn {
+  padding: 7px 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #fff;
+  font-weight: 500;
+}
+.coupon-container .copy-btn:hover {
+  background-color: #FFA000;
+  border-color: #FFA000;
+}
+.coupon-container .copy-message {
+  display: none;
+  color: #028c02;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-left: 10px;
+  position: absolute;
+  background: #fff;
+}
+
+/*# sourceMappingURL=bbpc-admin.css.map */

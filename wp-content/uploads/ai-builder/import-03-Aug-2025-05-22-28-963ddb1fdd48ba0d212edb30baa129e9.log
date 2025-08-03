@@ -1,0 +1,26 @@
+
+Started Import Process
+# System Details: 
+Debug Mode 		: Disabled
+Operating System 	: WINNT
+Software 		: Apache/2.4.62 (Win64) OpenSSL/3.0.15 PHP/8.3.13
+MySQL version 		: 8.0.30
+XML Reader 		: Yes
+PHP Version 		: 8.3.13
+PHP Max Input Vars 	: 1000
+PHP Max Post Size 	: 2G
+PHP Extension GD 	: Yes
+PHP Max Execution Time 	: 36000
+Max Upload Size 	: 2 GB
+Memory Limit 		: Current memory limit 40M. We recommend setting memory to at least 64M.
+Timezone 		: 0
+
+-----
+
+Importing Started! - 17:31:50 UTC
+---
+
+WHY IMPORT PROCESS CAN FAIL? READ THIS - 
+https://wpastra.com/docs/?p=1314&utm_source=demo-import-panel&utm_campaign=import-error&utm_medium=wp-dashboard
+
+---

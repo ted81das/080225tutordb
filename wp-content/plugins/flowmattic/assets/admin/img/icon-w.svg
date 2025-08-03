@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Logo w</title>
+    <g id="Logo-w" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#FFFFFF" x="6" y="5.5" width="488" height="488" rx="8"></rect>
+        <circle id="Oval" fill="#3E3E3E" cx="119.5" cy="374.5" r="32.5"></circle>
+        <path d="M379.5,92 C397.449254,92 412,106.550746 412,124.5 C412,142.449254 397.449254,157 379.5,157 L152,157 L152,217 L249.5,217 C267.449254,217 282,231.550746 282,249.5 C282,267.449254 267.449254,282 249.5,282 L119.5,282 C101.550746,282 87,267.449254 87,249.5 L87,124.5 C87,106.550746 101.550746,92 119.5,92 L379.5,92 Z" id="Combined-Shape" fill="#3E3E3E"></path>
+    </g>
+</svg>

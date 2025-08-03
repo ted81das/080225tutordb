@@ -1,0 +1,131 @@
+.elementor-control-raw-html.elementor-warning {
+  padding: 10px;
+  background-color: #ffc;
+  border-left: 6px solid #ffeb3b;
+  line-height: 1.4;
+}
+
+.elementor-control-raw-html.elementor-warning {
+  padding: 10px;
+  background-color: #ffc;
+  border-left: 6px solid #ffeb3b;
+  line-height: 1.4;
+}
+
+/** === Style Variations === **/
+.elementor-control.elementor-control-style.elementor-control-type-choose.elementor-label-inline .elementor-control-input-wrapper,
+.elementor-control.elementor-control-style .elementor-control-content,
+.elementor-control.elementor-control-style .elementor-control-field {
+  display: block;
+}
+
+.elementor-control.elementor-control-style.elementor-control-type-choose.elementor-label-inline .elementor-control-input-wrapper {
+  margin-left: 0;
+}
+
+.elementor-control.elementor-control-style.elementor-control-type-choose label.elementor-control-title {
+  padding-bottom: 10px;
+  display: block;
+}
+
+.elementor-control.elementor-control-style .elementor-choices {
+  display: block;
+  height: auto;
+  width: 266px;
+}
+
+.elementor-control.elementor-control-style .elementor-choices .elementor-choices-label {
+  display: block;
+  width: 266px;
+  height: 110px;
+}
+
+.elementor-control.elementor-control-style .elementor-choices input:checked + .elementor-choices-label {
+  border-width: 2px;
+  padding-right: 2px;
+}
+
+.elementor-control.elementor-control-style .elementor-choices label:not(:first-of-type) {
+  margin-top: 10px;
+}
+
+.elementor-control.elementor-control-style .elementor-choices .elementor-choices-label:hover {
+  border: 1px solid #6d7882;
+}
+
+.elementor-control.elementor-control-style .elementor-choices .elementor-choices-label i {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.elementor-control.elementor-control-style .elementor-choices .elementor-choices-label i::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.elementor-control.elementor-control-style .elementor-choices input + .elementor-choices-label:hover i::before,
+.elementor-control.elementor-control-style .elementor-choices input:checked + .elementor-choices-label i::before {
+  opacity: 1;
+}
+
+.single_forum_1::before {
+  background: url("../img/forums3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.single_forum_2::before {
+  background: url("../img/forums4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+/*==================== Widget Preview Icon =====================*/
+.elementor-panel .elementor-element .icon .bbpc-lock-icon::after {
+  content: "\e96f";
+  opacity: .5;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 13px;
+}
+
+.elementor-panel .elementor-element .icon i {
+  display: inline-block;
+  font-family: eicons;
+  font-size: inherit;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+.elementor-panel .elementor-element .icon .bbpc_icon_ama_single_forum::before {
+  content: "\e968";
+}
+
+.elementor-panel .elementor-element .icon .bbpc_icon_ama_search::before {
+  content: "\e851";
+}
+.elementor-panel .elementor-element .icon .bbpc_icon_ama_ajax_forum::before {
+  content: "\e967";
+}
+.elementor-panel .elementor-element .icon .bbpc_icon_ama_forum_posts::before {
+  content: "\e843";
+}
+.elementor-panel .elementor-element .icon .bbpc_icon_ama_forum_tab::before {
+  content: "\e861";
+}
+.elementor-panel .elementor-element .icon .bbpc_icon_ama_forums::before {
+  content: "\e847";
+}

@@ -1,0 +1,20 @@
+{
+    "name": "spider-themes/bbp-core-pro",
+    "description": "Power-up the BBP Core plugin with advanced controls and features",
+    "type": "wordpress-plugin",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "delweratjk",
+            "email": "delweratjk@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "BBPCorePro\\": "includes/"
+        },
+        "files": []
+    }
+}

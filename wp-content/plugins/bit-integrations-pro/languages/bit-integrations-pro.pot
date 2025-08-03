@@ -1,0 +1,6198 @@
+# Copyright (C) 2025 Bit Apps
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bit Integrations Pro 2.5.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bit-integrations-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-06-21T08:01:41+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: bit-integrations-pro\n"
+
+#. Plugin Name of the plugin
+#: bitwpfi.php
+#: includes/Admin/Admin_Bar.php:38
+msgid "Bit Integrations Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: bitwpfi.php
+msgid "https://bitapps.pro/bit-integrations"
+msgstr ""
+
+#. Description of the plugin
+#: bitwpfi.php
+msgid "Bit Integrations is a platform that integrates with over 280+ different platforms to help with various tasks on your WordPress site, like WooCommerce, Form builder, Page builder, LMS, Sales funnels, Bookings, CRM, Webhooks, Email marketing, Social media and Spreadsheets, etc."
+msgstr ""
+
+#. Author of the plugin
+#: bitwpfi.php
+msgid "Bit Apps"
+msgstr ""
+
+#. Author URI of the plugin
+#: bitwpfi.php
+msgid "https://bitapps.pro"
+msgstr ""
+
+#: includes/Actions/Trello/TrelloHelperPro.php:48
+msgid "Custom Fields added successfully"
+msgstr ""
+
+#: includes/Admin/AdminAjax.php:18
+msgid "Data can't be empty"
+msgstr ""
+
+#: includes/Admin/AdminAjax.php:22
+msgid "save successfully done"
+msgstr ""
+
+#: includes/Admin/Admin_Bar.php:38
+msgid "Integrations for WordPress Forms"
+msgstr ""
+
+#: includes/Admin/Admin_Bar.php:44
+msgid "All Integrations"
+msgstr ""
+
+#: includes/Admin/Admin_Bar.php:45
+msgid "Doc & Support"
+msgstr ""
+
+#: includes/Admin/Admin_Bar.php:46
+msgid "Settings"
+msgstr ""
+
+#: includes/Core/Database/Model.php:47
+msgid "Form data is empty"
+msgstr ""
+
+#: includes/Core/Database/Model.php:153
+#: includes/Core/Database/Model.php:480
+msgid "Result is empty"
+msgstr ""
+
+#: includes/Core/Database/Model.php:178
+#: includes/Core/Database/Model.php:211
+msgid "Nothing to update"
+msgstr ""
+
+#: includes/Core/Database/Model.php:264
+msgid "Nothing to duplicate"
+msgstr ""
+
+#: includes/Core/Database/Model.php:309
+#: includes/Core/Database/Model.php:334
+#: includes/Core/Database/Model.php:356
+#: includes/Core/Database/Model.php:368
+msgid "At least 1 condition needed"
+msgstr ""
+
+#: includes/Core/Database/Model.php:441
+msgid "Require ASSOC_ARRAY but found N_ARRAY"
+msgstr ""
+
+#: includes/Core/Database/Model.php:457
+msgid "prepared query is empty"
+msgstr ""
+
+#: includes/Core/Update/Updater.php:53
+msgid "license page"
+msgstr ""
+
+#: includes/Core/Update/Updater.php:53
+msgid "Bit Integrations Connect Wordpress Plugins And External Applications"
+msgstr ""
+
+#: includes/Core/Update/Updater.php:54
+msgid "License"
+msgstr ""
+
+#: includes/Core/Util/Helper.php:182
+#: includes/Triggers/Coblocks/CoblocksController.php:98
+#: includes/Triggers/EssentialBlocks/EssentialBlocksController.php:93
+#: includes/Triggers/Spectra/SpectraController.php:96
+msgid "Index out of bounds or invalid"
+msgstr ""
+
+#: includes/Core/Util/Helper.php:190
+#: includes/Core/Util/Helper.php:196
+#: includes/Triggers/Coblocks/CoblocksController.php:106
+#: includes/Triggers/Coblocks/CoblocksController.php:112
+#: includes/Triggers/EssentialBlocks/EssentialBlocksController.php:101
+#: includes/Triggers/EssentialBlocks/EssentialBlocksController.php:107
+#: includes/Triggers/Spectra/SpectraController.php:104
+#: includes/Triggers/Spectra/SpectraController.php:110
+msgid "Invalid path"
+msgstr ""
+
+#: includes/Core/Util/Route.php:87
+msgid "Token expired or invalid. Please refresh the page and try again."
+msgstr ""
+
+#: includes/Plugin.php:98
+msgid "Docs"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:17
+msgid "Academy LMS – eLearning and online course solution for WordPress"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:40
+#: includes/Triggers/AdvancedAds/AdvancedAdsController.php:39
+#: includes/Triggers/AdvancedCoupons/AdvancedCouponsController.php:39
+#: includes/Triggers/AdvancedCustomFields/AdvancedCustomFieldsController.php:40
+#: includes/Triggers/Affiliate/AffiliateController.php:57
+#: includes/Triggers/AmeliaBooking/AmeliaBookingController.php:39
+#: includes/Triggers/AppointmentHourBooking/AppointmentHourBookingController.php:39
+#: includes/Triggers/ARForm/ARFormController.php:43
+#: includes/Triggers/ARMember/ARMemberController.php:45
+#: includes/Triggers/Asgaros/AsgarosController.php:39
+#: includes/Triggers/AvadaForms/AvadaFormsController.php:39
+#: includes/Triggers/BbPress/BbPressController.php:39
+#: includes/Triggers/BetterMessages/BetterMessagesController.php:39
+#: includes/Triggers/Breakdance/BreakdanceController.php:42
+#: includes/Triggers/Bricks/BricksController.php:40
+#: includes/Triggers/Brizy/BrizyController.php:39
+#: includes/Triggers/Buddypress/BuddypressController.php:39
+#: includes/Triggers/CalculatedFieldsForm/CalculatedFieldsFormController.php:39
+#: includes/Triggers/CartFlow/CartFlowController.php:70
+#: includes/Triggers/ConvertPro/ConvertProController.php:39
+#: includes/Triggers/Divi/DiviController.php:40
+#: includes/Triggers/DiviFormBuilder/DiviFormBuilderController.php:38
+#: includes/Triggers/Dokan/DokanController.php:41
+#: includes/Triggers/EDD/EDDController.php:46
+#: includes/Triggers/Eventin/EventinController.php:38
+#: includes/Triggers/Eventin/EventinController.php:61
+#: includes/Triggers/EventsCalendar/EventsCalendarController.php:38
+#: includes/Triggers/EventsCalendar/EventsCalendarController.php:54
+#: includes/Triggers/EVF/EVFController.php:55
+#: includes/Triggers/EVF/EVFController.php:64
+#: includes/Triggers/FF/FFController.php:40
+#: includes/Triggers/FluentBoards/FluentBoardsController.php:39
+#: includes/Triggers/FluentBooking/FluentBookingController.php:40
+#: includes/Triggers/FluentCommunity/FluentCommunityController.php:38
+#: includes/Triggers/FluentCrm/FluentCrmController.php:52
+#: includes/Triggers/FluentSMTP/FluentSMTPController.php:39
+#: includes/Triggers/FormCraft/FormCraftController.php:37
+#: includes/Triggers/FormCraft/FormCraftController.php:69
+#: includes/Triggers/Formidable/FormidableController.php:43
+#: includes/Triggers/Formidable/FormidableController.php:61
+#: includes/Triggers/Forminator/ForminatorController.php:41
+#: includes/Triggers/Forminator/ForminatorController.php:62
+#: includes/Triggers/FunnelKitAutomations/FunnelKitAutomationsController.php:39
+#: includes/Triggers/GamiPress/GamiPressController.php:47
+#: includes/Triggers/GamiPress/GamiPressController.php:71
+#: includes/Triggers/GF/GFController.php:45
+#: includes/Triggers/GF/GFController.php:63
+#: includes/Triggers/GiveWp/GiveWpController.php:49
+#: includes/Triggers/GiveWp/GiveWpController.php:71
+#: includes/Triggers/GravityKit/GravityKitController.php:39
+#: includes/Triggers/Groundhogg/GroundhoggController.php:113
+#: includes/Triggers/Groundhogg/GroundhoggController.php:134
+#: includes/Triggers/Happy/HappyController.php:40
+#: includes/Triggers/Happy/HappyController.php:60
+#: includes/Triggers/Hustle/HustleController.php:41
+#: includes/Triggers/Hustle/HustleController.php:67
+#: includes/Triggers/JetpackCRM/JetpackCRMController.php:39
+#: includes/Triggers/Kadence/KadenceController.php:39
+#: includes/Triggers/LearnDash/LearnDashController.php:51
+#: includes/Triggers/LearnPress/LearnPressController.php:39
+#: includes/Triggers/LifterLms/LifterLmsController.php:47
+#: includes/Triggers/LifterLms/LifterLmsController.php:74
+#: includes/Triggers/MailPoet/MailPoetController.php:41
+#: includes/Triggers/MailPoet/MailPoetController.php:65
+#: includes/Triggers/Mailster/MailsterController.php:40
+#: includes/Triggers/Mailster/MailsterController.php:57
+#: includes/Triggers/MasteriyoLMS/MasteriyoLMSController.php:39
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsController.php:55
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsController.php:71
+#: includes/Triggers/Memberpress/MemberpressController.php:48
+#: includes/Triggers/Memberpress/MemberpressController.php:72
+#: includes/Triggers/MemberPressCourse/MemberPressCourseController.php:39
+#: includes/Triggers/Met/MetController.php:61
+#: includes/Triggers/Met/MetController.php:82
+#: includes/Triggers/MetaBox/MetaBoxController.php:38
+#: includes/Triggers/ModernEventsCalendar/ModernEventsCalendarController.php:39
+#: includes/Triggers/MyCred/MyCredController.php:39
+#: includes/Triggers/Newsletter/NewsletterController.php:39
+#: includes/Triggers/NewUserApprove/NewUserApproveController.php:40
+#: includes/Triggers/NexForms/NexFormsController.php:39
+#: includes/Triggers/NF/NFController.php:55
+#: includes/Triggers/NF/NFController.php:70
+#: includes/Triggers/NinjaTables/NinjaTablesController.php:40
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProController.php:47
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProController.php:70
+#: includes/Triggers/Paymattic/PaymatticController.php:40
+#: includes/Triggers/PeepSo/PeepSoController.php:40
+#: includes/Triggers/PieForms/PieFormsController.php:39
+#: includes/Triggers/PiotnetAddon/PiotnetAddonController.php:67
+#: includes/Triggers/PiotnetAddon/PiotnetAddonController.php:100
+#: includes/Triggers/PiotnetAddonForm/PiotnetAddonFormController.php:67
+#: includes/Triggers/PiotnetAddonForm/PiotnetAddonFormController.php:87
+#: includes/Triggers/PiotnetForms/PiotnetFormsController.php:95
+#: includes/Triggers/PiotnetForms/PiotnetFormsController.php:115
+#: includes/Triggers/PrestoPlayer/PrestoPlayerController.php:39
+#: includes/Triggers/ProfileBuilder/ProfileBuilderController.php:40
+#: includes/Triggers/ProfileGrid/ProfileGridController.php:40
+#: includes/Triggers/QuillForms/QuillFormsController.php:39
+#: includes/Triggers/Rafflepress/RafflepressController.php:49
+#: includes/Triggers/Rafflepress/RafflepressController.php:67
+#: includes/Triggers/RestrictContent/RestrictContentController.php:50
+#: includes/Triggers/RestrictContent/RestrictContentController.php:72
+#: includes/Triggers/SenseiLMS/SenseiLMSController.php:39
+#: includes/Triggers/SimplyScheduleAppointments/SimplyScheduleAppointmentsController.php:39
+#: includes/Triggers/SliceWp/SliceWpController.php:47
+#: includes/Triggers/SliceWp/SliceWpController.php:68
+#: includes/Triggers/SolidAffiliate/SolidAffiliateController.php:47
+#: includes/Triggers/SolidAffiliate/SolidAffiliateController.php:68
+#: includes/Triggers/StudioCart/StudioCartController.php:72
+#: includes/Triggers/StudioCart/StudioCartController.php:88
+#: includes/Triggers/SureCart/SureCartController.php:49
+#: includes/Triggers/SureCart/SureCartController.php:71
+#: includes/Triggers/SureFeedback/SureFeedbackController.php:39
+#: includes/Triggers/SureForms/SureFormsController.php:38
+#: includes/Triggers/SureForms/SureFormsController.php:65
+#: includes/Triggers/SureMail/SureMailController.php:40
+#: includes/Triggers/SureMembers/SureMembersController.php:39
+#: includes/Triggers/SureMembers/SureMembersController.php:63
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeController.php:45
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeController.php:67
+#: includes/Triggers/Tripetto/TripettoController.php:47
+#: includes/Triggers/Tripetto/TripettoController.php:67
+#: includes/Triggers/TutorLms/TutorLmsController.php:38
+#: includes/Triggers/TutorLms/TutorLmsController.php:62
+#: includes/Triggers/UltimateMember/UltimateMemberController.php:45
+#: includes/Triggers/UltimateMember/UltimateMemberController.php:74
+#: includes/Triggers/UserFeedback/UserFeedbackController.php:40
+#: includes/Triggers/Voxel/VoxelController.php:42
+#: includes/Triggers/Voxel/VoxelController.php:51
+#: includes/Triggers/WCBookings/WCBookingsController.php:142
+#: includes/Triggers/WCMemberships/WCMembershipsController.php:40
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsController.php:293
+#: includes/Triggers/WeForms/WeFormsController.php:38
+#: includes/Triggers/WeForms/WeFormsController.php:59
+#: includes/Triggers/WishlistMember/WishlistMemberController.php:40
+#: includes/Triggers/WpAllImport/WpAllImportController.php:40
+#: includes/Triggers/WPEF/WPEFController.php:53
+#: includes/Triggers/WPEF/WPEFController.php:74
+#: includes/Triggers/WPForo/WPForoController.php:39
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:38
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:64
+#: includes/Triggers/WPLMS/WPLMSController.php:41
+#: includes/Triggers/WPLoyalty/WPLoyaltyController.php:40
+#: includes/Triggers/WpPolls/WpPollsController.php:39
+#: includes/Triggers/WpSimplePay/WpSimplePayController.php:39
+#: includes/Triggers/WSForm/WSFormController.php:79
+#: includes/Triggers/WSForm/WSFormController.php:99
+#, php-format
+msgid "%s is not installed or activated"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:48
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsController.php:61
+msgid "User Enrolled in a Course"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:49
+#: includes/Triggers/TutorLms/TutorLmsController.php:44
+msgid "User attempts(submit) a quiz"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:50
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsController.php:60
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeController.php:50
+msgid "User Complete a Lesson"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:51
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsController.php:59
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeController.php:49
+msgid "User Complete a Course"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:52
+#: includes/Triggers/TutorLms/TutorLmsController.php:47
+msgid "User achieves a targeted percentage on a quiz"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:69
+#: includes/Triggers/Affiliate/AffiliateController.php:77
+#: includes/Triggers/ARMember/ARMemberController.php:73
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:108
+#: includes/Triggers/EDD/EDDController.php:71
+#: includes/Triggers/GamiPress/GamiPressController.php:74
+#: includes/Triggers/GiveWp/GiveWpController.php:74
+#: includes/Triggers/LearnDash/LearnDashController.php:268
+#: includes/Triggers/LifterLms/LifterLmsController.php:77
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsController.php:74
+#: includes/Triggers/Memberpress/MemberpressController.php:75
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProController.php:73
+#: includes/Triggers/Rafflepress/RafflepressController.php:70
+#: includes/Triggers/RestrictContent/RestrictContentController.php:75
+#: includes/Triggers/SliceWp/SliceWpController.php:71
+#: includes/Triggers/SolidAffiliate/SolidAffiliateController.php:71
+#: includes/Triggers/SureCart/SureCartController.php:74
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeController.php:70
+#: includes/Triggers/TutorLms/TutorLmsController.php:65
+#: includes/Triggers/UltimateMember/UltimateMemberController.php:77
+msgid "Trigger type doesn't exists"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:74
+#: includes/Triggers/Affiliate/AffiliateController.php:82
+#: includes/Triggers/ARMember/ARMemberController.php:78
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:113
+#: includes/Triggers/EDD/EDDController.php:76
+#: includes/Triggers/FluentCrm/FluentCrmController.php:78
+#: includes/Triggers/GamiPress/GamiPressController.php:79
+#: includes/Triggers/GiveWp/GiveWpController.php:79
+#: includes/Triggers/LearnDash/LearnDashController.php:273
+#: includes/Triggers/LifterLms/LifterLmsController.php:82
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsController.php:79
+#: includes/Triggers/Memberpress/MemberpressController.php:80
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProController.php:78
+#: includes/Triggers/Rafflepress/RafflepressController.php:75
+#: includes/Triggers/RestrictContent/RestrictContentController.php:80
+#: includes/Triggers/SliceWp/SliceWpController.php:76
+#: includes/Triggers/SolidAffiliate/SolidAffiliateController.php:76
+#: includes/Triggers/SureCart/SureCartController.php:79
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeController.php:75
+#: includes/Triggers/TutorLms/TutorLmsController.php:70
+#: includes/Triggers/UltimateMember/UltimateMemberController.php:82
+msgid "Trigger doesn't exists any field"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:87
+#: includes/Triggers/LearnDash/LearnDashController.php:165
+#: includes/Triggers/LifterLms/LifterLmsController.php:101
+#: includes/Triggers/LifterLms/LifterLmsController.php:144
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsController.php:89
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsController.php:323
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeController.php:83
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeController.php:184
+#: includes/Triggers/TutorLms/TutorLmsController.php:84
+#: includes/Triggers/TutorLms/TutorLmsController.php:147
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:310
+msgid "Any Course"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:108
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:144
+#: includes/Triggers/LearnDash/LearnDashController.php:221
+#: includes/Triggers/LifterLms/LifterLmsController.php:91
+#: includes/Triggers/LifterLms/LifterLmsController.php:120
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsController.php:115
+#: includes/Triggers/TutorLms/TutorLmsController.php:105
+#: includes/Triggers/TutorLms/TutorLmsController.php:168
+msgid "Any Quiz"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:123
+#: includes/Triggers/LearnDash/LearnDashController.php:83
+#: includes/Triggers/LearnDash/LearnDashController.php:193
+#: includes/Triggers/LifterLms/LifterLmsController.php:96
+#: includes/Triggers/LifterLms/LifterLmsController.php:132
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsController.php:94
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsController.php:338
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeController.php:88
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeController.php:193
+#: includes/Triggers/TutorLms/TutorLmsController.php:126
+msgid "Any Lesson"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:156
+msgid "Equal to"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:157
+msgid "Not equal to"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:158
+msgid "Less than"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:159
+msgid "Greater than"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:160
+msgid "Greater than or equal"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:161
+msgid "Less than or equal"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:182
+#: includes/Triggers/Affiliate/AffiliateController.php:108
+#: includes/Triggers/ARMember/ARMemberHelper.php:11
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:195
+#: includes/Triggers/EDD/EDDHelper.php:11
+#: includes/Triggers/FluentCrm/FluentCrmController.php:167
+#: includes/Triggers/GamiPress/GamiPressController.php:99
+#: includes/Triggers/GiveWp/GiveWpController.php:97
+#: includes/Triggers/Groundhogg/GroundhoggController.php:157
+#: includes/Triggers/LearnDash/LearnDashController.php:301
+#: includes/Triggers/LifterLms/LifterLmsHelper.php:11
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:11
+#: includes/Triggers/Memberpress/MemberpressController.php:105
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProController.php:92
+#: includes/Triggers/Rafflepress/RafflepressController.php:86
+#: includes/Triggers/RestrictContent/RestrictContentController.php:110
+#: includes/Triggers/SliceWp/SliceWpController.php:92
+#: includes/Triggers/SolidAffiliate/SolidAffiliateController.php:87
+#: includes/Triggers/SureCart/SureCartController.php:94
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeHelper.php:11
+#: includes/Triggers/TutorLms/TutorLmsController.php:206
+#: includes/Triggers/UltimateMember/UltimateMemberHelper.php:11
+msgid "Requested parameter is empty"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:205
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:282
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:391
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:434
+#: includes/Triggers/LearnDash/LearnDashController.php:312
+#: includes/Triggers/LearnDash/LearnDashController.php:359
+#: includes/Triggers/LearnDash/LearnDashController.php:418
+#: includes/Triggers/LearnDash/LearnDashController.php:489
+#: includes/Triggers/LearnDash/LearnDashController.php:580
+#: includes/Triggers/LearnDash/LearnDashController.php:761
+#: includes/Triggers/LifterLms/LifterLmsHelper.php:87
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:46
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:75
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeHelper.php:46
+#: includes/Triggers/TutorLms/TutorLmsController.php:229
+#: includes/Triggers/TutorLms/TutorLmsController.php:316
+#: includes/Triggers/TutorLms/TutorLmsController.php:430
+#: includes/Triggers/TutorLms/TutorLmsController.php:473
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:251
+msgid "Course ID"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:209
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:439
+#: includes/Triggers/LearnDash/LearnDashController.php:316
+#: includes/Triggers/LearnDash/LearnDashController.php:363
+#: includes/Triggers/LearnDash/LearnDashController.php:422
+#: includes/Triggers/LearnDash/LearnDashController.php:493
+#: includes/Triggers/LearnDash/LearnDashController.php:584
+#: includes/Triggers/LearnDash/LearnDashController.php:765
+#: includes/Triggers/LifterLms/LifterLmsHelper.php:83
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:50
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:79
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeHelper.php:50
+#: includes/Triggers/TutorLms/TutorLmsController.php:233
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:254
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:302
+msgid "Course Title"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:214
+#: includes/Triggers/TutorLms/TutorLmsController.php:238
+msgid "Course Author"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:219
+#: includes/Triggers/TutorLms/TutorLmsController.php:243
+msgid "Student ID"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:224
+#: includes/Triggers/TutorLms/TutorLmsController.php:248
+msgid "Student Name"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:229
+#: includes/Triggers/TutorLms/TutorLmsController.php:268
+msgid "Maximum Student"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:234
+msgid "Course Curriculam"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:239
+#: includes/Triggers/TutorLms/TutorLmsController.php:273
+msgid "Course Duration"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:244
+msgid "Academy Course Level"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:249
+msgid "Academy Course Benifits"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:254
+msgid "Academy Course Requirements"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:259
+msgid "Academy Course Material Includes"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:264
+msgid "Academy Course Product ID"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:269
+msgid "Academy Course Price Type"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:277
+#: includes/Triggers/TutorLms/TutorLmsController.php:311
+msgid "Attempt ID"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:287
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:371
+#: includes/Triggers/LearnDash/LearnDashController.php:513
+#: includes/Triggers/LearnDash/LearnDashController.php:604
+#: includes/Triggers/LifterLms/LifterLmsHelper.php:50
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:63
+#: includes/Triggers/TutorLms/TutorLmsController.php:321
+msgid "Quiz ID"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:292
+#: includes/Triggers/ARMember/ARMemberHelper.php:22
+#: includes/Triggers/ARMember/ARMemberHelper.php:52
+#: includes/Triggers/EDD/EDDHelper.php:46
+#: includes/Triggers/LifterLms/LifterLmsHelper.php:46
+#: includes/Triggers/LifterLms/LifterLmsHelper.php:63
+#: includes/Triggers/LifterLms/LifterLmsHelper.php:79
+#: includes/Triggers/LifterLms/LifterLmsHelper.php:96
+#: includes/Triggers/Memberpress/MemberpressHelper.php:42
+#: includes/Triggers/Memberpress/MemberpressHelper.php:134
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProHelper.php:42
+#: includes/Triggers/SliceWp/SliceWpHelper.php:16
+#: includes/Triggers/SliceWp/SliceWpHelper.php:84
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:12
+#: includes/Triggers/TutorLms/TutorLmsController.php:326
+#: includes/Triggers/UltimateMember/UltimateMemberHelper.php:22
+msgid "User Id"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:297
+#: includes/Triggers/TutorLms/TutorLmsController.php:331
+msgid "Total Questions"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:302
+#: includes/Triggers/TutorLms/TutorLmsController.php:336
+msgid "Total Answered Questions"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:307
+#: includes/Triggers/TutorLms/TutorLmsController.php:341
+#: includes/Triggers/TutorLms/TutorLmsController.php:346
+msgid "Total Marks"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:312
+#: includes/Triggers/TutorLms/TutorLmsController.php:351
+msgid "Earn Marks"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:317
+#: includes/Triggers/TutorLms/TutorLmsController.php:356
+msgid "Attempt Started At"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:322
+#: includes/Triggers/TutorLms/TutorLmsController.php:361
+msgid "Attempt Ended At"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:327
+msgid "Attempt Info"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:332
+#: includes/Triggers/TutorLms/TutorLmsController.php:371
+msgid "Result Status(Passed/Failed)"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:341
+#: includes/Triggers/TutorLms/TutorLmsController.php:380
+msgid "Achived Status"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:351
+#: includes/Triggers/LearnDash/LearnDashController.php:371
+#: includes/Triggers/LearnDash/LearnDashController.php:430
+#: includes/Triggers/LearnDash/LearnDashController.php:501
+#: includes/Triggers/LearnDash/LearnDashController.php:592
+#: includes/Triggers/LearnDash/LearnDashController.php:773
+#: includes/Triggers/LifterLms/LifterLmsHelper.php:71
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:92
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeHelper.php:59
+#: includes/Triggers/TutorLms/TutorLmsController.php:390
+msgid "Lesson ID"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:356
+#: includes/Triggers/LearnDash/LearnDashController.php:375
+#: includes/Triggers/LearnDash/LearnDashController.php:434
+#: includes/Triggers/LearnDash/LearnDashController.php:505
+#: includes/Triggers/LearnDash/LearnDashController.php:596
+#: includes/Triggers/LearnDash/LearnDashController.php:777
+#: includes/Triggers/LifterLms/LifterLmsHelper.php:67
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:96
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeHelper.php:63
+#: includes/Triggers/TutorLms/TutorLmsController.php:395
+msgid "Lesson Title"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:361
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:100
+#: includes/Triggers/TutorLms/TutorLmsController.php:400
+msgid "Lesson Description"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:366
+msgid "Lesson Status"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:376
+#: includes/Triggers/LearnDash/LearnDashController.php:517
+#: includes/Triggers/LearnDash/LearnDashController.php:608
+#: includes/Triggers/LifterLms/LifterLmsHelper.php:54
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:67
+msgid "Quiz Title"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:381
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:71
+msgid "Quiz Description"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:386
+#: includes/Triggers/LearnDash/LearnDashController.php:521
+#: includes/Triggers/LearnDash/LearnDashController.php:612
+msgid "Quiz URL"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:396
+#: includes/Triggers/TutorLms/TutorLmsController.php:435
+#: includes/Triggers/TutorLms/TutorLmsController.php:478
+msgid "Course Name"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:401
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:54
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:83
+#: includes/Triggers/TutorLms/TutorLmsController.php:440
+msgid "Course Description"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:406
+#: includes/Triggers/LearnDash/LearnDashController.php:320
+#: includes/Triggers/LearnDash/LearnDashController.php:367
+#: includes/Triggers/LearnDash/LearnDashController.php:426
+#: includes/Triggers/LearnDash/LearnDashController.php:497
+#: includes/Triggers/LearnDash/LearnDashController.php:588
+#: includes/Triggers/LearnDash/LearnDashController.php:769
+#: includes/Triggers/TutorLms/TutorLmsController.php:445
+msgid "Course URL"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:411
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:444
+#: includes/Triggers/ARMember/ARMemberHelper.php:26
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:206
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:254
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:324
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:370
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:414
+#: includes/Triggers/EDD/EDDHelper.php:22
+#: includes/Triggers/EDD/EDDHelper.php:50
+#: includes/Triggers/Formidable/FormidableController.php:87
+#: includes/Triggers/GamiPress/GamiPressController.php:109
+#: includes/Triggers/Groundhogg/GroundhoggController.php:168
+#: includes/Triggers/LearnDash/LearnDashController.php:324
+#: includes/Triggers/LearnDash/LearnDashController.php:383
+#: includes/Triggers/LearnDash/LearnDashController.php:454
+#: includes/Triggers/LearnDash/LearnDashController.php:545
+#: includes/Triggers/LearnDash/LearnDashController.php:632
+#: includes/Triggers/LearnDash/LearnDashController.php:797
+#: includes/Triggers/LifterLms/LifterLmsHelper.php:22
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:22
+#: includes/Triggers/Memberpress/MemberpressHelper.php:138
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProHelper.php:46
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:37
+#: includes/Triggers/Registration/RegistrationController.php:69
+#: includes/Triggers/SliceWp/SliceWpHelper.php:88
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:16
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeHelper.php:22
+#: includes/Triggers/TutorLms/TutorLmsController.php:450
+#: includes/Triggers/TutorLms/TutorLmsController.php:483
+#: includes/Triggers/UltimateMember/UltimateMemberHelper.php:26
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:415
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:340
+msgid "First Name"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:415
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:448
+#: includes/Triggers/ARMember/ARMemberHelper.php:30
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:210
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:258
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:328
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:374
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:418
+#: includes/Triggers/EDD/EDDHelper.php:26
+#: includes/Triggers/EDD/EDDHelper.php:54
+#: includes/Triggers/Formidable/FormidableController.php:97
+#: includes/Triggers/GamiPress/GamiPressController.php:113
+#: includes/Triggers/Groundhogg/GroundhoggController.php:172
+#: includes/Triggers/LearnDash/LearnDashController.php:328
+#: includes/Triggers/LearnDash/LearnDashController.php:387
+#: includes/Triggers/LearnDash/LearnDashController.php:458
+#: includes/Triggers/LearnDash/LearnDashController.php:549
+#: includes/Triggers/LearnDash/LearnDashController.php:636
+#: includes/Triggers/LearnDash/LearnDashController.php:801
+#: includes/Triggers/LifterLms/LifterLmsHelper.php:26
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:26
+#: includes/Triggers/Memberpress/MemberpressHelper.php:142
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProHelper.php:50
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:41
+#: includes/Triggers/Registration/RegistrationController.php:74
+#: includes/Triggers/SliceWp/SliceWpHelper.php:92
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:21
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeHelper.php:26
+#: includes/Triggers/TutorLms/TutorLmsController.php:454
+#: includes/Triggers/TutorLms/TutorLmsController.php:487
+#: includes/Triggers/UltimateMember/UltimateMemberHelper.php:30
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:420
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:345
+msgid "Last Name"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:419
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:452
+#: includes/Triggers/ARMember/ARMemberHelper.php:34
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:214
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:262
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:332
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:378
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:422
+#: includes/Triggers/EDD/EDDHelper.php:30
+#: includes/Triggers/LifterLms/LifterLmsHelper.php:30
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:30
+#: includes/Triggers/Memberpress/MemberpressHelper.php:146
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProHelper.php:54
+#: includes/Triggers/SliceWp/SliceWpHelper.php:96
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeHelper.php:30
+#: includes/Triggers/TutorLms/TutorLmsController.php:458
+#: includes/Triggers/TutorLms/TutorLmsController.php:491
+#: includes/Triggers/UltimateMember/UltimateMemberHelper.php:34
+msgid "Nick Name"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:423
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:456
+#: includes/Triggers/ARMember/ARMemberHelper.php:38
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:218
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:266
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:336
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:382
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:426
+#: includes/Triggers/EDD/EDDHelper.php:34
+#: includes/Triggers/LifterLms/LifterLmsHelper.php:34
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:34
+#: includes/Triggers/Memberpress/MemberpressHelper.php:150
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProHelper.php:58
+#: includes/Triggers/SliceWp/SliceWpHelper.php:100
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeHelper.php:34
+#: includes/Triggers/TutorLms/TutorLmsController.php:462
+#: includes/Triggers/TutorLms/TutorLmsController.php:495
+#: includes/Triggers/UltimateMember/UltimateMemberHelper.php:38
+msgid "Avatar URL"
+msgstr ""
+
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:427
+#: includes/Triggers/AcademyLms/AcademyLmsController.php:460
+#: includes/Triggers/ARMember/ARMemberHelper.php:42
+#: includes/Triggers/Beaver/BeaverController.php:163
+#: includes/Triggers/Beaver/BeaverController.php:169
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:222
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:270
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:340
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:386
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:430
+#: includes/Triggers/EDD/EDDHelper.php:38
+#: includes/Triggers/EDD/EDDHelper.php:58
+#: includes/Triggers/Groundhogg/GroundhoggController.php:176
+#: includes/Triggers/LearnDash/LearnDashController.php:332
+#: includes/Triggers/LearnDash/LearnDashController.php:391
+#: includes/Triggers/LearnDash/LearnDashController.php:462
+#: includes/Triggers/LearnDash/LearnDashController.php:553
+#: includes/Triggers/LearnDash/LearnDashController.php:640
+#: includes/Triggers/LearnDash/LearnDashController.php:805
+#: includes/Triggers/LifterLms/LifterLmsHelper.php:38
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:38
+#: includes/Triggers/Memberpress/MemberpressHelper.php:154
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProHelper.php:62
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:45
+#: includes/Triggers/Registration/RegistrationController.php:48
+#: includes/Triggers/SliceWp/SliceWpHelper.php:104
+#: includes/Triggers/StudioCart/StudioCartController.php:296
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeHelper.php:38
+#: includes/Triggers/TutorLms/TutorLmsController.php:466
+#: includes/Triggers/TutorLms/TutorLmsController.php:499
+#: includes/Triggers/UltimateMember/UltimateMemberHelper.php:42
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:425
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:350
+msgid "Email"
+msgstr ""
+
+#: includes/Triggers/ActionHook/ActionHookController.php:15
+msgid "Get callback data through a HOOK"
+msgstr ""
+
+#: includes/Triggers/ActionHook/ActionHookController.php:35
+#: includes/Triggers/ActionHook/ActionHookController.php:70
+#: includes/Triggers/CustomTrigger/CustomTriggerController.php:41
+#: includes/Triggers/CustomTrigger/CustomTriggerController.php:94
+#: includes/Triggers/Webhook/WebhookController.php:53
+#: includes/Triggers/Webhook/WebhookController.php:77
+#, php-format
+msgid "%s can't be empty or need to be valid"
+msgstr ""
+
+#: includes/Triggers/ActionHook/ActionHookController.php:48
+msgid "ActionHook data is empty"
+msgstr ""
+
+#: includes/Triggers/ActionHook/ActionHookController.php:84
+#: includes/Triggers/Coblocks/CoblocksController.php:39
+#: includes/Triggers/CustomTrigger/CustomTriggerController.php:103
+#: includes/Triggers/EssentialBlocks/EssentialBlocksController.php:39
+#: includes/Triggers/Spectra/SpectraController.php:39
+#: includes/Triggers/TriggerController.php:71
+#: includes/Triggers/Webhook/WebhookController.php:86
+msgid "Failed to remove test data"
+msgstr ""
+
+#: includes/Triggers/ActionHook/ActionHookController.php:87
+msgid "ActionHook test data removed successfully"
+msgstr ""
+
+#: includes/Triggers/AdvancedAds/AdvancedAdsController.php:15
+msgid "A Powerful WordPress Ad Management Plugin. Advanced Ads is a great plugin that makes it easier to manage your ads."
+msgstr ""
+
+#: includes/Triggers/AdvancedAds/StaticData.php:10
+msgid "Ad status changed"
+msgstr ""
+
+#: includes/Triggers/AdvancedAds/StaticData.php:11
+msgid "Ad status changed from draft to pending"
+msgstr ""
+
+#: includes/Triggers/AdvancedAds/StaticData.php:12
+msgid "Ad status changed from draft to publish"
+msgstr ""
+
+#: includes/Triggers/AdvancedAds/StaticData.php:13
+msgid "Ad status changed from draft to expired"
+msgstr ""
+
+#: includes/Triggers/AdvancedAds/StaticData.php:14
+msgid "Ad status changed from pending to draft"
+msgstr ""
+
+#: includes/Triggers/AdvancedAds/StaticData.php:15
+msgid "Ad status changed from pending to publish"
+msgstr ""
+
+#: includes/Triggers/AdvancedAds/StaticData.php:16
+msgid "Ad status changed from pending to expired"
+msgstr ""
+
+#: includes/Triggers/AdvancedAds/StaticData.php:17
+msgid "Ad status changed from publish to draft"
+msgstr ""
+
+#: includes/Triggers/AdvancedAds/StaticData.php:18
+msgid "Ad status changed from publish to pending"
+msgstr ""
+
+#: includes/Triggers/AdvancedAds/StaticData.php:19
+msgid "Ad status changed from publish to expired"
+msgstr ""
+
+#: includes/Triggers/AdvancedAds/StaticData.php:20
+msgid "Ad status changed from expired to publish"
+msgstr ""
+
+#: includes/Triggers/AdvancedAds/StaticData.php:21
+msgid "Ad status changed from expired to pending"
+msgstr ""
+
+#: includes/Triggers/AdvancedAds/StaticData.php:22
+msgid "Ad status changed from expired to draft"
+msgstr ""
+
+#: includes/Triggers/AdvancedCoupons/AdvancedCouponsController.php:15
+msgid "Advanced coupons for WooCommerce"
+msgstr ""
+
+#: includes/Triggers/AdvancedCoupons/AdvancedCouponsController.php:43
+msgid "Create or Update Coupon"
+msgstr ""
+
+#: includes/Triggers/AdvancedCoupons/AdvancedCouponsController.php:44
+msgid "Store Credit Exceeds Limit"
+msgstr ""
+
+#: includes/Triggers/AdvancedCoupons/AdvancedCouponsController.php:45
+msgid "Lifetime Credit Exceeds Limit"
+msgstr ""
+
+#: includes/Triggers/AdvancedCoupons/AdvancedCouponsController.php:46
+msgid "Receive Store Credit"
+msgstr ""
+
+#: includes/Triggers/AdvancedCoupons/AdvancedCouponsController.php:47
+msgid "Adjust Store Credit"
+msgstr ""
+
+#: includes/Triggers/AdvancedCustomFields/AdvancedCustomFieldsController.php:16
+msgid "Advanced Custom Fields (ACF) helps you easily customize WordPress with powerful, professional and intuitive fields."
+msgstr ""
+
+#: includes/Triggers/AdvancedCustomFields/AdvancedCustomFieldsController.php:44
+msgid "Field Updated On Options Page"
+msgstr ""
+
+#: includes/Triggers/AdvancedCustomFields/AdvancedCustomFieldsController.php:45
+msgid "Field Updated On Post"
+msgstr ""
+
+#: includes/Triggers/AdvancedCustomFields/AdvancedCustomFieldsController.php:46
+msgid "Field Updated On User Profile"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:25
+msgid "Affiliate - WordPress membership plugin that allows you to monetize content access"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:61
+msgid "A new affiliate is approved"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:62
+msgid "A user becomes an affiliate"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:63
+msgid "An affiliate makes a referral of a specific type"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:64
+msgid "An affiliates referral of a specific type is rejected Pro"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:65
+msgid "An affiliates referral of a specific type is paid Pro"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:74
+msgid "AffiliateWP is not installed or activated"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:87
+#: includes/Triggers/Affiliate/AffiliateController.php:290
+#: includes/Triggers/RestrictContent/RestrictContentController.php:91
+#: includes/Triggers/RestrictContent/RestrictContentController.php:158
+msgid "Any"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:120
+#: includes/Triggers/Affiliate/AffiliateController.php:195
+#: includes/Triggers/EDD/EDDHelper.php:98
+#: includes/Triggers/Eventin/EventinHelper.php:558
+#: includes/Triggers/FluentBooking/FluentBookingController.php:162
+#: includes/Triggers/Mailster/MailsterController.php:101
+#: includes/Triggers/Memberpress/MemberpressHelper.php:116
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:116
+#: includes/Triggers/SliceWp/SliceWpHelper.php:32
+#: includes/Triggers/SliceWp/SliceWpHelper.php:70
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:49
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:116
+#: includes/Triggers/StudioCart/StudioCartController.php:140
+msgid "Status"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:124
+#: includes/Triggers/Affiliate/AffiliateController.php:199
+#: includes/Triggers/Affiliate/AffiliateController.php:254
+msgid "Flat Rate Basis"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:128
+#: includes/Triggers/Affiliate/AffiliateController.php:207
+#: includes/Triggers/Affiliate/AffiliateController.php:262
+#: includes/Triggers/SliceWp/SliceWpHelper.php:20
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:33
+msgid "Payment Email"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:132
+#: includes/Triggers/Affiliate/AffiliateController.php:211
+#: includes/Triggers/Affiliate/AffiliateController.php:266
+msgid "Rate Type"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:136
+#: includes/Triggers/Affiliate/AffiliateController.php:215
+#: includes/Triggers/Affiliate/AffiliateController.php:270
+msgid "Affiliate Note"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:140
+#: includes/Triggers/Affiliate/AffiliateController.php:219
+#: includes/Triggers/FluentCrm/FluentCrmController.php:224
+#: includes/Triggers/WCBookings/WCBookingsController.php:62
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsController.php:82
+msgid "Old Status"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:144
+#: includes/Triggers/Beaver/BeaverController.php:161
+#: includes/Triggers/Beaver/BeaverController.php:168
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProHelper.php:16
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:33
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:167
+msgid "Name"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:148
+msgid "UserName"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:152
+#: includes/Triggers/Affiliate/AffiliateController.php:203
+#: includes/Triggers/Affiliate/AffiliateController.php:258
+msgid "Account Email"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:156
+msgid "website Url"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:160
+msgid "How will you promote us?"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:167
+#: includes/Triggers/Affiliate/AffiliateController.php:226
+#: includes/Triggers/Memberpress/MemberpressHelper.php:68
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:68
+#: includes/Triggers/SliceWp/SliceWpHelper.php:12
+#: includes/Triggers/SliceWp/SliceWpHelper.php:46
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:68
+msgid "Affiliate ID"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:171
+#: includes/Triggers/Affiliate/AffiliateController.php:230
+msgid "Affiliate URL"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:175
+#: includes/Triggers/Affiliate/AffiliateController.php:234
+msgid "Referral Description"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:179
+#: includes/Triggers/Affiliate/AffiliateController.php:238
+#: includes/Triggers/SliceWp/SliceWpHelper.php:54
+#: includes/Triggers/StudioCart/StudioCartController.php:200
+msgid "Amount"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:183
+#: includes/Triggers/Affiliate/AffiliateController.php:242
+msgid "Context"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:187
+#: includes/Triggers/Affiliate/AffiliateController.php:246
+msgid "Campaign"
+msgstr ""
+
+#: includes/Triggers/Affiliate/AffiliateController.php:191
+#: includes/Triggers/Affiliate/AffiliateController.php:250
+#: includes/Triggers/SliceWp/SliceWpHelper.php:58
+msgid "Reference"
+msgstr ""
+
+#: includes/Triggers/Amelia/AmeliaController.php:13
+#: includes/Triggers/BitAssist/BitAssistController.php:13
+#: includes/Triggers/Coblocks/CoblocksController.php:14
+#: includes/Triggers/EssentialBlocks/EssentialBlocksController.php:14
+#: includes/Triggers/FluentSupport/FluentSupportController.php:13
+#: includes/Triggers/JetForm/JetFormController.php:13
+#: includes/Triggers/KaliForms/KaliFormsController.php:13
+#: includes/Triggers/OptinMonster/OptinMonsterController.php:13
+#: includes/Triggers/Spectra/SpectraController.php:14
+#: includes/Triggers/Webhook/WebhookController.php:27
+#: includes/Triggers/WPFunnels/WPFunnelsController.php:13
+msgid "Get callback data through an URL"
+msgstr ""
+
+#: includes/Triggers/AmeliaBooking/AmeliaBookingController.php:15
+msgid "A WordPress plugin that allows you to easily schedule and manage appointments and bookings on your website."
+msgstr ""
+
+#: includes/Triggers/AmeliaBooking/StaticData.php:10
+msgid "New Appointment Added"
+msgstr ""
+
+#: includes/Triggers/AmeliaBooking/StaticData.php:11
+msgid "Appointment Status Updated"
+msgstr ""
+
+#: includes/Triggers/AmeliaBooking/StaticData.php:12
+msgid "Appointment Cancelled"
+msgstr ""
+
+#: includes/Triggers/AmeliaBooking/StaticData.php:13
+msgid "New Booking Added"
+msgstr ""
+
+#: includes/Triggers/AmeliaBooking/StaticData.php:14
+msgid "Booking Cancelled"
+msgstr ""
+
+#: includes/Triggers/AmeliaBooking/StaticData.php:15
+msgid "Booking Rescheduled"
+msgstr ""
+
+#: includes/Triggers/AmeliaBooking/StaticData.php:16
+msgid "New Event Added"
+msgstr ""
+
+#: includes/Triggers/AmeliaBooking/StaticData.php:17
+#: includes/Triggers/Eventin/EventinController.php:43
+msgid "Event Updated"
+msgstr ""
+
+#: includes/Triggers/AmeliaBooking/StaticData.php:18
+msgid "Event Booking Added"
+msgstr ""
+
+#: includes/Triggers/AmeliaBooking/StaticData.php:19
+msgid "Event Booking updated"
+msgstr ""
+
+#: includes/Triggers/AmeliaBooking/StaticData.php:20
+msgid "Event Booking Deleted"
+msgstr ""
+
+#: includes/Triggers/AppointmentHourBooking/AppointmentHourBookingController.php:15
+msgid "A WordPress Booking plugin."
+msgstr ""
+
+#: includes/Triggers/AppointmentHourBooking/AppointmentHourBookingController.php:43
+msgid "Booking Status Updated"
+msgstr ""
+
+#: includes/Triggers/AppointmentHourBooking/AppointmentHourBookingController.php:44
+#: includes/Triggers/SimplyScheduleAppointments/SimplyScheduleAppointmentsController.php:43
+msgid "New Appointment Booked"
+msgstr ""
+
+#: includes/Triggers/ARForm/ARFormController.php:15
+msgid "ARForms - More than just a WordPress Form Builder"
+msgstr ""
+
+#: includes/Triggers/ARForm/ARFormController.php:63
+msgid "ARForms is not installed or activated"
+msgstr ""
+
+#: includes/Triggers/ARForm/ARFormController.php:66
+#: includes/Triggers/Beaver/BeaverController.php:128
+#: includes/Triggers/CartFlow/CartFlowController.php:94
+#: includes/Triggers/FF/FFController.php:56
+#: includes/Triggers/FormCraft/FormCraftController.php:72
+#: includes/Triggers/Formidable/FormidableController.php:64
+#: includes/Triggers/Forminator/ForminatorController.php:65
+#: includes/Triggers/Happy/HappyController.php:63
+#: includes/Triggers/Hustle/HustleController.php:71
+#: includes/Triggers/MailPoet/MailPoetController.php:69
+#: includes/Triggers/Mailster/MailsterController.php:61
+#: includes/Triggers/Met/MetController.php:85
+#: includes/Triggers/PiotnetAddon/PiotnetAddonController.php:104
+#: includes/Triggers/PiotnetAddonForm/PiotnetAddonFormController.php:91
+#: includes/Triggers/PiotnetForms/PiotnetFormsController.php:119
+#: includes/Triggers/StudioCart/StudioCartController.php:91
+#: includes/Triggers/SureForms/SureFormsController.php:69
+#: includes/Triggers/Themify/ThemifyController.php:83
+#: includes/Triggers/Tripetto/TripettoController.php:70
+#: includes/Triggers/WeForms/WeFormsController.php:62
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:161
+#: includes/Triggers/WSForm/WSFormController.php:102
+msgid "Form doesn't exists"
+msgstr ""
+
+#: includes/Triggers/ARForm/ARFormController.php:70
+#: includes/Triggers/Beaver/BeaverController.php:133
+#: includes/Triggers/CartFlow/CartFlowController.php:99
+#: includes/Triggers/EVF/EVFController.php:69
+#: includes/Triggers/FF/FFController.php:60
+#: includes/Triggers/FormCraft/FormCraftController.php:78
+#: includes/Triggers/Formidable/FormidableController.php:78
+#: includes/Triggers/Forminator/ForminatorController.php:71
+#: includes/Triggers/GF/GFController.php:67
+#: includes/Triggers/Happy/HappyController.php:67
+#: includes/Triggers/MailPoet/MailPoetController.php:75
+#: includes/Triggers/Met/MetController.php:91
+#: includes/Triggers/NF/NFController.php:60
+#: includes/Triggers/PiotnetAddon/PiotnetAddonController.php:109
+#: includes/Triggers/PiotnetAddonForm/PiotnetAddonFormController.php:96
+#: includes/Triggers/PiotnetForms/PiotnetFormsController.php:123
+#: includes/Triggers/StudioCart/StudioCartController.php:95
+#: includes/Triggers/Themify/ThemifyController.php:88
+#: includes/Triggers/Tripetto/TripettoController.php:74
+#: includes/Triggers/WeForms/WeFormsController.php:68
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:165
+#: includes/Triggers/WPEF/WPEFController.php:79
+#: includes/Triggers/WSForm/WSFormController.php:106
+msgid "Form doesn't exists any field"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberController.php:15
+msgid "ARMember is one-of-its kind WordPress Membership Plugin that provides all genres of membership related functionality in a symmetrical way"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberController.php:49
+msgid "A user register by ARMember form"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberController.php:50
+msgid "A user update profile by ARMember form"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberController.php:51
+msgid "Add member by Admin"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberController.php:52
+msgid "A user cancel subscription"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberController.php:53
+msgid "Admin change user subscription plan"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberController.php:54
+msgid "A user renew subscription plan"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberController.php:70
+msgid "ARMember is not installed or activated"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberHelper.php:56
+msgid "User Nick Name"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberHelper.php:60
+#: includes/Triggers/GamiPress/GamiPressController.php:117
+#: includes/Triggers/SureMembers/SureMembersHelper.php:69
+msgid "User Email"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberHelper.php:64
+#: includes/Triggers/GamiPress/GamiPressController.php:125
+#: includes/Triggers/LearnDash/LearnDashController.php:344
+#: includes/Triggers/LearnDash/LearnDashController.php:403
+#: includes/Triggers/LearnDash/LearnDashController.php:474
+#: includes/Triggers/LearnDash/LearnDashController.php:565
+#: includes/Triggers/LearnDash/LearnDashController.php:652
+#: includes/Triggers/LearnDash/LearnDashController.php:817
+#: includes/Triggers/Registration/RegistrationController.php:64
+#: includes/Triggers/SureMembers/SureMembersHelper.php:54
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:435
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:360
+msgid "Display Name"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberHelper.php:68
+msgid "Subscription Plan"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberHelper.php:72
+msgid "Subscription Plan ID"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberHelper.php:76
+msgid "Access Type"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberHelper.php:80
+msgid "Payment Type"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberHelper.php:84
+msgid "Price Text"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberHelper.php:88
+msgid "Subscription Plan Amount"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberHelper.php:92
+msgid "Subscription Plan Description"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberHelper.php:96
+msgid "Subscription Plan Role"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberHelper.php:115
+msgid "Gender"
+msgstr ""
+
+#: includes/Triggers/ARMember/ARMemberHelper.php:120
+msgid "ARMember User Plan"
+msgstr ""
+
+#: includes/Triggers/Asgaros/AsgarosController.php:15
+msgid "The best WordPress forum plugin, full-fledged yet easy and light forum solution for your WordPress website. The only forum software with multiple forum layouts."
+msgstr ""
+
+#: includes/Triggers/Asgaros/AsgarosController.php:43
+msgid "User Creates New Topic in a Forum"
+msgstr ""
+
+#: includes/Triggers/Asgaros/AsgarosController.php:44
+msgid "User Replies to Topic in a Forum"
+msgstr ""
+
+#: includes/Triggers/AvadaForms/AvadaFormsController.php:15
+msgid "Capture Avada Forms form submission to trigger the workflow."
+msgstr ""
+
+#: includes/Triggers/AvadaForms/AvadaFormsController.php:43
+#: includes/Triggers/Breakdance/BreakdanceController.php:46
+#: includes/Triggers/Bricks/BricksController.php:44
+#: includes/Triggers/Bricksforge/BricksforgeController.php:42
+#: includes/Triggers/Brizy/BrizyController.php:43
+#: includes/Triggers/ConvertPro/ConvertProController.php:43
+#: includes/Triggers/Divi/DiviController.php:44
+#: includes/Triggers/DiviFormBuilder/DiviFormBuilderController.php:42
+#: includes/Triggers/GutenaForms/GutenaFormsController.php:42
+#: includes/Triggers/Kadence/KadenceController.php:43
+#: includes/Triggers/NexForms/NexFormsController.php:43
+#: includes/Triggers/PieForms/PieFormsController.php:43
+#: includes/Triggers/QuillForms/QuillFormsController.php:43
+#: includes/Triggers/SiteOriginWidgets/SiteOriginWidgetsController.php:42
+msgid "Form Submission"
+msgstr ""
+
+#: includes/Triggers/BbPress/BbPressController.php:15
+msgid "Discussion forums for WordPress."
+msgstr ""
+
+#: includes/Triggers/BbPress/BbPressController.php:43
+msgid "Reply To Topic"
+msgstr ""
+
+#: includes/Triggers/BbPress/BbPressController.php:44
+msgid "Topic Created"
+msgstr ""
+
+#: includes/Triggers/Beaver/BeaverController.php:16
+msgid "WordPress Page Builder"
+msgstr ""
+
+#: includes/Triggers/Beaver/BeaverController.php:96
+#: includes/Triggers/Beaver/BeaverController.php:125
+msgid "Beaver Builder is not installed or activated"
+msgstr ""
+
+#: includes/Triggers/Beaver/BeaverController.php:102
+msgid "Contact Form"
+msgstr ""
+
+#: includes/Triggers/Beaver/BeaverController.php:105
+#: includes/Triggers/PopupMaker/PopupMakerController.php:19
+msgid "Subscription Form"
+msgstr ""
+
+#: includes/Triggers/Beaver/BeaverController.php:108
+msgid "Login Form"
+msgstr ""
+
+#: includes/Triggers/Beaver/BeaverController.php:162
+msgid "Subject"
+msgstr ""
+
+#: includes/Triggers/Beaver/BeaverController.php:164
+#: includes/Triggers/StudioCart/StudioCartController.php:300
+msgid "Phone"
+msgstr ""
+
+#: includes/Triggers/Beaver/BeaverController.php:165
+msgid "Message"
+msgstr ""
+
+#: includes/Triggers/Beaver/BeaverController.php:172
+#: includes/Triggers/LearnDash/LearnDashController.php:336
+#: includes/Triggers/LearnDash/LearnDashController.php:395
+#: includes/Triggers/LearnDash/LearnDashController.php:466
+#: includes/Triggers/LearnDash/LearnDashController.php:557
+#: includes/Triggers/LearnDash/LearnDashController.php:644
+#: includes/Triggers/LearnDash/LearnDashController.php:809
+#: includes/Triggers/Registration/RegistrationController.php:53
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:430
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:355
+msgid "Username"
+msgstr ""
+
+#: includes/Triggers/Beaver/BeaverController.php:173
+#: includes/Triggers/LearnDash/LearnDashController.php:340
+#: includes/Triggers/LearnDash/LearnDashController.php:399
+#: includes/Triggers/LearnDash/LearnDashController.php:470
+#: includes/Triggers/LearnDash/LearnDashController.php:561
+#: includes/Triggers/LearnDash/LearnDashController.php:648
+#: includes/Triggers/LearnDash/LearnDashController.php:813
+msgid "Password"
+msgstr ""
+
+#: includes/Triggers/BetterMessages/BetterMessagesController.php:15
+msgid "Better Messages – is realtime private messaging system for WordPress, BuddyPress, BuddyBoss Platform, Ultimate Member, PeepSo and any other WordPress powered websites."
+msgstr ""
+
+#: includes/Triggers/BetterMessages/BetterMessagesController.php:43
+msgid "New Message Received"
+msgstr ""
+
+#: includes/Triggers/Breakdance/BreakdanceController.php:17
+msgid "Breakdance is the platform web creators choose to build professional WordPress websites, grow their skills, and build their business. Start for free today!"
+msgstr ""
+
+#: includes/Triggers/Breakdance/BreakdanceHelper.php:12
+#: includes/Triggers/Bricks/BricksHelper.php:84
+#: includes/Triggers/Bricksforge/BricksforgeHelper.php:52
+#: includes/Triggers/Brizy/BrizyHelper.php:23
+#: includes/Triggers/Divi/DiviHelper.php:63
+#: includes/Triggers/Kadence/KadenceHelper.php:63
+#, php-format
+msgid "Form Id (%s)"
+msgstr ""
+
+#: includes/Triggers/Breakdance/BreakdanceHelper.php:13
+#: includes/Triggers/Bricks/BricksHelper.php:85
+#: includes/Triggers/Divi/DiviHelper.php:64
+#, php-format
+msgid "Post Id (%s)"
+msgstr ""
+
+#: includes/Triggers/Bricks/BricksController.php:15
+msgid "Build With Confidence"
+msgstr ""
+
+#: includes/Triggers/Bricks/BricksController.php:20
+msgid "Select <b>\"Custom\"</b> as a form submit actions from your Bricks Builder sidebar"
+msgstr ""
+
+#: includes/Triggers/Bricksforge/BricksforgeController.php:14
+msgid "Bricksforge"
+msgstr ""
+
+#: includes/Triggers/Brizy/BrizyController.php:15
+msgid "Brizy is the platform web creators choose to build professional WordPress websites, grow their skills, and build their business. Start for free today!"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:45
+msgid "BuddyBoss - most powerful & customizable open-source community platform, built on WordPress"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:73
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:105
+msgid "BuddyBoss is not installed or activated"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:77
+msgid "A user accepts a friend request"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:78
+msgid "A user sends a friend request"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:79
+msgid "A user creates a topic in a forum"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:80
+msgid "A user replies to a topic in a forum"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:81
+msgid "A user send an email invitation"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:82
+msgid "A user updates their avatar"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:83
+msgid "A user updates his/her profile"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:84
+msgid "A user account is activated"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:89
+msgid "A user joins in a public group Pro"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:90
+msgid "A user joins in a private group Pro"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:91
+msgid "A user leaves/removed from a group Pro"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:92
+msgid "A user makes a post to the ativity stream of a group Pro"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:93
+msgid "A user request to access a private group Pro"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:94
+msgid "A user's email invitation results in a new member activation Pro"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:95
+msgid "A user's email invitation results in a new member registration Pro"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:179
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:994
+#: includes/Triggers/LearnDash/LearnDashController.php:249
+#: includes/Triggers/SureMembers/SureMembersController.php:75
+msgid "Any Group"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:226
+msgid "Friend ID"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:230
+msgid "Friend First Name"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:234
+msgid "Friend Last Name"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:238
+msgid "Fiend Nick Name"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:242
+msgid "Friend Email"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:246
+msgid "Friend Avatar URL"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:274
+#: includes/Triggers/LearnDash/LearnDashController.php:446
+#: includes/Triggers/TutorLms/TutorLmsController.php:415
+msgid "Topic Title"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:278
+#: includes/Triggers/LearnDash/LearnDashController.php:442
+#: includes/Triggers/TutorLms/TutorLmsController.php:410
+msgid "Topic ID"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:282
+#: includes/Triggers/LearnDash/LearnDashController.php:450
+#: includes/Triggers/TutorLms/TutorLmsController.php:425
+msgid "Topic URL"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:286
+msgid "Topic Content"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:290
+msgid "Forum ID"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:294
+msgid "Forum Title"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:298
+msgid "Forum URL"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:305
+msgid "Reply Content"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:312
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:358
+#: includes/Triggers/LearnDash/LearnDashController.php:671
+#: includes/Triggers/LearnDash/LearnDashController.php:718
+msgid "Group Title"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:316
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:362
+#: includes/Triggers/LearnDash/LearnDashController.php:667
+#: includes/Triggers/LearnDash/LearnDashController.php:714
+#: includes/Triggers/SureMembers/SureMembersHelper.php:85
+msgid "Group ID"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:320
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:366
+msgid "Group Description"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:346
+msgid "User Profile URL"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:351
+msgid "Manage Group Request URL"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:390
+msgid "Activity ID"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:394
+msgid "Activity URL"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:398
+msgid "Activity Content"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:402
+msgid "Activity Stream URL"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:410
+msgid "Id"
+msgstr ""
+
+#: includes/Triggers/BuddyBoss/BuddyBossController.php:1012
+#: includes/Triggers/LearnDash/LearnDashController.php:106
+#: includes/Triggers/LearnDash/LearnDashController.php:137
+#: includes/Triggers/WPForo/WPForoHelper.php:493
+msgid "Any Topic"
+msgstr ""
+
+#: includes/Triggers/Buddypress/BuddypressController.php:15
+msgid "Copy and enter the above webhook URL to your Buddypress webhook setting"
+msgstr ""
+
+#: includes/Triggers/Buddypress/StaticData.php:10
+msgid "User Sends Friendship Request"
+msgstr ""
+
+#: includes/Triggers/Buddypress/StaticData.php:11
+msgid "User Accepts Friendship Request"
+msgstr ""
+
+#: includes/Triggers/Buddypress/StaticData.php:12
+msgid "User Rejects Friendship Request"
+msgstr ""
+
+#: includes/Triggers/Buddypress/StaticData.php:13
+msgid "User Deletes Friendship"
+msgstr ""
+
+#: includes/Triggers/Buddypress/StaticData.php:14
+msgid "User Withdraws Friendship Request"
+msgstr ""
+
+#: includes/Triggers/Buddypress/StaticData.php:15
+msgid "User Creates Group"
+msgstr ""
+
+#: includes/Triggers/Buddypress/StaticData.php:16
+msgid "User Joins Group"
+msgstr ""
+
+#: includes/Triggers/Buddypress/StaticData.php:17
+msgid "User Leaves Group"
+msgstr ""
+
+#: includes/Triggers/Buddypress/StaticData.php:18
+msgid "User Profile Type is Changed"
+msgstr ""
+
+#: includes/Triggers/Buddypress/StaticData.php:19
+msgid "User post to the group activity stream"
+msgstr ""
+
+#: includes/Triggers/Buddypress/StaticData.php:20
+msgid "User Posts Activity to Stream"
+msgstr ""
+
+#: includes/Triggers/CalculatedFieldsForm/CalculatedFieldsFormController.php:15
+msgid "Calculated Fields Form is a WordPress plugin for creating forms with dynamically calculated fields. "
+msgstr ""
+
+#: includes/Triggers/CalculatedFieldsForm/CalculatedFieldsFormController.php:43
+msgid "New Form Submission"
+msgstr ""
+
+#: includes/Triggers/CartFlow/CartFlowController.php:17
+msgid "CartFlows is a sales funnel builder for WordPress. It allows you to quickly and easily build sales funnels using your page builder of choice"
+msgstr ""
+
+#: includes/Triggers/CartFlow/CartFlowController.php:91
+msgid "CartFlow is not installed or activated"
+msgstr ""
+
+#: includes/Triggers/CartFlow/CartFlowController.php:126
+msgid "Order Products"
+msgstr ""
+
+#: includes/Triggers/CartFlow/CartFlowController.php:130
+#: includes/Triggers/Eventin/EventinHelper.php:508
+#: includes/Triggers/Eventin/EventinHelper.php:538
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:276
+#: includes/Triggers/Memberpress/MemberpressHelper.php:108
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:108
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:108
+#: includes/Triggers/SureCart/SureCartHelper.php:69
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:558
+msgid "Order ID"
+msgstr ""
+
+#: includes/Triggers/Coblocks/CoblocksController.php:29
+msgid "Coblocks data is empty"
+msgstr ""
+
+#: includes/Triggers/Coblocks/CoblocksController.php:41
+msgid "coblocks test data removed successfully"
+msgstr ""
+
+#: includes/Triggers/ConvertPro/ConvertProController.php:15
+msgid "A WordPress plugin to convert visitors into leads, subscribers and customers. "
+msgstr ""
+
+#: includes/Triggers/CustomTrigger/CustomTriggerController.php:16
+msgid "You can connect bit integrations with any other plugin or theme using this trigger(custom hook)"
+msgstr ""
+
+#: includes/Triggers/CustomTrigger/CustomTriggerController.php:28
+msgid "Failed to generate new hook id"
+msgstr ""
+
+#: includes/Triggers/CustomTrigger/CustomTriggerController.php:49
+msgid "Custom trigger data is empty"
+msgstr ""
+
+#: includes/Triggers/CustomTrigger/CustomTriggerController.php:105
+#: includes/Triggers/Webhook/WebhookController.php:88
+msgid "Webhook test data removed successfully"
+msgstr ""
+
+#: includes/Triggers/Divi/DiviController.php:15
+msgid "Divi isn't just a WordPress theme, it's a complete design framework that allows you to design and customize every part of your website from the ground up"
+msgstr ""
+
+#: includes/Triggers/Divi/DiviController.php:20
+#, php-format
+msgid "The <b>Divi Email Optin Form Module</b> does not work with <b>%s</b>. Only the <b>Divi Contact Form Module</b> is compatible and works well with <b>%s</b>"
+msgstr ""
+
+#: includes/Triggers/Divi/DiviController.php:20
+msgid "Bit Integrations"
+msgstr ""
+
+#: includes/Triggers/DiviFormBuilder/DiviFormBuilderController.php:14
+msgid "Divi Form Builder by Divi Engine"
+msgstr ""
+
+#: includes/Triggers/DiviFormBuilder/DiviFormBuilderHelper.php:66
+#: includes/Triggers/GF/GFController.php:121
+#: includes/Triggers/GutenaForms/GutenaFormsHelper.php:43
+#: includes/Triggers/PieForms/PieFormsHelper.php:17
+#: includes/Triggers/PiotnetForms/PiotnetFormsController.php:33
+#: includes/Triggers/SiteOriginWidgets/SiteOriginWidgetsHelper.php:48
+msgid "Form Id"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:17
+msgid "Dokan"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:34
+msgid "To use <strong>Dokan Refund</strong> (request, approved, cancelled) tasks, you need to have <strong>Dokan Pro</strong> plugin"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:45
+msgid "New Vendor Added"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:45
+#: includes/Triggers/Dokan/DokanController.php:46
+#: includes/Triggers/Dokan/DokanController.php:47
+#, php-format
+msgid "Runs after a vendor is %s"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:45
+msgid "created"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:46
+msgid "Vendor Updated"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:46
+msgid "updated"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:47
+msgid "Vendor Deleted"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:47
+msgid "deleted"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:51
+msgid "New Refund Request"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:51
+msgid "Runs after a vendor requested a refund"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:52
+msgid "Refund Approved"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:52
+#: includes/Triggers/Dokan/DokanController.php:53
+#, php-format
+msgid "Runs after a refund is %s"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:52
+msgid "approved"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:53
+msgid "Refund Cancelled"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:53
+msgid "cancelled"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:57
+msgid "User Becomes Vendor or Vendor Registration"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:58
+msgid "Runs after a user becomes a vendor or if a user registers as a vendor"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:61
+msgid "New Withdraw Request"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:61
+msgid "Runs after a vendor requested a withdraw"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:69
+msgid "Dokan is not installed or activated"
+msgstr ""
+
+#: includes/Triggers/Dokan/DokanController.php:73
+#: includes/Triggers/Eventin/EventinController.php:65
+#: includes/Triggers/EventsCalendar/EventsCalendarController.php:58
+#: includes/Triggers/SureMembers/SureMembersController.php:67
+#: includes/Triggers/Voxel/VoxelController.php:55
+#: includes/Triggers/WCBookings/WCBookingsController.php:49
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsController.php:60
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsController.php:117
+#: includes/Triggers/WPForo/WPForoController.php:77
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:68
+msgid "Task doesn't exists"
+msgstr ""
+
+#: includes/Triggers/EDD/EDDController.php:16
+msgid "From eBooks, to WordPress plugins, to PDF files and more, we make selling   digital products a breeze"
+msgstr ""
+
+#: includes/Triggers/EDD/EDDController.php:50
+msgid "A user purchases a product"
+msgstr ""
+
+#: includes/Triggers/EDD/EDDController.php:51
+msgid "Product purchase with a discount code"
+msgstr ""
+
+#: includes/Triggers/EDD/EDDController.php:52
+msgid "User order refunded by stripe gateway"
+msgstr ""
+
+#: includes/Triggers/EDD/EDDController.php:68
+msgid "Easy Digital Downloads is not installed or activated"
+msgstr ""
+
+#: includes/Triggers/EDD/EDDHelper.php:62
+#: includes/Triggers/Memberpress/MemberpressHelper.php:46
+#: includes/Triggers/SureCart/SureCartHelper.php:25
+#: includes/Triggers/SureCart/SureCartHelper.php:144
+msgid "Product Id"
+msgstr ""
+
+#: includes/Triggers/EDD/EDDHelper.php:66
+#: includes/Triggers/SureCart/SureCartHelper.php:29
+#: includes/Triggers/SureCart/SureCartHelper.php:152
+msgid "Product Name"
+msgstr ""
+
+#: includes/Triggers/EDD/EDDHelper.php:70
+msgid "Order Item Id"
+msgstr ""
+
+#: includes/Triggers/EDD/EDDHelper.php:74
+#: includes/Triggers/EDD/EDDHelper.php:109
+msgid "Discount Codes"
+msgstr ""
+
+#: includes/Triggers/EDD/EDDHelper.php:78
+#: includes/Triggers/EDD/EDDHelper.php:113
+msgid "Order Discounts"
+msgstr ""
+
+#: includes/Triggers/EDD/EDDHelper.php:82
+#: includes/Triggers/EDD/EDDHelper.php:117
+msgid "Order Subtotal"
+msgstr ""
+
+#: includes/Triggers/EDD/EDDHelper.php:86
+#: includes/Triggers/EDD/EDDHelper.php:121
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:608
+msgid "Order Total"
+msgstr ""
+
+#: includes/Triggers/EDD/EDDHelper.php:90
+#: includes/Triggers/EDD/EDDHelper.php:125
+msgid "Order Tax"
+msgstr ""
+
+#: includes/Triggers/EDD/EDDHelper.php:94
+#: includes/Triggers/EDD/EDDHelper.php:129
+#: includes/Triggers/SureCart/SureCartHelper.php:89
+#: includes/Triggers/Voxel/VoxelHelper.php:419
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:242
+msgid "Payment Method"
+msgstr ""
+
+#: includes/Triggers/EDD/EDDHelper.php:105
+msgid "Refund Id"
+msgstr ""
+
+#: includes/Triggers/EDD/EDDHelper.php:158
+msgid "Any Product"
+msgstr ""
+
+#: includes/Triggers/EDD/EDDHelper.php:174
+msgid "Any Discount Code"
+msgstr ""
+
+#: includes/Triggers/EssentialBlocks/EssentialBlocksController.php:29
+msgid "EssentialBlocks data is empty"
+msgstr ""
+
+#: includes/Triggers/EssentialBlocks/EssentialBlocksController.php:41
+msgid "essential_blocks test data removed successfully"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:15
+msgid "Eventin"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:42
+msgid "Event Created"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:42
+msgid "Runs after a new event is created"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:43
+msgid "Runs after an existing event is updated"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:44
+#: includes/Triggers/JetpackCRM/JetpackCRMHelper.php:21
+msgid "Event Deleted"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:44
+msgid "Runs after an event is deleted"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:45
+msgid "Speaker (or Organizer) Created"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:45
+msgid "Runs after a speaker or organizer is created."
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:46
+msgid "Speaker (or Organizer) Updated"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:46
+msgid "Runs after a speaker or organizer is updated."
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:47
+msgid "Speaker (or Organizer) Deleted"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:47
+msgid "Runs after an speaker or organizer is deleted."
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:48
+msgid "Attendee Updated"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:48
+msgid "Runs after attendee is updated."
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:49
+msgid "Attendee Deleted"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:49
+msgid "Runs after attendee is deleted."
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:50
+msgid "Order Created"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:50
+msgid "Runs after a new order is created (or ticket purchased)."
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:51
+msgid "Order Deleted"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:51
+msgid "Runs after an order is deleted."
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:52
+msgid "Schedule Deleted"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinController.php:52
+msgid "Runs after a schedule is deleted."
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:254
+msgid "Event Title"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:259
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:277
+msgid "Start Date"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:264
+#: includes/Triggers/Eventin/EventinHelper.php:269
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:297
+msgid "End Date"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:274
+#: includes/Triggers/FluentBooking/FluentBookingController.php:147
+msgid "Start Time"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:279
+#: includes/Triggers/FluentBooking/FluentBookingController.php:152
+msgid "End Time"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:284
+#: includes/Triggers/FluentBooking/FluentBookingController.php:167
+msgid "Event Type"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:289
+msgid "Address"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:294
+msgid "Integration Name"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:299
+msgid "Custom URL"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:304
+msgid "Time Zone"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:309
+msgid "Recurring Enabled"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:318
+msgid "Event Link"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:323
+msgid "Event Status"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:345
+#: includes/Triggers/FluentBooking/FluentBookingController.php:127
+msgid "Event Id"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:356
+#: includes/Triggers/Mailster/MailsterController.php:98
+msgid "Full Name"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:361
+#: includes/Triggers/UltimateMember/UltimateMemberHelper.php:50
+msgid "Role"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:366
+msgid "Job Title"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:371
+msgid "Speaker Group"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:376
+msgid "Email Address"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:381
+msgid "Company Name"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:386
+msgid "Company URL"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:391
+msgid "Speaker Bio"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:396
+msgid "Speaker Photo"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:401
+msgid "Company logo"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:410
+#: includes/Triggers/Eventin/EventinHelper.php:437
+msgid "Speaker Id"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:415
+msgid "Author (Speaker) URL"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:448
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:226
+msgid "Attendee ID"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:453
+msgid "Attendee Name"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:458
+msgid "Attendee Email"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:463
+msgid "Attendee Phone"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:468
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:231
+msgid "Ticket ID"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:473
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:236
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:405
+msgid "Ticket Name"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:478
+#: includes/Triggers/Eventin/EventinHelper.php:563
+msgid "Ticket Slug"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:483
+msgid "Ticket Status"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:488
+msgid "Ticket Price"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:493
+msgid "Payment Status"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:498
+#: includes/Triggers/Eventin/EventinHelper.php:583
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:286
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:425
+msgid "Event ID"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:503
+#: includes/Triggers/Eventin/EventinHelper.php:588
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:291
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:430
+msgid "Event Name"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:527
+msgid "Attendee Id"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:543
+#: includes/Triggers/SureCart/SureCartHelper.php:105
+msgid "Customer First Name"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:548
+#: includes/Triggers/SureCart/SureCartHelper.php:109
+msgid "Customer Last Name"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:553
+#: includes/Triggers/SureCart/SureCartHelper.php:113
+msgid "Customer Email"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:568
+msgid "Ticket Quantity"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:573
+msgid "Total Price"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:578
+msgid "Order Date Time"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:607
+#: includes/Triggers/Voxel/VoxelHelper.php:416
+msgid "Order Id"
+msgstr ""
+
+#: includes/Triggers/Eventin/EventinHelper.php:618
+msgid "Schedule Id"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarController.php:15
+msgid "The Events Calendar"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarController.php:42
+msgid "User Attends Event"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarController.php:42
+msgid "Runs after a user attends an event."
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarController.php:43
+msgid "Attendee Registered for Event"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarController.php:43
+msgid "Runs after an attendee is registered for an event."
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarController.php:44
+msgid "New Attendee"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarController.php:44
+msgid "Runs after a user registers for an event."
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarController.php:45
+msgid "Attendee Registered with WooCommerce"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarController.php:45
+msgid "Runs after a user registers for an event with WooCommerce (use \"Ticket\" here and not \"RSVP\")."
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:21
+msgid "Any Event"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:206
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:370
+msgid "Purchaser Name"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:211
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:375
+msgid "Purchaser Email"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:216
+msgid "Holder Name"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:221
+msgid "Holder Email"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:241
+msgid "QR Ticket ID"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:246
+msgid "Price Paid"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:251
+#: includes/Triggers/SliceWp/SliceWpHelper.php:74
+#: includes/Triggers/StudioCart/StudioCartController.php:344
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:197
+msgid "Currency"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:256
+msgid "Attendee Date"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:261
+msgid "Attendee Date GMT"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:266
+msgid "Attendee Modified"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:271
+msgid "Attendee Modified GMT"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:281
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:415
+#: includes/Triggers/SureCart/SureCartHelper.php:77
+#: includes/Triggers/Voxel/VoxelHelper.php:423
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:633
+msgid "Order Status"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:296
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:435
+msgid "Event Date"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:301
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:440
+msgid "Event Date GMT"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:306
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:445
+msgid "Event Modified"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:311
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:450
+msgid "Event Modified GMT"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:316
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:455
+msgid "Event GUID"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:321
+msgid "Check In"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:326
+msgid "Ticket Sent"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:331
+msgid "Is Subscribed"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:336
+msgid "Is Purchaser"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:341
+msgid "Ticket Exists"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:346
+msgid "Attendee Security Code"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:351
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:420
+msgid "Purchase Time"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:380
+msgid "Holder Name(s)"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:385
+msgid "Holder Email(s)"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:390
+msgid "Attendee ID(s)"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:395
+msgid "Ticket ID(s)"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:400
+msgid "QR Ticket ID(s)"
+msgstr ""
+
+#: includes/Triggers/EventsCalendar/EventsCalendarHelper.php:410
+msgid "Order ID(s)"
+msgstr ""
+
+#: includes/Triggers/EVF/EVFController.php:17
+msgid "Contact Form, Drag and Drop Form Builder for WordPress - Everest Forms"
+msgstr ""
+
+#: includes/Triggers/FF/FFController.php:18
+msgid "Contact Form Plugin - Fastest Contact Form Builder Plugin for WordPress by Fluent Forms"
+msgstr ""
+
+#: includes/Triggers/FluentBoards/FluentBoardsController.php:15
+msgid "FluentBoards is the Ultimate Scheduling Solution for WordPress. Harness the power of unlimited appointments, bookings, webinars, events, sales calls, etc., and save time with scheduling automation."
+msgstr ""
+
+#: includes/Triggers/FluentBoards/FluentBoardsController.php:43
+msgid "New Board Created"
+msgstr ""
+
+#: includes/Triggers/FluentBoards/FluentBoardsController.php:44
+msgid "Board Member Added"
+msgstr ""
+
+#: includes/Triggers/FluentBoards/FluentBoardsController.php:45
+msgid "New Task Created"
+msgstr ""
+
+#: includes/Triggers/FluentBooking/FluentBookingController.php:17
+msgid "Fluent Booking"
+msgstr ""
+
+#: includes/Triggers/FluentBooking/FluentBookingController.php:60
+msgid "Fluent Booking is not installed or activated"
+msgstr ""
+
+#: includes/Triggers/FluentBooking/FluentBookingController.php:64
+msgid "Event doesn't exists"
+msgstr ""
+
+#: includes/Triggers/FluentBooking/FluentBookingController.php:117
+#: includes/Triggers/Mailster/MailsterController.php:97
+msgid "ID"
+msgstr ""
+
+#: includes/Triggers/FluentBooking/FluentBookingController.php:122
+msgid "Calender Id"
+msgstr ""
+
+#: includes/Triggers/FluentBooking/FluentBookingController.php:132
+msgid "Person Time Zone"
+msgstr ""
+
+#: includes/Triggers/FluentBooking/FluentBookingController.php:137
+msgid "Location Type"
+msgstr ""
+
+#: includes/Triggers/FluentBooking/FluentBookingController.php:142
+msgid "Location Description"
+msgstr ""
+
+#: includes/Triggers/FluentBooking/FluentBookingController.php:157
+msgid "Slot Minutes"
+msgstr ""
+
+#: includes/Triggers/FluentBooking/FluentBookingController.php:172
+msgid "Cancelled By"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/FluentCommunityController.php:14
+msgid "Fluent Community is a open source community plugin for WordPress. This application allows you to trigger workflows when a new form submission or payment submission is received."
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:10
+msgid "User Joins Space"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:11
+msgid "User Requests Space Join"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:12
+msgid "User Leaves Space"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:13
+msgid "New Space Created"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:14
+msgid "Before Space Deleted"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:15
+msgid "After Space Deleted"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:16
+msgid "After Space Updated"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:17
+msgid "New Feed Created"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:18
+msgid "New Space Feed Created"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:19
+msgid "Feed Updated"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:20
+msgid "Feed Mentions User"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:21
+msgid "Before Feed Deleted"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:22
+msgid "After Feed Deleted"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:23
+msgid "Feed Reaction Added"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:24
+msgid "New Comment Added"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:25
+msgid "Comment Updated"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:26
+msgid "Comment Deleted"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:27
+msgid "User Enrolls In Course"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:28
+msgid "User Unenrolls From Course"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:29
+#: includes/Triggers/LearnPress/LearnPressController.php:43
+#: includes/Triggers/SenseiLMS/StaticData.php:11
+msgid "User Completes Course"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:30
+#: includes/Triggers/LearnPress/LearnPressController.php:44
+#: includes/Triggers/SenseiLMS/StaticData.php:12
+msgid "User Completes Lesson"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:31
+msgid "Course Created"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:32
+msgid "Course Updated"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:33
+msgid "Course Published"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:34
+msgid "Course Deleted"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:35
+msgid "Lesson Updated"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:36
+msgid "User Leveled Up"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:37
+msgid "Quiz Submitted"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:38
+#: includes/Triggers/MasteriyoLMS/MasteriyoLMSController.php:46
+msgid "Quiz Passed"
+msgstr ""
+
+#: includes/Triggers/FluentCommunity/StaticData.php:39
+#: includes/Triggers/MasteriyoLMS/MasteriyoLMSController.php:45
+msgid "Quiz Failed"
+msgstr ""
+
+#: includes/Triggers/FluentCrm/FluentCrmController.php:29
+msgid "Fluent CRM - FluentCRM is a Self Hosted Email Marketing Automation Plugin for WordPress"
+msgstr ""
+
+#: includes/Triggers/FluentCrm/FluentCrmController.php:63
+msgid "A tag is added to contact"
+msgstr ""
+
+#: includes/Triggers/FluentCrm/FluentCrmController.php:64
+msgid "A tag is removed from contact"
+msgstr ""
+
+#: includes/Triggers/FluentCrm/FluentCrmController.php:65
+msgid "A contact is added to a list"
+msgstr ""
+
+#: includes/Triggers/FluentCrm/FluentCrmController.php:66
+msgid "A contact is remove from a list"
+msgstr ""
+
+#: includes/Triggers/FluentCrm/FluentCrmController.php:67
+msgid "A contact set to a specific status"
+msgstr ""
+
+#: includes/Triggers/FluentCrm/FluentCrmController.php:68
+msgid "A contact is create"
+msgstr ""
+
+#: includes/Triggers/FluentCrm/FluentCrmController.php:83
+#: includes/Triggers/Groundhogg/GroundhoggController.php:256
+msgid "Any Tag"
+msgstr ""
+
+#: includes/Triggers/FluentCrm/FluentCrmController.php:91
+msgid "Any List"
+msgstr ""
+
+#: includes/Triggers/FluentCrm/FluentCrmController.php:99
+msgid "Any status"
+msgstr ""
+
+#: includes/Triggers/FluentCrm/FluentCrmController.php:178
+#: includes/Triggers/FluentCrm/FluentCrmController.php:237
+#: includes/Triggers/Groundhogg/GroundhoggController.php:196
+msgid "Tags"
+msgstr ""
+
+#: includes/Triggers/FluentCrm/FluentCrmController.php:183
+#: includes/Triggers/FluentCrm/FluentCrmController.php:242
+msgid "Lists"
+msgstr ""
+
+#: includes/Triggers/FluentCrm/FluentCrmController.php:192
+msgid "Tag IDs"
+msgstr ""
+
+#: includes/Triggers/FluentCrm/FluentCrmController.php:200
+msgid "Removed Tag IDs"
+msgstr ""
+
+#: includes/Triggers/FluentCrm/FluentCrmController.php:208
+msgid "List IDs"
+msgstr ""
+
+#: includes/Triggers/FluentCrm/FluentCrmController.php:216
+msgid "Remove List IDs"
+msgstr ""
+
+#: includes/Triggers/FluentCrm/FluentCrmController.php:229
+#: includes/Triggers/WCBookings/WCBookingsController.php:57
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsController.php:77
+msgid "New Status"
+msgstr ""
+
+#: includes/Triggers/FluentSMTP/FluentSMTPController.php:15
+msgid "FluentSMTP is the ultimate WP Mail Plugin that connects with your Email Service Provider natively and makes sure your emails are delivered."
+msgstr ""
+
+#: includes/Triggers/FluentSMTP/FluentSMTPController.php:43
+#: includes/Triggers/SureMail/SureMailController.php:44
+msgid "Email was sent successfully"
+msgstr ""
+
+#: includes/Triggers/FluentSMTP/FluentSMTPController.php:44
+#: includes/Triggers/SureMail/SureMailController.php:45
+msgid "Failed to send email"
+msgstr ""
+
+#: includes/Triggers/FormCraft/FormCraftController.php:13
+msgid "FormCraft3 is a drag-and-drop form builder to create and embed forms, and track submissions"
+msgstr ""
+
+#: includes/Triggers/Formidable/FormidableController.php:20
+msgid "Formidable - Formidable Forms is the best WordPress forms plugin"
+msgstr ""
+
+#: includes/Triggers/Formidable/FormidableController.php:92
+msgid "Middle Name"
+msgstr ""
+
+#: includes/Triggers/Forminator/ForminatorController.php:18
+msgid "Forminator - Contact Form, Payment Form & Custom Form Builder"
+msgstr ""
+
+#: includes/Triggers/FunnelKitAutomations/FunnelKitAutomationsController.php:15
+msgid "FunnelKit Automations is a WordPress Customer Support plugin."
+msgstr ""
+
+#: includes/Triggers/FunnelKitAutomations/FunnelKitAutomationsController.php:43
+msgid "Contact Added to List"
+msgstr ""
+
+#: includes/Triggers/FunnelKitAutomations/FunnelKitAutomationsController.php:44
+msgid "Contact Removed from List"
+msgstr ""
+
+#: includes/Triggers/FunnelKitAutomations/FunnelKitAutomationsController.php:45
+msgid "Tag Added to Contact"
+msgstr ""
+
+#: includes/Triggers/FunnelKitAutomations/FunnelKitAutomationsController.php:46
+msgid "Tag Removed from Contact"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:15
+msgid "GamiPress - is the easiest way to gamify your WordPress website in just a few minutes, letting you award your users with digital rewards for interacting with website"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:51
+msgid "A user earns a rank"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:52
+msgid "A user gains an achievement"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:53
+msgid "User earns an specific achievement type"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:54
+msgid "User achievement gets revoked"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:55
+msgid "User achievement of a type gets revoked"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:56
+msgid "User earns points"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:121
+msgid "User Url"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:132
+msgid "Rank Type"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:136
+msgid "Rank"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:145
+msgid "Achievement type"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:149
+msgid "Award"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:157
+#: includes/Triggers/JetEngine/JetEngineHelper.php:87
+#: includes/Triggers/Post/PostHelper.php:87
+msgid "Post Id"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:161
+#: includes/Triggers/JetEngine/JetEngineHelper.php:92
+#: includes/Triggers/MetaBox/MetaBoxController.php:63
+#: includes/Triggers/Post/PostHelper.php:92
+msgid "Post Title"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:165
+#: includes/Triggers/JetEngine/JetEngineHelper.php:107
+#: includes/Triggers/Post/PostHelper.php:107
+msgid "Post URL"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:169
+#: includes/Triggers/JetEngine/JetEngineHelper.php:112
+#: includes/Triggers/Post/PostHelper.php:112
+#: includes/Triggers/Voxel/VoxelHelper.php:169
+msgid "Post Type"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:173
+msgid "Post Author Id"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:181
+#: includes/Triggers/JetEngine/JetEngineHelper.php:97
+#: includes/Triggers/MetaBox/MetaBoxController.php:73
+#: includes/Triggers/Post/PostHelper.php:97
+msgid "Post Content"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:185
+msgid "Post Parent Id"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:192
+#: includes/Triggers/LearnDash/LearnDashController.php:537
+#: includes/Triggers/LearnDash/LearnDashController.php:624
+msgid "Total Points"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:196
+msgid "New Points"
+msgstr ""
+
+#: includes/Triggers/GamiPress/GamiPressController.php:200
+msgid "Points Type"
+msgstr ""
+
+#: includes/Triggers/GF/GFController.php:23
+msgid "Easily create web forms and manage form entries within the WordPress admin"
+msgstr ""
+
+#: includes/Triggers/GF/GFController.php:116
+msgid "Entry ID"
+msgstr ""
+
+#: includes/Triggers/GF/GFController.php:126
+msgid "Title"
+msgstr ""
+
+#: includes/Triggers/GF/GFController.php:131
+#: includes/Triggers/SliceWp/SliceWpHelper.php:28
+#: includes/Triggers/SliceWp/SliceWpHelper.php:50
+msgid "Date Created"
+msgstr ""
+
+#: includes/Triggers/GiveWp/GiveWpController.php:17
+msgid "Easily create donation pages using the most powerful WordPress donation plugin. GiveWP provides you with an intuitive way to accept donations online through your own WordPress site with a variety of payment methods available in multiple countries"
+msgstr ""
+
+#: includes/Triggers/GiveWp/GiveWpController.php:53
+msgid "A user makes donation via form"
+msgstr ""
+
+#: includes/Triggers/GiveWp/GiveWpController.php:54
+msgid "A user cancels a recurring donation via form"
+msgstr ""
+
+#: includes/Triggers/GiveWp/GiveWpController.php:55
+msgid "User continues recurring donation"
+msgstr ""
+
+#: includes/Triggers/GiveWp/GiveWpController.php:84
+msgid "Any Donation Form"
+msgstr ""
+
+#: includes/Triggers/GravityKit/GravityKitController.php:15
+msgid "GravityKit is a WordPress Plugin."
+msgstr ""
+
+#: includes/Triggers/GravityKit/GravityKitController.php:43
+msgid "Form Entry Approved For A Specific Form"
+msgstr ""
+
+#: includes/Triggers/GravityKit/GravityKitController.php:44
+msgid "Form Entry Rejected For A Specific Form"
+msgstr ""
+
+#: includes/Triggers/Groundhogg/GroundhoggController.php:15
+msgid "Groundhogg is the platform web creators choose to build professional WordPress websites, grow their skills, and build their business. Start for free today!"
+msgstr ""
+
+#: includes/Triggers/Groundhogg/GroundhoggController.php:116
+msgid "Contact-Create"
+msgstr ""
+
+#: includes/Triggers/Groundhogg/GroundhoggController.php:117
+msgid "Add-Tag-To-Contact"
+msgstr ""
+
+#: includes/Triggers/Groundhogg/GroundhoggController.php:118
+msgid "Remove-Tag-From-Contact"
+msgstr ""
+
+#: includes/Triggers/Groundhogg/GroundhoggController.php:137
+msgid "Doesn't exists"
+msgstr ""
+
+#: includes/Triggers/Groundhogg/GroundhoggController.php:146
+msgid "Doesn't exists any field"
+msgstr ""
+
+#: includes/Triggers/Groundhogg/GroundhoggController.php:180
+msgid "Primary Phone"
+msgstr ""
+
+#: includes/Triggers/Groundhogg/GroundhoggController.php:184
+msgid "Mobile Phone"
+msgstr ""
+
+#: includes/Triggers/Groundhogg/GroundhoggController.php:188
+msgid "Owner Id"
+msgstr ""
+
+#: includes/Triggers/Groundhogg/GroundhoggController.php:192
+msgid "Optin Status"
+msgstr ""
+
+#: includes/Triggers/GutenaForms/GutenaFormsController.php:14
+msgid "Gutena Forms is the platform web creators choose to build professional WordPress websites, grow their skills, and build their business. Start for free today!"
+msgstr ""
+
+#: includes/Triggers/Happy/HappyController.php:17
+msgid "Happy Forms - Contact Form, Payment Form & Custom Form Builder"
+msgstr ""
+
+#: includes/Triggers/Hustle/HustleController.php:17
+msgid "Hustle"
+msgstr ""
+
+#: includes/Triggers/Hustle/HustleController.php:34
+msgid "Only the <strong>Email Opt-in</strong> type pop-ups and slide-ins will be listed in the select box"
+msgstr ""
+
+#: includes/Triggers/Hustle/HustleController.php:56
+#, php-format
+msgid "Runs after user submits email opt-in form of %s (%s)"
+msgstr ""
+
+#: includes/Triggers/Hustle/HustleController.php:77
+#: includes/Triggers/Mailster/MailsterController.php:67
+#: includes/Triggers/SureForms/SureFormsController.php:75
+msgid "Fields fetching failed!"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineController.php:13
+msgid "JetEngine"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineController.php:44
+msgid "A user updates a specific JetEngine field on a specific post type"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineController.php:45
+msgid "A user updates a specific JetEngine field on a specific post type a specific value"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineController.php:61
+#: includes/Triggers/MetaBox/MetaBoxController.php:91
+#: includes/Triggers/Post/PostController.php:89
+#, php-format
+msgid "%s can't be empty"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineController.php:68
+#: includes/Triggers/JetEngine/JetEngineController.php:135
+#: includes/Triggers/Post/PostController.php:102
+#: includes/Triggers/Post/PostController.php:338
+msgid "Any Post Type"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineController.php:74
+#: includes/Triggers/Post/PostController.php:122
+msgid "Form fields doesn't exists"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineController.php:142
+#: includes/Triggers/Post/PostController.php:116
+#: includes/Triggers/Post/PostController.php:345
+msgid "Any Post"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:15
+#: includes/Triggers/Post/PostHelper.php:15
+msgid "Comment ID"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:20
+#: includes/Triggers/Post/PostHelper.php:20
+msgid "Comment Post ID"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:25
+#: includes/Triggers/Post/PostHelper.php:25
+msgid "Comment Author ID"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:30
+#: includes/Triggers/Post/PostHelper.php:30
+msgid "Comment Author Name"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:35
+#: includes/Triggers/Post/PostHelper.php:35
+msgid "Comment Author Email"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:40
+#: includes/Triggers/Post/PostHelper.php:40
+msgid "Comment Author IP"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:45
+#: includes/Triggers/Post/PostHelper.php:45
+msgid "Comment Author Agent"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:50
+#: includes/Triggers/Post/PostHelper.php:50
+msgid "Comment Author URL"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:55
+#: includes/Triggers/Post/PostHelper.php:55
+#: includes/Triggers/Voxel/VoxelHelper.php:110
+msgid "Comment Content"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:60
+#: includes/Triggers/Post/PostHelper.php:60
+msgid "Comment Type"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:65
+#: includes/Triggers/Post/PostHelper.php:65
+msgid "Comment Parent ID"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:70
+#: includes/Triggers/Post/PostHelper.php:70
+msgid "Comment Date"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:75
+#: includes/Triggers/Post/PostHelper.php:75
+msgid "Comment Date Time"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:102
+#: includes/Triggers/MetaBox/MetaBoxController.php:78
+#: includes/Triggers/Post/PostHelper.php:102
+msgid "Post Excerpt"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:117
+#: includes/Triggers/Post/PostHelper.php:117
+msgid "Post Author ID"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:122
+#: includes/Triggers/Post/PostHelper.php:122
+msgid "Post Comment Status"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:127
+#: includes/Triggers/Post/PostHelper.php:127
+msgid "Post Comment Count"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:132
+#: includes/Triggers/Post/PostHelper.php:132
+msgid "Post Status"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:137
+#: includes/Triggers/Post/PostHelper.php:137
+msgid "Post Created Date"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:142
+#: includes/Triggers/Post/PostHelper.php:142
+msgid "Post Modified Date"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:147
+msgid "Meta Key"
+msgstr ""
+
+#: includes/Triggers/JetEngine/JetEngineHelper.php:152
+msgid "Meta Value"
+msgstr ""
+
+#: includes/Triggers/JetpackCRM/JetpackCRMController.php:15
+msgid "JetpackCRM is a WordPress Customer Support plugin."
+msgstr ""
+
+#: includes/Triggers/JetpackCRM/JetpackCRMHelper.php:17
+msgid "Company Created"
+msgstr ""
+
+#: includes/Triggers/JetpackCRM/JetpackCRMHelper.php:18
+msgid "Company Deleted"
+msgstr ""
+
+#: includes/Triggers/JetpackCRM/JetpackCRMHelper.php:19
+msgid "Contact Created"
+msgstr ""
+
+#: includes/Triggers/JetpackCRM/JetpackCRMHelper.php:20
+msgid "Contact Deleted"
+msgstr ""
+
+#: includes/Triggers/JetpackCRM/JetpackCRMHelper.php:22
+msgid "Invoice Deleted"
+msgstr ""
+
+#: includes/Triggers/JetpackCRM/JetpackCRMHelper.php:23
+msgid "Quote Accepted"
+msgstr ""
+
+#: includes/Triggers/JetpackCRM/JetpackCRMHelper.php:24
+msgid "Quote Created"
+msgstr ""
+
+#: includes/Triggers/JetpackCRM/JetpackCRMHelper.php:25
+msgid "Quote Deleted"
+msgstr ""
+
+#: includes/Triggers/JetpackCRM/JetpackCRMHelper.php:26
+msgid "Transaction Deleted"
+msgstr ""
+
+#: includes/Triggers/Kadence/KadenceController.php:14
+msgid "Kadence Blocks Form - Flexible and Design-Friendly Contact Form builder plugin for WordPress"
+msgstr ""
+
+#: includes/Triggers/Kadence/KadenceHelper.php:67
+#, php-format
+msgid "Form Post Id (%s)"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:15
+msgid "LearnDash LMS - eLearning and online course solution"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:55
+msgid "A user is enrolled in a course"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:56
+msgid "A user is unenrolled from a course"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:57
+msgid "User completed a course"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:58
+msgid "User completes a lesson"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:59
+msgid "User completes a topic"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:60
+msgid "User attempts(pass/fail) a quiz"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:61
+#: includes/Triggers/LifterLms/LifterLmsController.php:53
+msgid "A user fails a quiz"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:62
+#: includes/Triggers/LifterLms/LifterLmsController.php:52
+msgid "A user passes a quiz"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:63
+msgid "A user is added to a group"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:64
+msgid "A user is removed from a group"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:65
+msgid "A user submits an assignments for a lesson"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:265
+msgid "LearnDash LMS is not installed or activated"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:348
+#: includes/Triggers/LearnDash/LearnDashController.php:407
+#: includes/Triggers/LearnDash/LearnDashController.php:478
+#: includes/Triggers/LearnDash/LearnDashController.php:569
+#: includes/Triggers/LearnDash/LearnDashController.php:656
+#: includes/Triggers/LearnDash/LearnDashController.php:821
+#: includes/Triggers/Registration/RegistrationController.php:59
+msgid "Nickname"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:352
+#: includes/Triggers/LearnDash/LearnDashController.php:411
+#: includes/Triggers/LearnDash/LearnDashController.php:482
+#: includes/Triggers/LearnDash/LearnDashController.php:573
+#: includes/Triggers/LearnDash/LearnDashController.php:660
+#: includes/Triggers/LearnDash/LearnDashController.php:825
+#: includes/Triggers/Registration/RegistrationController.php:79
+#: includes/Triggers/SureFeedback/SureFeedbackHelper.php:64
+msgid "Website"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:379
+#: includes/Triggers/LearnDash/LearnDashController.php:438
+#: includes/Triggers/LearnDash/LearnDashController.php:509
+#: includes/Triggers/LearnDash/LearnDashController.php:600
+#: includes/Triggers/LearnDash/LearnDashController.php:781
+#: includes/Triggers/TutorLms/TutorLmsController.php:405
+msgid "Lesson URL"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:525
+#: includes/Triggers/LearnDash/LearnDashController.php:616
+msgid "Score"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:529
+msgid "Pass"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:533
+#: includes/Triggers/LearnDash/LearnDashController.php:620
+msgid "Points"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:541
+#: includes/Triggers/LearnDash/LearnDashController.php:628
+msgid "Percentage"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:675
+#: includes/Triggers/LearnDash/LearnDashController.php:722
+msgid "Group URL"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:679
+msgid "First Name (Added User)"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:683
+msgid "Last Name (Added User)"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:687
+msgid "Email (Added User)"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:691
+msgid "Username (Added User)"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:695
+msgid "Password (Added User)"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:699
+msgid "Display Name (Added User)"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:703
+msgid "Nickname (Added User)"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:707
+msgid "Website (Added User)"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:726
+msgid "First Name (Removed User)"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:730
+msgid "Last Name (Removed User)"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:734
+msgid "Email (Removed User)"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:738
+msgid "Username (Removed User)"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:742
+msgid "Password (Removed User)"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:746
+msgid "Display Name (Removed User)"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:750
+msgid "Nickname (Removed User)"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:754
+msgid "Website (Removed User)"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:785
+msgid "File Name"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:789
+msgid "File Path"
+msgstr ""
+
+#: includes/Triggers/LearnDash/LearnDashController.php:793
+msgid "File Link"
+msgstr ""
+
+#: includes/Triggers/LearnPress/LearnPressController.php:15
+msgid "Easily Create And Sell Online Courses On Your WP Site With LearnPress."
+msgstr ""
+
+#: includes/Triggers/LearnPress/LearnPressController.php:45
+msgid "User Enrolled In Course"
+msgstr ""
+
+#: includes/Triggers/LifterLms/LifterLmsController.php:15
+msgid "It is lms platform"
+msgstr ""
+
+#: includes/Triggers/LifterLms/LifterLmsController.php:51
+msgid "A user attempts quiz"
+msgstr ""
+
+#: includes/Triggers/LifterLms/LifterLmsController.php:54
+msgid "A user completes a lesson"
+msgstr ""
+
+#: includes/Triggers/LifterLms/LifterLmsController.php:55
+msgid "A user completes a course"
+msgstr ""
+
+#: includes/Triggers/LifterLms/LifterLmsController.php:56
+msgid "A user enroll in a course"
+msgstr ""
+
+#: includes/Triggers/LifterLms/LifterLmsController.php:57
+msgid "A user is unenrolled a course"
+msgstr ""
+
+#: includes/Triggers/LifterLms/LifterLmsController.php:58
+msgid "A user cancels a membership"
+msgstr ""
+
+#: includes/Triggers/LifterLms/LifterLmsController.php:106
+#: includes/Triggers/LifterLms/LifterLmsController.php:156
+#: includes/Triggers/Memberpress/MemberpressController.php:89
+#: includes/Triggers/Memberpress/MemberpressController.php:94
+msgid "Any Membership"
+msgstr ""
+
+#: includes/Triggers/LifterLms/LifterLmsController.php:116
+#: includes/Triggers/LifterLms/LifterLmsController.php:128
+#: includes/Triggers/LifterLms/LifterLmsController.php:140
+#: includes/Triggers/LifterLms/LifterLmsController.php:152
+msgid "LifterLms is not installed or activated"
+msgstr ""
+
+#: includes/Triggers/LifterLms/LifterLmsHelper.php:100
+msgid "Membership Title"
+msgstr ""
+
+#: includes/Triggers/LifterLms/LifterLmsHelper.php:104
+#: includes/Triggers/Memberpress/MemberpressHelper.php:12
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProHelper.php:12
+msgid "Membership ID"
+msgstr ""
+
+#: includes/Triggers/MailPoet/MailPoetController.php:18
+msgid "mailpoet"
+msgstr ""
+
+#: includes/Triggers/Mailster/MailsterController.php:17
+msgid "Mailster"
+msgstr ""
+
+#: includes/Triggers/Mailster/MailsterController.php:46
+msgid "Subscriber Subscribed"
+msgstr ""
+
+#: includes/Triggers/Mailster/MailsterController.php:47
+msgid "Run after the users confirms the subscription"
+msgstr ""
+
+#: includes/Triggers/Mailster/MailsterController.php:99
+msgid "Hash"
+msgstr ""
+
+#: includes/Triggers/Mailster/MailsterController.php:100
+msgid "WordPress User ID"
+msgstr ""
+
+#: includes/Triggers/Mailster/MailsterController.php:102
+msgid "Added (timestamp)"
+msgstr ""
+
+#: includes/Triggers/Mailster/MailsterController.php:103
+msgid "Updated (timestamp)"
+msgstr ""
+
+#: includes/Triggers/Mailster/MailsterController.php:104
+msgid "Signup (timestamp)"
+msgstr ""
+
+#: includes/Triggers/Mailster/MailsterController.php:105
+msgid "Confirm (timestamp)"
+msgstr ""
+
+#: includes/Triggers/Mailster/MailsterController.php:106
+msgid "IP Signup (timestamp)"
+msgstr ""
+
+#: includes/Triggers/Mailster/MailsterController.php:107
+msgid "IP Confirm (timestamp)"
+msgstr ""
+
+#: includes/Triggers/Mailster/MailsterController.php:108
+msgid "Rating"
+msgstr ""
+
+#: includes/Triggers/MasteriyoLMS/MasteriyoLMSController.php:15
+msgid "A WordPress LMS Plugin."
+msgstr ""
+
+#: includes/Triggers/MasteriyoLMS/MasteriyoLMSController.php:43
+#: includes/Triggers/MemberPressCourse/MemberPressCourseController.php:43
+msgid "Course Completed"
+msgstr ""
+
+#: includes/Triggers/MasteriyoLMS/MasteriyoLMSController.php:44
+#: includes/Triggers/MemberPressCourse/MemberPressCourseController.php:44
+msgid "Lesson Completed"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsController.php:27
+msgid "MasterStudyLms"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsController.php:62
+msgid "User Passed a Quiz"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsController.php:63
+msgid "User Failed a Quiz"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsController.php:64
+msgid "User Earns a Point"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsController.php:107
+msgid "No quiz Found"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:109
+msgid "Point Distribution"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:113
+msgid "Point Score"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:117
+msgid "Repeat"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:252
+msgid "Any Distribution"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:256
+msgid "Registration"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:260
+msgid "Course purchase"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:264
+msgid "Lesson completion"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:268
+msgid "Passing quiz"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:272
+msgid "Passing quiz with 100%"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:276
+msgid "Passing assignment"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:280
+msgid "Course completion"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:284
+msgid "Joining group"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:288
+msgid "Making friends"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:292
+msgid "User registered (Affiliate)"
+msgstr ""
+
+#: includes/Triggers/MasterStudyLms/MasterStudyLmsHelper.php:296
+msgid "Course purchased (Affiliate)"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressController.php:16
+msgid "MemberPress"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressController.php:52
+msgid "A user purchases a one-time subscription membership"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressController.php:53
+msgid "A user purchases a recurring subscription membership"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressController.php:54
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProController.php:52
+msgid "User cancels a membership"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressController.php:55
+msgid "A user's subscribe membership expires"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressController.php:56
+msgid "A user's subscribe membership paused"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressHelper.php:16
+msgid "Membership Name"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressHelper.php:20
+msgid "Membership Description"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressHelper.php:30
+#: includes/Triggers/Memberpress/MemberpressHelper.php:34
+msgid "Subscription ID"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressHelper.php:38
+msgid "Subscription Gateway"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressHelper.php:50
+msgid "Price"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressHelper.php:54
+msgid "Period Type"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressHelper.php:58
+msgid "Trial Amount"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressHelper.php:72
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:72
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:72
+msgid "Order Amount"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressHelper.php:76
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:76
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:76
+msgid "Commission Amount"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressHelper.php:80
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:80
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:80
+msgid "Referral Source"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressHelper.php:84
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:84
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:84
+msgid "Visit ID"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressHelper.php:88
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:88
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:88
+#: includes/Triggers/StudioCart/StudioCartController.php:224
+msgid "Coupon ID"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressHelper.php:92
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:92
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:92
+#: includes/Triggers/SureCart/SureCartHelper.php:97
+#: includes/Triggers/SureCart/SureCartHelper.php:140
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:410
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:335
+msgid "Customer Id"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressHelper.php:96
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:96
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:96
+msgid "Referral Type"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressHelper.php:100
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProHelper.php:20
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:100
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:100
+msgid "Description"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressHelper.php:104
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:104
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:104
+msgid "Order Source"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressHelper.php:112
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:112
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:112
+msgid "Payout ID"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressHelper.php:120
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:120
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:53
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:120
+#: includes/Triggers/Voxel/VoxelHelper.php:424
+msgid "Created At"
+msgstr ""
+
+#: includes/Triggers/Memberpress/MemberpressHelper.php:124
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:124
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:57
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:124
+msgid "Updated At"
+msgstr ""
+
+#: includes/Triggers/MemberPressCourse/MemberPressCourseController.php:15
+msgid "Easily Create And Sell Online Courses On Your WP Site With MemberPressCourse."
+msgstr ""
+
+#: includes/Triggers/Met/MetController.php:15
+msgid "Met Form - Flexible and Design-Friendly Contact Form builder plugin for WordPress"
+msgstr ""
+
+#: includes/Triggers/MetaBox/MetaBoxController.php:15
+msgid "Meta Box – WordPress Custom Fields Framework"
+msgstr ""
+
+#: includes/Triggers/MetaBox/MetaBoxController.php:68
+msgid "Post Name"
+msgstr ""
+
+#: includes/Triggers/MetaBox/MetaBoxController.php:94
+msgid "Metabox doesn't exists any Field Group"
+msgstr ""
+
+#: includes/Triggers/ModernEventsCalendar/ModernEventsCalendarController.php:15
+msgid "Best WordPress Event Calendar Plugin."
+msgstr ""
+
+#: includes/Triggers/ModernEventsCalendar/ModernEventsCalendarController.php:43
+msgid "Event Booking Confirmed"
+msgstr ""
+
+#: includes/Triggers/ModernEventsCalendar/ModernEventsCalendarController.php:44
+msgid "Event Booking Pending"
+msgstr ""
+
+#: includes/Triggers/ModernEventsCalendar/ModernEventsCalendarController.php:45
+msgid "Event Booking Cancelled"
+msgstr ""
+
+#: includes/Triggers/ModernEventsCalendar/ModernEventsCalendarController.php:46
+msgid "Event Booking Completed"
+msgstr ""
+
+#: includes/Triggers/MyCred/MyCredController.php:15
+msgid "Connect mycred with your favourite apps."
+msgstr ""
+
+#: includes/Triggers/MyCred/MyCredController.php:43
+msgid "User Earns Points"
+msgstr ""
+
+#: includes/Triggers/MyCred/MyCredController.php:44
+msgid "User Loses Points"
+msgstr ""
+
+#: includes/Triggers/MyCred/MyCredController.php:45
+msgid "User Earns Badge"
+msgstr ""
+
+#: includes/Triggers/MyCred/MyCredController.php:46
+msgid "User Earns Rank"
+msgstr ""
+
+#: includes/Triggers/MyCred/MyCredController.php:47
+msgid "User Loses Rank"
+msgstr ""
+
+#: includes/Triggers/Newsletter/NewsletterController.php:15
+msgid "Newsletter is a powerful yet simple email creation tool that helps you get in touch with your subscribers and engage them with your own content."
+msgstr ""
+
+#: includes/Triggers/Newsletter/NewsletterController.php:43
+#: includes/Triggers/PopupMaker/PopupMakerController.php:43
+msgid "Subscription Form Submission"
+msgstr ""
+
+#: includes/Triggers/NewUserApprove/NewUserApproveController.php:16
+msgid "Manage Website Access With the Best WordPress User Management Plugin"
+msgstr ""
+
+#: includes/Triggers/NewUserApprove/NewUserApproveController.php:44
+msgid "User Approved"
+msgstr ""
+
+#: includes/Triggers/NewUserApprove/NewUserApproveController.php:45
+msgid "User Denied"
+msgstr ""
+
+#: includes/Triggers/NewUserApprove/NewUserApproveController.php:46
+msgid "User Status Updated"
+msgstr ""
+
+#: includes/Triggers/NewUserApprove/NewUserApproveController.php:47
+msgid "User Status Set To Approve"
+msgstr ""
+
+#: includes/Triggers/NewUserApprove/NewUserApproveController.php:48
+msgid "User Status Set To Deny"
+msgstr ""
+
+#: includes/Triggers/NexForms/NexFormsController.php:15
+msgid "Ultimate Drag and Drop WordPress Forms Builder."
+msgstr ""
+
+#: includes/Triggers/NF/NFController.php:15
+msgid "Ninja Forms is a webform builder with unparalleled ease of use and features"
+msgstr ""
+
+#: includes/Triggers/NinjaTables/NinjaTablesController.php:15
+msgid "Best Data Table Plugin for WordPress."
+msgstr ""
+
+#: includes/Triggers/NinjaTables/NinjaTablesController.php:44
+msgid "New Row Added"
+msgstr ""
+
+#: includes/Triggers/NinjaTables/NinjaTablesController.php:45
+msgid "Row Updated"
+msgstr ""
+
+#: includes/Triggers/NinjaTables/NinjaTablesController.php:46
+msgid "Row Deleted"
+msgstr ""
+
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProController.php:15
+msgid "PaidMembershipPro"
+msgstr ""
+
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProController.php:51
+msgid "An admin assigns a membership level to a user"
+msgstr ""
+
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProController.php:53
+msgid "User purchases a membership"
+msgstr ""
+
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProController.php:54
+msgid "User's subscription to a membership expires"
+msgstr ""
+
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProController.php:200
+msgid "Any Membership Level"
+msgstr ""
+
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProHelper.php:24
+msgid "Confirmation"
+msgstr ""
+
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProHelper.php:28
+msgid "Initial Payment"
+msgstr ""
+
+#: includes/Triggers/PaidMembershipPro/PaidMembershipProHelper.php:32
+msgid "Billing Amount"
+msgstr ""
+
+#: includes/Triggers/Paymattic/PaymatticController.php:16
+msgid "Paymattic is a WordPress Payment form plugin."
+msgstr ""
+
+#: includes/Triggers/Paymattic/PaymatticController.php:44
+msgid "Payment Form Submission"
+msgstr ""
+
+#: includes/Triggers/Paymattic/PaymatticController.php:45
+msgid "Payment Status Changed"
+msgstr ""
+
+#: includes/Triggers/Paymattic/PaymatticController.php:46
+msgid "Payment Success"
+msgstr ""
+
+#: includes/Triggers/Paymattic/PaymatticController.php:47
+#: includes/Triggers/ProfileGrid/ProfileGridHelper.php:52
+msgid "Payment Failed"
+msgstr ""
+
+#: includes/Triggers/Paymattic/PaymatticController.php:48
+msgid "Note Created By User"
+msgstr ""
+
+#: includes/Triggers/PeepSo/PeepSoController.php:16
+msgid "PeepSo is a social network plugin for WordPress that allows you to quickly add a social network."
+msgstr ""
+
+#: includes/Triggers/PeepSo/PeepSoController.php:44
+msgid "User Follows PeepSo Member"
+msgstr ""
+
+#: includes/Triggers/PeepSo/PeepSoController.php:45
+msgid "User Gains Follower"
+msgstr ""
+
+#: includes/Triggers/PeepSo/PeepSoController.php:46
+msgid "User Loses Follower"
+msgstr ""
+
+#: includes/Triggers/PeepSo/PeepSoController.php:47
+msgid "User Unfollows PeepSo Member"
+msgstr ""
+
+#: includes/Triggers/PeepSo/PeepSoController.php:48
+msgid "User Updates Avatar"
+msgstr ""
+
+#: includes/Triggers/PeepSo/PeepSoController.php:49
+msgid "User Updates Profile Field"
+msgstr ""
+
+#: includes/Triggers/PeepSo/PeepSoController.php:50
+msgid "New Activity Post"
+msgstr ""
+
+#: includes/Triggers/PieForms/PieFormsController.php:15
+msgid "Pie Forms is a WordPress Form Builder."
+msgstr ""
+
+#: includes/Triggers/PiotnetAddon/PiotnetAddonController.php:15
+msgid "PiotnetAddon is pioneeringly provides many advanced features for Elementor based websites!"
+msgstr ""
+
+#: includes/Triggers/PiotnetAddonForm/PiotnetAddonFormController.php:15
+msgid "PiotnetAddonForm is pioneeringly provides many advanced features for Elementor based websites!"
+msgstr ""
+
+#: includes/Triggers/PiotnetForms/PiotnetFormsController.php:16
+msgid "Piotnet Forms - Highly Customizable WordPress Form Builder"
+msgstr ""
+
+#: includes/Triggers/PiotnetForms/PiotnetFormsController.php:33
+#, php-format
+msgid "Please make sure that all of your input fields <b>\"%s\"</b> are same for the selected form"
+msgstr ""
+
+#: includes/Triggers/PopupMaker/PopupMakerController.php:14
+msgid "Popup Maker"
+msgstr ""
+
+#: includes/Triggers/PopupMaker/PopupMakerController.php:19
+#, php-format
+msgid "Please submit a <strong>%s</strong> of Popup Maker"
+msgstr ""
+
+#: includes/Triggers/PopupMaker/PopupMakerHelper.php:46
+msgid "Popup Id"
+msgstr ""
+
+#: includes/Triggers/Post/PostController.php:32
+msgid "Wp Post"
+msgstr ""
+
+#: includes/Triggers/Post/PostController.php:65
+msgid "Create a new post"
+msgstr ""
+
+#: includes/Triggers/Post/PostController.php:66
+msgid "Updated a post"
+msgstr ""
+
+#: includes/Triggers/Post/PostController.php:67
+msgid "Delete a post"
+msgstr ""
+
+#: includes/Triggers/Post/PostController.php:68
+msgid "User views a post"
+msgstr ""
+
+#: includes/Triggers/Post/PostController.php:69
+msgid "User comments on a post"
+msgstr ""
+
+#: includes/Triggers/Post/PostController.php:70
+msgid "Change post status"
+msgstr ""
+
+#: includes/Triggers/Post/PostController.php:71
+msgid "Comment deleted on a post"
+msgstr ""
+
+#: includes/Triggers/Post/PostController.php:72
+msgid "Comment updated on a post"
+msgstr ""
+
+#: includes/Triggers/Post/PostController.php:73
+msgid "Post trashed"
+msgstr ""
+
+#: includes/Triggers/Post/PostHelper.php:147
+msgid "Featured Image"
+msgstr ""
+
+#: includes/Triggers/Post/PostHelper.php:152
+msgid "Post Permalink"
+msgstr ""
+
+#: includes/Triggers/Post/PostHelper.php:157
+msgid "Post Categories"
+msgstr ""
+
+#: includes/Triggers/PrestoPlayer/PrestoPlayerController.php:15
+#: includes/Triggers/WishlistMember/WishlistMemberController.php:16
+msgid "Connect with your fans, faster your community."
+msgstr ""
+
+#: includes/Triggers/PrestoPlayer/PrestoPlayerController.php:43
+msgid "Video Completed"
+msgstr ""
+
+#: includes/Triggers/PrestoPlayer/PrestoPlayerController.php:44
+msgid "Video Watched"
+msgstr ""
+
+#: includes/Triggers/ProfileBuilder/ProfileBuilderController.php:16
+#: includes/Triggers/QuillForms/QuillFormsController.php:15
+#: includes/Triggers/UserFeedback/UserFeedbackController.php:16
+msgid "Conversational Forms Builder for WordPress"
+msgstr ""
+
+#: includes/Triggers/ProfileBuilder/ProfileBuilderController.php:44
+msgid "User Registration"
+msgstr ""
+
+#: includes/Triggers/ProfileBuilder/ProfileBuilderController.php:45
+#: includes/Triggers/Registration/RegistrationController.php:34
+msgid "User Profile Update"
+msgstr ""
+
+#: includes/Triggers/ProfileBuilder/ProfileBuilderController.php:46
+msgid "User Email Confirmation"
+msgstr ""
+
+#: includes/Triggers/ProfileBuilder/ProfileBuilderController.php:47
+msgid "Email Send By Profile Builder"
+msgstr ""
+
+#: includes/Triggers/ProfileBuilder/ProfileBuilderController.php:48
+msgid "User Approved By Admin"
+msgstr ""
+
+#: includes/Triggers/ProfileBuilder/ProfileBuilderController.php:49
+msgid "User UnApproved By Admin"
+msgstr ""
+
+#: includes/Triggers/ProfileGrid/ProfileGridController.php:16
+msgid "Create WordPress user profiles, groups, communities, paid memberships, directories, WooCommerce profiles, bbPress profiles, content restriction, sign-up pages, blog submissions, notifications, social activity and private messaging, beautiful threaded interface and a lot more!"
+msgstr ""
+
+#: includes/Triggers/ProfileGrid/ProfileGridHelper.php:45
+msgid "Group Created"
+msgstr ""
+
+#: includes/Triggers/ProfileGrid/ProfileGridHelper.php:46
+msgid "Group Deleted"
+msgstr ""
+
+#: includes/Triggers/ProfileGrid/ProfileGridHelper.php:47
+msgid "Group Manager Resets User Password"
+msgstr ""
+
+#: includes/Triggers/ProfileGrid/ProfileGridHelper.php:48
+msgid "Membership Request Approved"
+msgstr ""
+
+#: includes/Triggers/ProfileGrid/ProfileGridHelper.php:49
+msgid "Membership Request Denied"
+msgstr ""
+
+#: includes/Triggers/ProfileGrid/ProfileGridHelper.php:50
+msgid "New Membership Request"
+msgstr ""
+
+#: includes/Triggers/ProfileGrid/ProfileGridHelper.php:51
+msgid "Payment Complete"
+msgstr ""
+
+#: includes/Triggers/ProfileGrid/ProfileGridHelper.php:53
+msgid "User Added to Group"
+msgstr ""
+
+#: includes/Triggers/ProfileGrid/ProfileGridHelper.php:54
+msgid "User Assigned Group Manager"
+msgstr ""
+
+#: includes/Triggers/ProfileGrid/ProfileGridHelper.php:55
+msgid "User Removed from Group"
+msgstr ""
+
+#: includes/Triggers/ProfileGrid/ProfileGridHelper.php:56
+msgid "User UnAssigned Group Manager"
+msgstr ""
+
+#: includes/Triggers/Rafflepress/RafflepressController.php:15
+msgid "RafflePress is the best WordPress giveaway and contest plugin. It comes with proven giveaway templates, viral sharing, marketing integrations, and more"
+msgstr ""
+
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:12
+msgid "Giveaway ID"
+msgstr ""
+
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:16
+msgid "Giveaway Name"
+msgstr ""
+
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:21
+msgid "Starts"
+msgstr ""
+
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:25
+msgid "Ends"
+msgstr ""
+
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:29
+msgid "Active"
+msgstr ""
+
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:49
+msgid "Prize Name"
+msgstr ""
+
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:53
+msgid "Prize Description"
+msgstr ""
+
+#: includes/Triggers/Rafflepress/RafflepressHelper.php:57
+msgid "Prize Image"
+msgstr ""
+
+#: includes/Triggers/Registration/RegistrationController.php:13
+msgid "WP User Registration"
+msgstr ""
+
+#: includes/Triggers/Registration/RegistrationController.php:33
+msgid "Create New User"
+msgstr ""
+
+#: includes/Triggers/Registration/RegistrationController.php:35
+#: includes/Triggers/SureMembers/SureMembersHelper.php:49
+msgid "User Login"
+msgstr ""
+
+#: includes/Triggers/Registration/RegistrationController.php:36
+msgid "User reset password"
+msgstr ""
+
+#: includes/Triggers/Registration/RegistrationController.php:37
+msgid "User delete account"
+msgstr ""
+
+#: includes/Triggers/Registration/RegistrationController.php:84
+msgid "Biographical Info"
+msgstr ""
+
+#: includes/Triggers/RestrictContent/RestrictContentController.php:16
+msgid "Restrict Content - WordPress membership plugin that allows you to monetize content access"
+msgstr ""
+
+#: includes/Triggers/RestrictContent/RestrictContentController.php:55
+msgid "A user purchases a membership level"
+msgstr ""
+
+#: includes/Triggers/RestrictContent/RestrictContentController.php:56
+msgid "A users membership to a specific level expires Pro"
+msgstr ""
+
+#: includes/Triggers/RestrictContent/RestrictContentController.php:57
+msgid "A users membership to a specific level is cancelled Pro"
+msgstr ""
+
+#: includes/Triggers/RestrictContent/RestrictContentController.php:122
+msgid "Membership level"
+msgstr ""
+
+#: includes/Triggers/RestrictContent/RestrictContentController.php:126
+msgid "Membership payment"
+msgstr ""
+
+#: includes/Triggers/RestrictContent/RestrictContentController.php:130
+msgid "Membership recurring payment"
+msgstr ""
+
+#: includes/Triggers/RestrictContent/RestrictContentController.php:149
+msgid "Restrict Content is not installed or activated"
+msgstr ""
+
+#: includes/Triggers/SenseiLMS/SenseiLMSController.php:15
+msgid "Learning Management System"
+msgstr ""
+
+#: includes/Triggers/SenseiLMS/StaticData.php:10
+msgid "User Attempts Quiz"
+msgstr ""
+
+#: includes/Triggers/SenseiLMS/StaticData.php:13
+msgid "User Completes Quiz Percentage"
+msgstr ""
+
+#: includes/Triggers/SenseiLMS/StaticData.php:14
+msgid "User Enrolled Course"
+msgstr ""
+
+#: includes/Triggers/SenseiLMS/StaticData.php:15
+msgid "User Fails Quiz"
+msgstr ""
+
+#: includes/Triggers/SenseiLMS/StaticData.php:16
+msgid "User Passes Quiz"
+msgstr ""
+
+#: includes/Triggers/SimplyScheduleAppointments/SimplyScheduleAppointmentsController.php:15
+msgid "Simply Schedule Appointments Booking Plugin is for Consultants and Small Businesses using WordPress."
+msgstr ""
+
+#: includes/Triggers/SimplyScheduleAppointments/SimplyScheduleAppointmentsController.php:44
+msgid "Appointment Rescheduled"
+msgstr ""
+
+#: includes/Triggers/SimplyScheduleAppointments/SimplyScheduleAppointmentsController.php:45
+msgid "New Appointment canceled"
+msgstr ""
+
+#: includes/Triggers/SiteOriginWidgets/SiteOriginWidgetsController.php:14
+msgid "SiteOrigin Widgets"
+msgstr ""
+
+#: includes/Triggers/SliceWp/SliceWpController.php:15
+msgid "SliceWP provides you an intuitive way to connect to your existing eCommerce WordPress plugin, onboard affiliates, learn from real-time reports and easily manage your affiliate program directly from your WordPress dashboard"
+msgstr ""
+
+#: includes/Triggers/SliceWp/SliceWpController.php:51
+msgid "User becomes an affiliate"
+msgstr ""
+
+#: includes/Triggers/SliceWp/SliceWpController.php:52
+msgid "User earns a commission"
+msgstr ""
+
+#: includes/Triggers/SliceWp/SliceWpHelper.php:24
+msgid "Website URL"
+msgstr ""
+
+#: includes/Triggers/SliceWp/SliceWpHelper.php:42
+msgid "Commission ID"
+msgstr ""
+
+#: includes/Triggers/SliceWp/SliceWpHelper.php:62
+msgid "Origin"
+msgstr ""
+
+#: includes/Triggers/SliceWp/SliceWpHelper.php:66
+msgid "Type"
+msgstr ""
+
+#: includes/Triggers/SolidAffiliate/SolidAffiliateController.php:15
+msgid "Solid Affiliate is a WordPress plugin that makes it easy to build an affiliate program for any WooCommerce store"
+msgstr ""
+
+#: includes/Triggers/SolidAffiliate/SolidAffiliateController.php:51
+msgid "Created new affiliate"
+msgstr ""
+
+#: includes/Triggers/SolidAffiliate/SolidAffiliateController.php:52
+msgid "Created new referral affiliate"
+msgstr ""
+
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:25
+msgid "Commission Type"
+msgstr ""
+
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:29
+msgid "Commission Rate"
+msgstr ""
+
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:37
+msgid "Mailchimp User ID"
+msgstr ""
+
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:41
+msgid "Affiliate Group ID"
+msgstr ""
+
+#: includes/Triggers/SolidAffiliate/SolidAffiliateHelper.php:45
+msgid "Registration Notes"
+msgstr ""
+
+#: includes/Triggers/Spectra/SpectraController.php:29
+msgid "Spectra data is empty"
+msgstr ""
+
+#: includes/Triggers/Spectra/SpectraController.php:41
+msgid "spectra test data removed successfully"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:22
+msgid "Build high-converting checkout pages and sales funnels on your own website. No coding required"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:128
+msgid "order_id"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:132
+msgid "date"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:136
+msgid "transaction_id"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:144
+msgid "payment_status"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:148
+msgid "custom_fields_post_data"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:152
+msgid "custom_fields"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:156
+msgid "custom_prices"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:160
+msgid "product_id"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:164
+msgid "product_name"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:168
+msgid "page_id"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:172
+msgid "page_url"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:176
+msgid "item_name"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:180
+msgid "plan"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:184
+msgid "plan_id"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:188
+msgid "option_id"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:192
+msgid "invoice_total"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:196
+msgid "invoice_subtotal"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:204
+msgid "main_offer_amt"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:208
+msgid "pre_tax_amount"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:212
+msgid "tax_amount"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:216
+msgid "auto_login"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:220
+msgid "coupon"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:228
+msgid "on_sale"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:232
+msgid "accept_terms"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:236
+msgid "accept_privacy"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:240
+msgid "consent"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:244
+msgid "order_log"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:248
+msgid "order_bumps"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:252
+msgid "us_parent"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:256
+msgid "ds_parent"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:260
+msgid "order_parent"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:264
+msgid "order_type"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:268
+msgid "subscription Id"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:272
+msgid "firstname"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:276
+msgid "lastname"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:280
+msgid "first_name"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:284
+msgid "last_name"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:288
+msgid "customer_name"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:292
+msgid "customer_id"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:304
+msgid "country"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:308
+msgid "address1"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:312
+msgid "address2"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:316
+msgid "city"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:320
+msgid "state"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:324
+msgid "zip"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:328
+msgid "ip_address"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:332
+msgid "user_account"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:336
+msgid "pay_method"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:340
+msgid "gateway_mode"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:348
+msgid "tax_rate"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:352
+msgid "tax_desc"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:356
+msgid "tax_data"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:360
+msgid "tax_type"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:364
+msgid "vat_number"
+msgstr ""
+
+#: includes/Triggers/StudioCart/StudioCartController.php:368
+msgid "stripe_tax_id"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartController.php:17
+msgid "SureCart was made to make ecommerce easy with a simple to use, all-in-one platform, that anyone can set up in just a few minutes"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartController.php:53
+msgid "User purchase a product"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartController.php:54
+msgid "User revoke purchase a product"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartController.php:55
+msgid "User unrevoked purchase product"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartController.php:140
+msgid "SureCart is not installed or activated"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:17
+#: includes/Triggers/SureCart/SureCartHelper.php:124
+msgid "Store Name"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:21
+#: includes/Triggers/SureCart/SureCartHelper.php:128
+msgid "Store Url"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:33
+#: includes/Triggers/SureCart/SureCartHelper.php:148
+msgid "Product Description"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:37
+msgid "Product Thumb"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:41
+msgid "Product Thumb Id"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:45
+msgid "Product Price Id"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:49
+msgid "Order Number"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:53
+#: includes/Triggers/SureCart/SureCartHelper.php:160
+msgid "Product Price"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:57
+msgid "Product Quantity"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:61
+msgid "Max Price amount"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:65
+msgid "Min Price amount"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:73
+msgid "Order Date"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:81
+msgid "Order Paid Amount"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:85
+msgid "Payment Currency"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:93
+msgid "Subscriptions Id"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:101
+msgid "Customer Name"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:117
+msgid "Customer Phone Number"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:132
+msgid "Purchase Id"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:136
+msgid "Revoke Date"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:156
+msgid "Product Image Id"
+msgstr ""
+
+#: includes/Triggers/SureCart/SureCartHelper.php:164
+msgid "Product Currency"
+msgstr ""
+
+#: includes/Triggers/SureFeedback/SureFeedbackController.php:15
+msgid "A WordPress plugin for Website & Design feedback."
+msgstr ""
+
+#: includes/Triggers/SureFeedback/SureFeedbackController.php:43
+msgid "Comment Marked As Resolved"
+msgstr ""
+
+#: includes/Triggers/SureFeedback/SureFeedbackController.php:44
+msgid "New Comment On Site"
+msgstr ""
+
+#: includes/Triggers/SureFeedback/SureFeedbackHelper.php:64
+msgid "Mockup"
+msgstr ""
+
+#: includes/Triggers/SureFeedback/SureFeedbackHelper.php:65
+msgid "Resolved"
+msgstr ""
+
+#: includes/Triggers/SureFeedback/SureFeedbackHelper.php:65
+msgid "Unresolved"
+msgstr ""
+
+#: includes/Triggers/SureForms/SureFormsController.php:15
+msgid "SureForms"
+msgstr ""
+
+#: includes/Triggers/SureMail/SureMailController.php:16
+msgid "A simple yet powerful way to create modern forms for your website."
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersController.php:16
+msgid "SureMembers"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersController.php:43
+msgid "User Added To Access Group"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersController.php:44
+msgid "User Removed From Access Group"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersController.php:45
+msgid "Access Group Updated"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:13
+msgid "Group Rules Rules"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:18
+msgid "Group Suremembers User Roles"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:23
+msgid "Group Restrict Redirect URL"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:28
+msgid "Group Restrict Unauthorized Action"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:33
+msgid "Group Restrict Preview Content"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:44
+msgid "WP User ID"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:59
+msgid "User First Name"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:64
+msgid "User Lastname"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:74
+msgid "User Role"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:90
+msgid "Group Post Author"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:95
+msgid "Group Post Date"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:100
+msgid "Group Post Date GMT"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:105
+msgid "Group Post Content"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:110
+msgid "Group Post Title"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:115
+msgid "Group Post Excerpt"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:120
+msgid "Group Post Status"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:125
+msgid "Group Comment Status"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:130
+msgid "Group Ping Status"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:135
+msgid "Group Post Password"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:140
+msgid "Group Post Name"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:145
+msgid "Group To Ping"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:150
+msgid "Group Pinged"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:155
+msgid "Group Post Modified"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:160
+msgid "Group Post Modified GMT"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:165
+msgid "Group Post Content Filtered"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:170
+msgid "Group Post Parent"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:175
+msgid "Group Guid"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:180
+msgid "Group Menu Order"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:185
+msgid "Group Post Type"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:190
+msgid "Group Post Mime Type"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:195
+msgid "Group Comment Count"
+msgstr ""
+
+#: includes/Triggers/SureMembers/SureMembersHelper.php:200
+msgid "Group Filter"
+msgstr ""
+
+#: includes/Triggers/Themify/ThemifyController.php:50
+#: includes/Triggers/Themify/ThemifyController.php:80
+msgid "Themify is not installed or activated"
+msgstr ""
+
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeController.php:15
+msgid "ThriveApprentice"
+msgstr ""
+
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeController.php:51
+msgid "User Complete a Module"
+msgstr ""
+
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeController.php:93
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeController.php:202
+msgid "Any Module"
+msgstr ""
+
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeHelper.php:72
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:272
+msgid "Module ID"
+msgstr ""
+
+#: includes/Triggers/ThriveApprentice/ThriveApprenticeHelper.php:76
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:275
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:299
+msgid "Module Title"
+msgstr ""
+
+#: includes/Triggers/TriggerController.php:56
+#, php-format
+msgid "%s data is empty"
+msgstr ""
+
+#: includes/Triggers/TriggerController.php:74
+#, php-format
+msgid "%s test data removed successfully"
+msgstr ""
+
+#: includes/Triggers/Tripetto/TripettoController.php:17
+msgid "Tired of boring and ugly forms in your WordPress site? Use the Tripetto form builder to make your forms conversational!"
+msgstr ""
+
+#: includes/Triggers/TutorLms/TutorLmsController.php:15
+msgid "Tutor LMS - eLearning and online course solution"
+msgstr ""
+
+#: includes/Triggers/TutorLms/TutorLmsController.php:43
+msgid "Course-Enroll"
+msgstr ""
+
+#: includes/Triggers/TutorLms/TutorLmsController.php:45
+msgid "Completed a lesson"
+msgstr ""
+
+#: includes/Triggers/TutorLms/TutorLmsController.php:46
+msgid "Complete a course"
+msgstr ""
+
+#: includes/Triggers/TutorLms/TutorLmsController.php:253
+msgid "Student First Name"
+msgstr ""
+
+#: includes/Triggers/TutorLms/TutorLmsController.php:258
+msgid "Student Last Name"
+msgstr ""
+
+#: includes/Triggers/TutorLms/TutorLmsController.php:263
+msgid "Student Email"
+msgstr ""
+
+#: includes/Triggers/TutorLms/TutorLmsController.php:278
+msgid "Tutor Course Level"
+msgstr ""
+
+#: includes/Triggers/TutorLms/TutorLmsController.php:283
+msgid "Tutor Course Benifits"
+msgstr ""
+
+#: includes/Triggers/TutorLms/TutorLmsController.php:288
+msgid "Tutor Course Requirements"
+msgstr ""
+
+#: includes/Triggers/TutorLms/TutorLmsController.php:293
+msgid "Tutor Course Material Includes"
+msgstr ""
+
+#: includes/Triggers/TutorLms/TutorLmsController.php:298
+msgid "Tutor Course Product ID"
+msgstr ""
+
+#: includes/Triggers/TutorLms/TutorLmsController.php:303
+msgid "Tutor Course Price Type"
+msgstr ""
+
+#: includes/Triggers/TutorLms/TutorLmsController.php:366
+msgid "Passing Grade"
+msgstr ""
+
+#: includes/Triggers/TutorLms/TutorLmsController.php:420
+msgid "Topic Description"
+msgstr ""
+
+#: includes/Triggers/UltimateMember/UltimateMemberController.php:15
+msgid "Ultimate Member is the #1 user profile & membership plugin for WordPress. The plugin makes it a breeze for users to sign-up and become members of your website"
+msgstr ""
+
+#: includes/Triggers/UltimateMember/UltimateMemberController.php:54
+msgid "User's role changes to a specific role"
+msgstr ""
+
+#: includes/Triggers/UltimateMember/UltimateMemberController.php:58
+msgid "User's role change"
+msgstr ""
+
+#: includes/Triggers/UserFeedback/UserFeedbackController.php:44
+msgid "Survey Response"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelController.php:15
+msgid "Voxel"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelHelper.php:93
+msgid "Content"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelHelper.php:108
+#: includes/Triggers/Voxel/VoxelHelper.php:121
+msgid "Comment Id"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelHelper.php:109
+msgid "Status Id"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelHelper.php:119
+msgid "Reply Id"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelHelper.php:120
+msgid "Reply"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelHelper.php:122
+msgid "Comment"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelHelper.php:133
+#: includes/Triggers/Voxel/VoxelHelper.php:187
+msgid "Wall Posts"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelHelper.php:175
+msgid "Review Content"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelHelper.php:176
+msgid "Review Created At"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelHelper.php:177
+msgid "Review Details"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelHelper.php:417
+msgid "Vendor Id"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelHelper.php:418
+msgid "Order Details"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelHelper.php:420
+msgid "Tax Amount"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelHelper.php:421
+msgid "Discount Amount"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelHelper.php:422
+msgid "Shipping Amount"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelHelper.php:425
+msgid "Subtotal"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelHelper.php:426
+msgid "Total"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelHelper.php:427
+msgid "Order Items"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelHelper.php:428
+msgid "Order Items Count"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:64
+msgid "Collection New Post Created"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:64
+msgid "Runs after a new collection is created."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:65
+msgid "Collection Post Updated"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:65
+msgid "Runs after an existing collection is updated."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:66
+msgid "New Profile Created"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:66
+msgid "Runs after a new profile is created."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:67
+msgid "Profile Updated"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:67
+msgid "Runs after a profile is updated."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:68
+msgid "Profile Approved"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:68
+msgid "Runs after a profile is approved."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:69
+msgid "Profile Rejected"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:69
+msgid "Runs after a profile is rejected."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:70
+msgid "Post Submitted"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:70
+msgid "Runs after a specific post type's post is submitted."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:71
+msgid "Post Updated"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:71
+msgid "Runs after a specific post type's post is updated."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:72
+msgid "Post Approved"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:72
+msgid "Runs after a specific post type's post is approved."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:73
+msgid "Post Rejected"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:73
+msgid "Runs after a specific post type's post is rejected."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:74
+msgid "Post Reviewed"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:74
+msgid "Runs after a specific post type's post is reviewed."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:75
+msgid "User Receives Message"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:75
+msgid "Runs after a user receives a message."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:76
+msgid "User Registered for Membership"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:76
+msgid "Runs after a new user is registered for membership."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:77
+msgid "Membership Plan Activated"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:77
+msgid "Runs after a membership plan is activated."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:78
+msgid "Membership Plan Switched"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:78
+msgid "Runs after a membership plan is switched."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:79
+msgid "Membership Plan Canceled"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:79
+msgid "Runs after a membership plan is canceled."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:80
+msgid "New Comment"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:80
+msgid "Runs after a new comment is added on the timeline."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:81
+msgid "Comment New Reply"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:81
+msgid "Runs after a new comment reply is created on the timeline."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:82
+msgid "Profile New Wall Post"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:82
+msgid "Runs after a user adds a post to their wall."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:83
+msgid "New Wall Post by User"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:83
+msgid "Runs after a new post is created on specified post type wall."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:84
+msgid "New Order Placed"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:84
+msgid "Runs after a new order is placed by customer."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:85
+msgid "Order Approved by Vendor"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:85
+msgid "Runs after an order is approved by vendor."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:86
+msgid "Order Declined by Vendor"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:86
+msgid "Runs after an order is declined by vendor."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:87
+msgid "Order Canceled by Customer"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:87
+msgid "Runs after a order is canceled by customer."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:88
+msgid "Orders Claim Listing"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:88
+msgid "Runs after a order listing is claimed."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:89
+msgid "Order Promotion Activated"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:89
+msgid "Runs after a promotion is activated on an order."
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:90
+msgid "Order Promotion Cancelled"
+msgstr ""
+
+#: includes/Triggers/Voxel/VoxelTasks.php:90
+msgid "Runs after a promotion is canceled on an order."
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsController.php:13
+msgid "Allow customers to book appointments, make reservations or rent equipment without leaving your site."
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsController.php:34
+msgid "A booking is created"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsController.php:35
+msgid "A booking is confirmed"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsController.php:36
+msgid "A booking is unpaid to paid"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsController.php:37
+msgid "A booking is updated"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsController.php:38
+msgid "A booking status is changed"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsController.php:70
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsController.php:99
+msgid "Task doesn't exists any field"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:55
+msgid "Booking ID"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:60
+msgid "Booking Status"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:65
+msgid "All Day"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:70
+msgid "Booking Total Person Counts"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:75
+msgid "Parent Order ID"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:80
+msgid "Booking Start"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:85
+msgid "Booking End"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:90
+msgid "Booking Product ID"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:95
+msgid "Booking Product Title"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:100
+msgid "Booking Product URL"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:105
+msgid "Booking Product SKU"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:110
+msgid "Booking Product Price"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:115
+msgid "Booking Product Regular Price"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:120
+msgid "Booking Product Sale Price"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:440
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:365
+msgid "Is Paying Customer"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:451
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:376
+msgid "Billing First Name"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:456
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:381
+msgid "Billing Last Name"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:461
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:386
+msgid "Billing Company"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:466
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:391
+msgid "Billing Address 1"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:471
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:396
+msgid "Billing Address 2"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:476
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:401
+msgid "Billing City"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:481
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:406
+msgid "Billing Post Code"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:486
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:411
+msgid "Billing Country"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:491
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:416
+msgid "Billing State"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:496
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:421
+msgid "Billing Email"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:501
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:426
+msgid "Billing Phone"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:512
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:437
+msgid "Shipping First Name"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:517
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:442
+msgid "Shipping Last Name"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:522
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:447
+msgid "Shipping Company"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:527
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:452
+msgid "Shipping Address 1"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:532
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:457
+msgid "Shipping Address 2"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:537
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:462
+msgid "Shipping City"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:542
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:467
+msgid "Shipping Post Code"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:547
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:472
+msgid "Shipping Country"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:563
+msgid "Order Key"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:568
+msgid "Order Cart Tax"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:573
+msgid "Order Currency"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:578
+msgid "Order Discount Tax"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:583
+msgid "Order Discount To Display"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:588
+msgid "Order Discount Total"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:593
+msgid "Order Shipping Tax"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:598
+msgid "Order Shipping Total"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:603
+msgid "Order Total Tax"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:613
+msgid "Order Total Refunded"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:618
+msgid "Order Total Shipping Refunded"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:623
+msgid "Order Total Qty Refunded"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:628
+msgid "Order remaining_refund_amount"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:638
+msgid "Order shipping method"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:643
+msgid "Order Created Via"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:648
+msgid "Order Date created"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:653
+msgid "Order Date Modified"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:658
+msgid "Order Date completed"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:663
+msgid "Order Date paid"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:669
+msgid "Order Prices Include Tax"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:674
+msgid "Order Payment Method"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:679
+msgid "Order Payment Method Title"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:684
+msgid "Order Line Items"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:689
+msgid "Order Checkout Received URL"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:694
+msgid "Order Customer Note"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:705
+msgid "Order Device Type"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:710
+msgid "Order Referring source"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:715
+msgid "Order Session Count"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:720
+msgid "Order Session Entry"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:725
+msgid "Order Session page views"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:730
+msgid "Order Session Start Time"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:735
+msgid "Order Source Type"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:740
+msgid "Order User Agent"
+msgstr ""
+
+#: includes/Triggers/WCBookings/WCBookingsHelper.php:745
+msgid "Order Origin"
+msgstr ""
+
+#: includes/Triggers/WCMemberships/WCMembershipsController.php:16
+msgid "Woocommerce memberships plugin."
+msgstr ""
+
+#: includes/Triggers/WCMemberships/WCMembershipsHelper.php:86
+msgid "User Added to Membership Plan"
+msgstr ""
+
+#: includes/Triggers/WCMemberships/WCMembershipsHelper.php:91
+msgid "User Update to Membership Plan"
+msgstr ""
+
+#: includes/Triggers/WCMemberships/WCMembershipsHelper.php:96
+msgid "User's Membership Deleted"
+msgstr ""
+
+#: includes/Triggers/WCMemberships/WCMembershipsHelper.php:101
+msgid "Membership user Role Updated"
+msgstr ""
+
+#: includes/Triggers/WCMemberships/WCMembershipsHelper.php:106
+msgid "New Membership Note Added"
+msgstr ""
+
+#: includes/Triggers/WCMemberships/WCMembershipsHelper.php:111
+msgid "User's Membership Activation or Re-Activation"
+msgstr ""
+
+#: includes/Triggers/WCMemberships/WCMembershipsHelper.php:116
+msgid "User's Membership Paused"
+msgstr ""
+
+#: includes/Triggers/WCMemberships/WCMembershipsHelper.php:121
+msgid "User's Membership Transferred"
+msgstr ""
+
+#: includes/Triggers/WCMemberships/WCMembershipsHelper.php:126
+msgid "User's Membership Status Set to Delayed"
+msgstr ""
+
+#: includes/Triggers/WCMemberships/WCMembershipsHelper.php:131
+msgid "User's Membership Status Set to Cancelled"
+msgstr ""
+
+#: includes/Triggers/WCMemberships/WCMembershipsHelper.php:136
+msgid "User's Membership Status Set to Expires"
+msgstr ""
+
+#: includes/Triggers/WCMemberships/WCMembershipsHelper.php:141
+msgid "User's Membership Status Set to Complimentary"
+msgstr ""
+
+#: includes/Triggers/WCMemberships/WCMembershipsHelper.php:146
+msgid "User's Membership Status Set to Pending Cancellation"
+msgstr ""
+
+#: includes/Triggers/WCMemberships/WCMembershipsHelper.php:151
+msgid "User's Membership Status Set to Paused"
+msgstr ""
+
+#: includes/Triggers/WCMemberships/WCMembershipsHelper.php:156
+msgid "User's membership status is changed"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsController.php:17
+#, php-format
+msgid "%s - Sell products and services with recurring payments in your WooCommerce Store."
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsController.php:42
+msgid "User Subscribes to Product"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsController.php:43
+msgid "User Purchases Variable Subscription"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsController.php:44
+msgid "User Renews Subscription"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsController.php:45
+msgid "User Cancels Subscription"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsController.php:46
+msgid "User Subscription Status Updated"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsController.php:47
+msgid "User Subscription Expires"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsController.php:48
+msgid "User Subscription Trial End"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsController.php:49
+msgid "User Renewal Subscription Payment Failed"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsController.php:91
+msgid "Last Order Id"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:162
+msgid "Subscription Id"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:172
+msgid "Subscription status"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:177
+msgid "Subscription Order Number"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:182
+msgid "Subscription Order Key"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:187
+msgid "Parent Order Id"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:192
+msgid "Line Items"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:202
+msgid "Prices Include Tax"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:207
+msgid "Discount Total Amount"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:212
+msgid "Discount Tax Amount"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:217
+msgid "Shipping Total Amount"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:222
+msgid "Shipping Tax Amount"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:227
+msgid "Cart Tax Amount"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:232
+msgid "Recurring Total Tax Amount"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:237
+msgid "Total Amount"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:247
+msgid "Payment Method Title"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:252
+msgid "Transaction Id"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:257
+msgid "Customer Note"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:262
+msgid "Billing Period"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:267
+msgid "Billing Interval"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:272
+msgid "Suspension Count"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:282
+msgid "Modified Date"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:287
+msgid "Trial End Date"
+msgstr ""
+
+#: includes/Triggers/WCSubscriptions/WCSubscriptionsHelper.php:292
+msgid "Next Payment Date"
+msgstr ""
+
+#: includes/Triggers/Webhook/WebhookController.php:39
+msgid "Failed to generate new hook"
+msgstr ""
+
+#: includes/Triggers/Webhook/WebhookController.php:61
+msgid "Webhook data is empty"
+msgstr ""
+
+#: includes/Triggers/Webhook/WebhookController.php:71
+msgid "Logged in user required!"
+msgstr ""
+
+#: includes/Triggers/WeForms/WeFormsController.php:15
+msgid "WeForms - Contact Form, Payment Form & Custom Form Builder"
+msgstr ""
+
+#: includes/Triggers/WishlistMember/WishlistMemberController.php:44
+msgid "User Added to Membership Level"
+msgstr ""
+
+#: includes/Triggers/WishlistMember/WishlistMemberController.php:45
+msgid "User Removed from Membership Level"
+msgstr ""
+
+#: includes/Triggers/WpAllImport/WpAllImportController.php:16
+msgid "WP All Import plugin."
+msgstr ""
+
+#: includes/Triggers/WpAllImport/WpAllImportController.php:44
+msgid "Import Completed"
+msgstr ""
+
+#: includes/Triggers/WpAllImport/WpAllImportController.php:45
+msgid "Import Failed"
+msgstr ""
+
+#: includes/Triggers/WpAllImport/WpAllImportController.php:46
+msgid "Post Type Imported"
+msgstr ""
+
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:15
+msgid "The first and most widely-trusted course creation plugin for WordPress, WP Courseware makes course creation simple and fast with an intuitive, drag-and-drop course builder and all the features you need to create world-class courses"
+msgstr ""
+
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:142
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:158
+msgid "WP Courseware is not installed or activated"
+msgstr ""
+
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:208
+msgid "User Enrolled in Course"
+msgstr ""
+
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:211
+msgid "User Completed Course"
+msgstr ""
+
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:214
+msgid "User Completed Module"
+msgstr ""
+
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:217
+msgid "User Completed Unit"
+msgstr ""
+
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:241
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:262
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:283
+msgid "Enroll User ID"
+msgstr ""
+
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:244
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:265
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:286
+msgid "Enroll User Name"
+msgstr ""
+
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:247
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:268
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:289
+msgid "Enroll User Email"
+msgstr ""
+
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:293
+msgid "Unit ID"
+msgstr ""
+
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:296
+msgid "Unit Title"
+msgstr ""
+
+#: includes/Triggers/WPCourseware/WPCoursewareController.php:344
+msgid "Any Unit"
+msgstr ""
+
+#: includes/Triggers/WPEF/WPEFController.php:24
+msgid "eForm - WordPress Form Builder"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:16
+msgid "wpForo Forum"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:43
+msgid "New Topic Added"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:43
+msgid "Runs after a user creates a new topic in a forum"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:44
+msgid "New Reply Added"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:44
+msgid "Runs after a user replies (or posts) to a topic in a forum"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:45
+msgid "New Up Vote Added"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:45
+msgid "Runs after a user votes up a post or a topic"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:46
+msgid "New Down Vote Added"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:46
+msgid "Runs after a user votes down a post or a topic"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:47
+msgid "Like a Post"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:47
+msgid "Runs after a user likes a post or a topic"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:48
+msgid "Dislike a Post"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:48
+msgid "Runs after a user dislikes a post or a topic"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:49
+msgid "User (Author) Gets a Vote Up"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:49
+msgid "Runs after a post author gets a vote up on a post"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:50
+msgid "User (Author) Gets a Vote Down"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:50
+msgid "Runs after a post author gets a vote down on a post"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:51
+msgid "User (Author) Gets a Like"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:51
+msgid "Runs after a post author gets a like on a post"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:52
+msgid "User (Author) Gets a Dislike"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:52
+msgid "Runs after a post author gets a dislike on a post"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:53
+msgid "Answer a question"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:53
+msgid "Runs after an user answers a question"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:54
+msgid "Get a question answered"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:54
+msgid "Runs after a question author gets a question answered"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoController.php:73
+msgid "wpForo is not installed or activated"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoHelper.php:470
+msgid "Any Forum"
+msgstr ""
+
+#: includes/Triggers/WPForo/WPForoHelper.php:513
+#: includes/Triggers/WPJobManager/WPJobManagerHelper.php:302
+msgid "Any User"
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:15
+msgid "WP Job Manager"
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:42
+msgid "Job published"
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:42
+msgid "Runs after a user publishes a new job of a particular type"
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:43
+msgid "A job is filled"
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:43
+msgid "Runs after a user marks a job as filled"
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:44
+msgid "Job - mark not filled"
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:44
+msgid "Runs after a user marks a job as not filled"
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:46
+msgid "A user marks a specific type of job as filled"
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:47
+msgid "Runs after user marks a specific type (e.g., job types - full time, part time, etc.) of job as filled"
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:49
+msgid "A user marks a specific type of job as not filled"
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:50
+msgid "A user updates a job"
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:50
+msgid "Runs after a user updates a job from the job dashboard"
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:51
+msgid "A user receives an application to a specific type of job"
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:52
+msgid "An application is received for a specific job type"
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:53
+msgid "A user's application is set to a specific status"
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:54
+msgid "A user's application of a specific job type is set to a specific status."
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:55
+msgid "Applies with resume"
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerController.php:55
+msgid "An user applies for a job (submits an application) with a resume"
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerHelper.php:230
+msgid "Any Job Type"
+msgstr ""
+
+#: includes/Triggers/WPJobManager/WPJobManagerHelper.php:246
+msgid "Any Job"
+msgstr ""
+
+#: includes/Triggers/WPLMS/WPLMSController.php:17
+msgid "WPLMS is a social network plugin for WordPress that allows you to quickly add a social network."
+msgstr ""
+
+#: includes/Triggers/WPLMS/WPLMSController.php:44
+msgid "User complete course"
+msgstr ""
+
+#: includes/Triggers/WPLoyalty/WPLoyaltyController.php:16
+msgid "Points and Rewards for WooCommerce"
+msgstr ""
+
+#: includes/Triggers/WPLoyalty/WPLoyaltyController.php:43
+msgid "Points Awarded Customer"
+msgstr ""
+
+#: includes/Triggers/WpPolls/WpPollsController.php:15
+msgid "WP-Polls is a WordPress polls plugin."
+msgstr ""
+
+#: includes/Triggers/WpPolls/WpPollsController.php:43
+msgid "Poll Submitted"
+msgstr ""
+
+#: includes/Triggers/WpSimplePay/WpSimplePayController.php:15
+msgid "WP Simple Pay is a WordPress Payment form plugin."
+msgstr ""
+
+#: includes/Triggers/WpSimplePay/WpSimplePayController.php:43
+msgid "Payment For Form Completed"
+msgstr ""
+
+#: includes/Triggers/WpSimplePay/WpSimplePayController.php:44
+msgid "Subscription For Form Created"
+msgstr ""
+
+#: includes/Triggers/WpSimplePay/WpSimplePayController.php:45
+msgid "Subscription For Form Renewed"
+msgstr ""
+
+#: includes/Triggers/WSForm/WSFormController.php:15
+msgid "WSForm - WS Form LITE is a powerful contact form builder plugin for WordPress"
+msgstr ""
+
+#: includes/Triggers/WSForm/WSFormController.php:31
+msgid "Setup Action Hook"
+msgstr ""
+
+#: includes/Triggers/WSForm/WSFormController.php:31
+msgid "Goto"
+msgstr ""
+
+#: includes/Triggers/WSForm/WSFormController.php:31
+msgid "Actions"
+msgstr ""
+
+#: includes/Triggers/WSForm/WSFormController.php:31
+msgid "and create an action"
+msgstr ""
+
+#: includes/Triggers/WSForm/WSFormController.php:31
+msgid "Select Action"
+msgstr ""
+
+#: includes/Triggers/WSForm/WSFormController.php:31
+msgid "Run WordPress Hook"
+msgstr ""
+
+#: includes/Triggers/WSForm/WSFormController.php:31
+msgid "Select Type"
+msgstr ""
+
+#: includes/Triggers/WSForm/WSFormController.php:31
+msgid "Action"
+msgstr ""
+
+#: includes/Triggers/WSForm/WSFormController.php:31
+msgid "Add Hook Tag"
+msgstr ""
+
+#: includes/Triggers/WSForm/WSFormController.php:31
+msgid "File Upload"
+msgstr ""
+
+#: includes/Triggers/WSForm/WSFormController.php:31
+msgid "Field Settings"
+msgstr ""
+
+#: includes/Triggers/WSForm/WSFormController.php:31
+msgid "Under File Handler select Save To"
+msgstr ""
+
+#: includes/Triggers/WSForm/WSFormController.php:31
+msgid "WS Form (Public)"
+msgstr ""

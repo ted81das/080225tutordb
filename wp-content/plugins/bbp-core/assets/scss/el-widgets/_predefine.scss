@@ -1,0 +1,136 @@
+/** ===== section title scss ====== **/
+.dbl-arrow {
+  display: inline-block;
+
+  .arrow-cont {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+
+    i {
+      position: absolute;
+      bottom: 0;
+      margin-left: 0px;
+      background-size: contain;
+      top: 5px;
+      left: 0%;
+    }
+
+    .second {
+      margin-left: 8px;
+    }
+  }
+
+  &:hover {
+    i {
+      animation-name: bounceAlpha;
+      animation-duration: 1.4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+
+      &.first {
+        animation-name: bounceAlpha;
+        animation-duration: 1.4s;
+        animation-delay: 0.2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+    }
+  }
+}
+
+@keyframes bounceAlpha {
+  0% {
+    opacity: 1;
+    transform: translateX(0px) scale(1);
+  }
+  25% {
+    opacity: 0;
+    transform: translateX(10px) scale(0.9);
+  }
+  26% {
+    opacity: 0;
+    transform: translateX(-10px) scale(0.9);
+  }
+  55% {
+    opacity: 1;
+    transform: translateX(0px) scale(1);
+  }
+}
+
+.dbl-arrow-upper {
+  display: inline-block;
+
+  .arrow-cont {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right: 3px;
+
+    i {
+      position: absolute;
+      bottom: 0;
+      margin-left: 0px;
+      background-size: contain;
+      top: 2px;
+      left: 0%;
+    }
+
+    .second {
+      margin-top: 5px;
+    }
+  }
+
+  &:hover {
+    i {
+      animation-name: bounceAlphaUp;
+      animation-duration: 1.4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+
+      &.first {
+        animation-name: bounceAlphaUp;
+        animation-duration: 1.4s;
+        animation-delay: 0.2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+    }
+  }
+}
+
+@keyframes bounceAlphaUp {
+  0% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+  25% {
+    opacity: 0;
+    transform: translateY(10px) scale(0.9);
+  }
+  26% {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.9);
+  }
+  55% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+.search-focused {
+  .click_capture {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .banner_search_form {
+    position: relative;
+    z-index: 999 !important;
+  }
+}

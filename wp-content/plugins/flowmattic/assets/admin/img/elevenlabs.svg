@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="81px" viewBox="0 0 80 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>elevenlabs</title>
+    <g id="Integrations---small" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="elevenlabs">
+            <rect id="bg" fill="#FFFFFF" x="0" y="0" width="80" height="80.3238866"></rect>
+            <g id="Group" transform="translate(22, 9)" fill="#000000" fill-rule="nonzero">
+                <polygon id="Path" points="12.3333333 0 0 0 0 62 12.3333333 62"></polygon>
+                <polygon id="Path" points="37 0 24.6666667 0 24.6666667 62 37 62"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

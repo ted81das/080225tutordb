@@ -1,0 +1,1114 @@
+5.2.1 -
+
+# Fix 
+- Date/time formatter - modify date format action not supporting the date formats with / in it.
+- Fix typecasting on parameter value if nested parameters are used in API module
+
+5.2.0 - 27 July, 2025
+# New 
+- MCP Server - Get your site MCP ready in just a few clicks with FlowMattic MCP Server 
+- FlowMattic MCP module in workflow to let you handle MCP tool triggered workflow and responses to MCP client efficiently
+- Data Transformer core module to help you perform data transformation from a format to another
+- Re-designed dashboard page with modern look and feel and including more stats and easy access buttons
+- Re-designed workflow admin screen with load more functionality, better search and slightly improved UI for better visibility
+- Re-designed System Status screen with more information including recommendations for certain site and server configurations
+- Re-designed Connects admin page UI/UX with filters and search functionality
+- Re-designed FlowMattic settings page UI/UX
+
+# Improved
+- External database connections now supports SSL methods
+- WordPress get posts by meta now displays an error message if no posts found
+- WordPress action - Add category to post now accepts either category slug or category name
+- Text formatter Extract Pattern with Regex action now supports different pattern methods
+- Improved UI for task history and view details popup
+- Workflows admin page now loads faster
+- Rename step feature now let you select and remove all the text with some improved UI/UX 
+- Full Unicode character support added for the Tables
+
+# Fix
+- Router - Route Copy/Paste/Duplicate not updating the references to mapped dynamic tags correctly
+- PHP warning on webhook response module if response is set from the webhook trigger
+- Arbitary JSON response from API module causing it to fail from loading the settings once closed
+- Adding Router within Router to split steps causes incorrect dynamic tag number updates 
+- 3rd party plugin altering the webhook payload before it was being parsed by FlowMattic webhook
+- Trigger event was not being updated correctly when changing the selected app in the same settings window
+- Custom variables table now showing variables above 100 due to transient conflict
+- Cron job for Connect refresh token was sometimes duplicating due to parameter typecasting issue
+- Task history cleanup cron was not registering on some sites on first time activation of FlowMattic
+- Delay in nested Router was conflicting and repeating the tasks incorrectly
+- Tables module not updating the row data to table for chinese characters were passed as column value
+- Multiple magic links on same page causing multiple triggers of the workflow when a link is clicked
+
+5.1.4 - 24 May, 2025
+# New 
+- Option to enable/disable the new admin bar menu 
+- Option to enable/disable the headers capture in webhook response
+- Added Copy response button for Trigger step response in response details popup 
+- Added Copy response button for Action step data out tab
+
+# Fix
+- Webhook capture responses were conflicting with the mapped data for some integrations
+
+5.1.3 - 22 May, 2025
+# New
+- Added FlowMattic menu to the Admin Bar for easy access from any admin screen
+
+# Improved
+- FlowMattic admin page menu now does not overlap on the logo
+
+# Fix 
+- Filter conditions configuration throwing a JS error when setting up the conditions first time
+- Email attachments not uploading to media library
+- Webhook file uploads not uploading files to media library
+- Webhook capture not working well on some sites due to old PHP version
+- PHP Warning message if a Connect is saved without Client ID and Secret
+
+5.1.2 - 11 May, 2025
+
+# Improved
+- Magic Link JS is converted to Vanila JS to avoid conflicts where sites have not loaded jQuery on frontend
+
+# Fix 
+- Webhook capture for apps other than webhook was not showing the simple response
+- First Route was not showing in the Task History if the multiple conditions were set
+
+5.1.1 - 10 May, 2025
+# New 
+- Magic Link module : trigger - execute your workflows on click of a link
+- Lookup Table module : action - Lookup a value in a custom data table 
+- Task history page now shows better pagination with ability to choose number of items to display
+- Task history page now shows the re-executed tasks and the original task that was re-executed with an indicator to identify easily
+- Added alt text, caption, and description to WordPress New Media action
+
+# Improved
+- Added Records Count to the CSV Parser module response
+- Provisions for future integration Connects where authentication or APIs are based on custom domain
+- Tables - find record actions now supports date/time strings with - (hyphen) instead of only / (slash) as separator
+- Email Template pre-header now supports the dynamic data
+- Added a note for the Column name change in Table, where the change is actually for visual purpose
+- Added a field and note for the Colum key in database to easily identify the column key in Edit Column popup
+- Workflow link in failed workflow notification email now redirects to new workflow builder
+
+# Fix:
+- Router after Delay in seconds causing conflicts with the Route conditions
+- Email module - simple send email action was showing the Email Template selection option
+- Webhook response where app was sending GET and POST data at the same time
+- PHP showing warning message on webhook processing if an app sends no data to webhook endpoint
+- WordPress custom fields for new/update post actions were getting removed completely if user only enters key and no value
+- WordPress custom fields for new/update post actions not updating the state when a field is removed from the list
+- Duplicate and Copy/Paste steps with same app in sequence causing the dynamic data tags replacements incorrectly
+- Router in old workflow sometimes not working on the first route execution
+- Custom app with multiple fields causing the editor to go unresponsive
+- Custom app params settings were not updating if the field name is set with capital characters in it
+- Tables trigger "Updated Cell" was not showing the column names to choose
+- Response data mismatch between simple and advanced mode in test and live mode
+- Workflow template import now works just fine
+
+5.1.0 - 16 April, 2025
+# New:
+- Email Template Builder - Create customized email templates with dynamic data
+- Send Template Email action in Email module to easily send emails with dynamic data from your workflow
+- You can now drag to resize the settings modal to left and bottom as per your display requirements
+- Tables: Option to find record that matches values from two columns
+- Tables: Option to find record that matches exact or contains in the value in column value
+- Action: Create Local Variable in FlowMattic Tools to create workflow specific variable
+- Action: Get Local Variable in FlowMattic Tools to retrieve value of workflow specific variable
+- Action: Update Local Variable in FlowMattic Tools to update the workflow specific variable value
+- Action: Delete Local Variable in FlowMattic Tools to delete the workflow specific variable
+
+# Improved
+- Tables now outputs the dates in the exact same format in workflow
+- Tables link column output now separates the link URL, Text and HTML for ease of use
+- Table settings like Table Name and Table Column now loads faster and stays selected while you're editing the workflow
+- Workflow Import process now shows loading animation to show you the workflow import is in progress
+- Workflow builder works fine on the RTL sites now
+- AI Assistant input placeholder text, assistant title and welcome text now shows real time preview in editor
+- Integration events title and description now shows text correctly with the quotes
+- Dashboard styling on RTL sites
+- Tables - multiple rows update now trigger workflows individually
+- Router Filter step now displays data in non-encrypted form in task history
+- Delay execution within Routes now executes the workflow accurately and faster than before
+
+# Fix 
+- Iterator storage conflicting with the data merge if multiple workflow executions are done at same time
+- Iterator storage storing the same item multiple times if the storage type is Array
+- Trigger configuration settings sometimes not getting preserved if response captured multiple times
+- Action step settings sometimes not getting preserved for API module
+- WordPress action - user role added or changed causing the infinite loop in execution if the users are updated in bulk
+- Imported workflow not showing in the editor before manually clicking FitView button
+- PHP warning message if the chatbot embed code is added without the chatbot ID on frontend
+- PHP warning message if Table is embeded without providing the database ID and table name on frontend
+- AI Assistant input placeholder text not changing to custom text entered
+- RSS Feed trigger not working properly for the Feeds other than Atom feeds
+- Workflows admin page was not showing the trigger step icon if workflow was saved with only trigger step
+- Router Filter conditions does not accept values with double quotes
+- Capture response sometimes not working in new workflow builder if the workflow was created in old workflow builder
+- Similar trigger data creating infinite loop if the workflow is using same action and trigger and there's no data changes
+- Trigger step selected app event name was not displaying correctly in Trigger settings modal
+- FlowMattic Tools -> Turn On/Off workflow and Get workflow status actions mixing up with workflow ID in new workflow builder
+- Trigger step "Use selected response" was setting incorrect response object when there are too many responses captured
+- Router filter steps not executing further routes if one of the nested route filter condition fails
+- Plugin Actions integration not capturing responses in new workflow builder
+- WordPress trigger - Page Updated was not triggering the workflow
+- Changing any existing step app to FlowMattic Tools causing the wordflow editor application to terminate and shows blank screen
+- Webhook response data having single quote in the key name causes the dynamic data to fail replacement in Editor mode only
+
+5.0.9 - 26 Feb. 2025
+# Improved:
+- Styling for app selection and settings popup on smaller devices
+- Updated the menu position for workflows in WP admin menu
+- Compatibility with WP ASE plugin for increased admin menu width
+- Compatibility with Ultimate Dashboard causing to FlowMattic admin menus become inactive if PRO version is activated and admin menus are customized
+
+# Fix:
+- Clone or import workflow not updating the webhook URL in the settings
+- PHP warning on executing workflow if the used variable value is empty
+- Filter step not working if the condition key value has special characters or quotes in it
+
+5.0.8 - 10 Feb. 2025
+# Improved:
+- Text updated for the "Complete Step" placeholder for the dynamic data to make it more clear about the action to take
+- FlowMattic admin menu updated to set Workflows on second position
+- Compatibility with Loginpress plugin
+- Possible implementation to prevent saving empty workflow steps if something went wrong which could result in workflow steps getting removed
+
+# Fix:
+- Step settings getting removed when you open the "Test" tab directly and do "Test Action"
+- Clicking on the right side of the builder canvas was not doing anything due to the settings modal background overlap.
+- WordPress action ( Get posts by meta data ) causing no response in Test Action
+- Outgoing webhook module not working in old workflow builder > Router step
+- Opening New Route filter conditions settings throwing an error that resulting the canvas to reset to blank
+
+5.0.7 - 3 Feb. 2025
+# New:
+- Added version number of the integration in the Integrations page for easily checking which version you have installed
+
+# Improved
+- Action steps settings now preservs and shows the action data in Data-in tab if you jump on Test tab directly
+- Step settings popup position now does not scrolls up on small screen devices as well
+- Workflows admin screen shows the app names between the first and last step on hover on the app icons block
+
+# Fix 
+- Some workflows from old builder to new builder were not opening in the new builder
+- Scheduled workflows were not showing the saved values in step settings
+- Duplicating or Paste Below Router Route and updating the duplicated Route steps were reflecting changes in the original steps until page refresh
+
+5.0.6 - 23 Jan. 2025
+# Fix
+- Workflow editor hiding behind header div on scrolling the page from sidebar menu
+- Filter condition check failing if the content to check contains non-latin characters
+- WordPress user roles not available in dynamic dropdown
+- WordPress action data for user actions not being passed correctly in old workflow builder while testing the action
+- Custom app response data replacement in dynamic tag causing PHP error if the response data is JSON
+- WordPress action - delete post missing settings template in new builder
+- Filter Conditions failing if the content passed to the condition check contains HTML
+- Workflow export/import for workflows created with new workflow builder
+- Router skipping last Route if conditions does not meet for the first Route
+
+5.0.5 - 16 Jan. 2025
+
+# New
+- WordPress action to Get Media details by Media ID
+- Added an option to update post slug to WordPress update post action
+- Added better error handling to identify which step caused the error
+
+# Improved
+- Integration installation now managed through ajax and it won't reload the page after installation
+- Filters module now works to match conditions for the strings regardless or their case
+- Custom Apps shows the request payload for Raw Body as well
+- Textarea resize handle is now accessible easily
+- Custom Apps now auto removes the empty items in the request body to avoid further conflicts with APIs where it does not accept the blank value variables
+
+# Fix
+- PHP Fatal error on some plugin based integrations where the reference data is passed as Object and required as Array
+- PHP Array executing incorrect function for new itemized array action
+- Duplicate step action menu causing the step to duplicate with its reference step as well, resulting in changing of settings reflect in both steps
+- Maths module not working correctly in old workflow builder in editor mode
+- WordPress action - update user was updating the fields to empty if no value provided
+- Filter conditions not working correctly for "Exit" condition check
+
+5.0.4 - 9 Jan. 2025
+# Improved
+- Custom App Fields - Boolean and Number now supports dynamic tags
+
+# Fix 
+- Slashes ( // ) in the data for new lines was being removed on live processing
+- Varables not parsing the content if the variable value contains the JSON + String data
+- Tables - sometimes tables not loading from the remote database if the load existing tables is set to true 
+
+5.0.3 - 31 Dec. 2024
+# New
+- Added ability to copy/paste steps from old workflow builder to v5 workflow builder
+
+# Fix
+- Delete step was not updating mapped dynamic data references correctly in some dynamic fields
+- Some integrations showing no configuration required even if it is required due to empty div removal
+- Select dropdown not appearing in some integrations configuration step
+- WordPress new/update post actions not showing the custom taxonomy fields
+- WordPress new/update post actions not showing select post type dropdown
+- WordPress new/update post actions not loading the custom fields data when editing step after save
+- Connect "save and authenticate" process was halting at Save due to non-latin characters in Connect name
+- Webhook Outgoing not passing the correct mapped values to the endpoint in live mode
+- Conditional step execution not working properly if the key is a JSON data
+- Email Parser not receiving data in v5 Workflow Builder
+- Passing JSON data to action step as parameter was escaping the quotes causing the JSON to invalidate
+- Dynamic tags popup not opening for some integration fields
+
+5.0.2 - 26 Dec. 2024
+# Fix
+- Webhook simple response toggle not respecting the last state
+- Task History workflow links to the old workflow builder
+- Webhook response data display layout issue - key column was not readable clearly due to width
+- Some apps trigger event not updating in the view without refreshing the page
+- Dynamic Tags insertion was removing the text after cursor position
+- Dynamic tags dropdown was not showing in old workflow builder
+
+5.0.1 - 23 Dec. 2024
+
+# New
+- Added 100 count to the tables pagination dropdown
+
+# Improved
+- Tables: Loading and searching the tables in Table module is now slightly faster
+- Tables: Added error handling for new record if there's any database error occured during data insertion
+- Tables: Added support for non-latin and non-UTF8 characters for new tables
+- Skip to step UI for better visibility
+
+# Fix
+- Dynamic tags insertion not working on the Router Condition steps
+- Database name with hypens ( - ) causing the tables to not load in tables admin page
+- WordPress actions not preserving data in get users and get posts actions
+- WordPress: configuration fields were not available for user based triggers 
+- WordPress: User based triggers were not capturing data in test mode 
+- Tables: Fetch existing tables not loading the tables from remote database
+- AI Assistants: Frontend chatbot authentication error
+- Some form triggers were not working due to form ID type casting conflict
+- Scheduar: Weekend trigger checkbox not keeping the checked state
+- Duplicate workflow save issue on some hosting environments for newly created workflow
+
+5.0 - 16 Dec. 2024
+
+# New
+- Visual Workflow Builder
+  - Improved New Router with visual tree type management
+- Tables - Connect and automate database tables
+- Tables Module Triggers in Workflow - easily automate your table data management
+  - Trigger Workflow Button Clicked
+  - New Record
+  - Updated Record
+  - Deleted Record
+  - Updated Cell
+- Table Module Actions - CRUD 
+  - New Record
+  - Update Record
+  - Find Record
+  - Find Multiple Records
+  - Delete Record
+  - Update Cell
+Continue on Approve or Reject Button
+- Data Approval Implementation in Tables and Workflows
+- Unlimited AI Assistants ( Chatbots )
+- Improved Dashboard
+- Dashboard options to create new tables, workflows and AI Assistants
+- Skip Execution option for action steps under Conditions tab
+- FlowMattic Tools - Magic Login to create a magic login link and send to users for auto login
+- Improved Iterator - Added Batch processing method, so you can process large data in batches
+- Global Option to set SMTP Settings to send email from Email module
+- Global Option to set the Database connection tp external databases for Tables
+- Added More Filter conditions - Empty, Not Empty, Is Email and Is Blank 
+- Date Time Formatter - New Action to Format Date from one timezone to other
+- Combined results option for Text Formatter > Regex Pattern
+- Added "Post Parent" option to WordPress New Post and Update Post actions
+- Added "Custom Taxonomies" section to WordPress New Post and Update Post actions 
+- WordPress action - Add Taxonomy to Post
+- WordPress action - Remove Taxonomy from Post
+- WordPress action - Create a new taxonomy term
+- Action in PHP Array module - Create Itemized Array From Comma Separated List
+- Global option to choose default workflow builder Static ( Old ) or Visual ( New )
+
+# Improved
+- Added "Title Case" to the Text Formatter
+- Webhook trigger step loading for old workflow builder
+- Webhook response to source is now almost instant
+- Database queries cache for repeat queries to improve overall app performance
+- See the request payload while editing the step after doing live test 
+- API Polling method to support wide range of APIs 
+- Improved the way workflow executes for the Iterator and Router 
+
+# Fix 
+- WordPress action - Update Term throwing PHP error
+- WordPress trigger - new comment missing the comment ID 
+- Date and time formatter - Compare dates now includes the months in response with correct number of days
+- PHP Error on Filter module if added to workflow with no conditions
+- Workflow name showing in url decoded format on Workflow admin page 
+- Workflow failed error notification emails are not getting delivered
+- PHP Functions module not converting the JSON to Array if the JSON contains slashes
+- Dynamic tag replacement in custom app not working correctly if the request body is using nested JSON
+- RSS Feed trigger can now shows some of the hidden fields in the RSS in the response data
+- AI Assistant ( Chatbot ) - Delete source was not working
+- Iterator not converting the response to the simple format for nested array
+- Number formatter sometimes incorrectly formatting the phone number
+
+4.3.4.2 - 3 Oct. 2024
+# Fix 
+- Custom Apps not working with the JSON body and causing authentication fail notice on some apps 
+
+4.3.4.1 - 14 Sept. 2024
+ # Fix
+ - Use of umlaut and such special characters support display the workflow name in Task History page in url encoded format
+
+4.3.4 - 14 Sept. 2024
+# Improved
+- Connect settings input headings can now be altered for individual integration connect
+
+# Fix
+- Custom App endpoint URL with dynamic tags not updating correctly
+- Update and New Post action in WordPress integration not showing the content field
+- Typo for the "Cloned route" title
+- Use of umlaut and such special characters such as (ä, ö, ü, ß) in the workflow name
+
+4.3.3 - 7 August, 2024
+# Improved
+- PHP Functions module improved to support class based functions
+- PHP Function module improved to support passing NULL values in parameters
+- Multiple responses option for WordPress trigger
+- AI Workflow Generator improved to generate simple workflows more accurately now
+
+# Fix
+- API module sending empty body as empty JSON to GET request causing some APIs to fail
+- Admin Bar menu notification icon styling on FlowMattic admin pages
+- Multiple capture responses causing JS conflicts, resulting in workflow editor not loading
+- Email editor conflicting with HTML encoding when switched between code and visual view multiple times
+
+4.3.2 - 1 August, 2024
+# Fix
+- Workflow execution being stopped at after the trigger for the webhook based workflows
+- Iterator within Router throwing error as invalid JSON
+- Delay within Router causing conflicts with the delays in seconds
+- Delay at the end of the workflow step causing the workflow to re-execute
+- Multiple response capture feature causing JS error if there's a non-latin characters in the response
+- Text formatter throwing an undefined variable error, if the workflow is saved without the required fields being filled up
+- Date/time formatter causing invalid input date if multiple Date/time formatter modules used in conjunction with Delay
+- Workflow execution throwing PHP errors on live execution due to mixed typecasting of the input data
+- Admin menu icon images causing display issue on FlowMattic admin pages due to unloading of the external plugin and theme css
+
+4.3.1 - 31 July, 2024
+# New 
+- Multiple responses can be captured now for any Trigger to easily test the workflow with different responses
+- Added "Step Executed At" field in the task history response to check when the specific task was executed
+- Setting field to set notification for expired Connect to prevent failures in workflow execution
+- Option to cancel a delayed task and the resulting workflow from Task History page
+
+# Improved
+- Delay method is improved to have more accurate time execution for the second based delay 
+- Loading time for entire FlowMattic admin pages improved by 40% to 50%
+- Access token refresh cron sometimes fail to re-register will now auto fix by itself
+- Webhooks now accept the response in text or plain HTML format as well
+- Context Menu will now open only when you click on the action step headers when closed
+
+# Fix 
+- Some installations throwing PHP warning on the AI Workflow Generator API call
+- Delay in seconds causing the data mismatch on some shared hosting platforms
+- Task clean interval cron was being created multiple times, as you save the settings
+- Step index numbers not updating when dragging steps from top to bottom after dragging any step from bottom to top
+- Step index not updating correctly when delete step through Context menu
+
+4.3.0 - 20 July, 2024
+# New 
+- cURL Importer in Custom Apps
+- Option to import JSON data to Custom Apps as Body Parameters
+- AI Workflow Generator to help you generate simple workflows with just a prompt
+- Bulk execute tasks from Task History page
+- Bulk delete tasks from Task History page
+- Email Parser V2 with new email domain
+- Milliseconds and Microseconds time format in Date/Time formatter 
+- Redirect action on FlowMattic Tools to redirect users to URL if supported by trigger app
+- Switch the workflow status on and off from the workflows page
+- Task history can be accessed from the workflows page action link
+- Filter hook to disable task history for specific workflow ( For Developers )
+- Added new method to execute workflow trigger for plugin developers
+- WordPress module got 4 new triggers based on User Role, and 1 action to search media by title
+
+# Improved
+- Email Parser can now accept the emails forwarded from Gmail and other providers where it converts email to lower case
+- Dynamic fields popup generation speed now improved by 50%
+- Implemented the Response and Request payload in task history for - Text Formatter, PHP Array, Number Formatter, Maths and Date/Time Formatter modules
+- Label for the Unix Timestamp in date/time formatter identify the correct output format 
+- API requests based on XML request body can be made easily with Custom Apps now
+- Workflows admin screen optimized for the better UX, moved the Folders to the navigation panel for easy access
+- Workflow re-execution now adds the timestamp of re-execution time to the trigger data for easy reference
+- Compatibility with WordPress 6.6
+
+# Fix 
+- Date / Time Formatter modify date format sometimes causing issues with minimal options
+- Dynamic dropdown styling for time unit value option in Date/Time formatter was messed 
+- WordPress action User Profile Field update was not working if the post is being edited and is post lock is triggered
+- Custom Apps - action data param toggle was not updating the state for existing actions
+- Install integrations not working on some shared hosting platforms, like GoDaddy, A2Hosting etc.
+- Copy action step settings to Router not applying the settings to API and relative modules if they already exist in the Router
+- WordPress module triggers mixing the content with other triggers, when capture data is in processing
+
+4.2.2 - 22 Jun, 2024
+# New
+- Action: Post Meta Field Updated
+- Action: User Profile Field Updated
+
+# Improved
+- Added a new function to get API values from dynamic tag as input in action steps ( For developers )
+
+# Fix
+- Date time formatter causing the date to displayed in 1970 due to invalid time format 
+- FlowMattic Connects not rewewing the access token for X ( Twitter ) sometimes 
+
+4.2.1 - 15 Jun, 2024
+# Improved
+- Get workflow status shows the workflow name as well in the response
+
+# Fix 
+- Text Formatter > Text Between action not working on the content having new lines
+- Iterator in Router causing issue with data mapping if the Iterator is not the first action in Router 
+- Action step numbers not showing correctly in Router if a step is added or removed using context menu 
+- Action step with custom app was not getting deleted in Router 
+
+4.2.0 - 12 Jun, 2024
+# New
+- XML Parser module to parse XML files
+- Webhooks now shows the request headers in response
+- Response filter hook for developers to update the response received from any webhook, before it is used in workflow 
+- Action: Modify Date Format in Date time formatter module 
+- Action: Calculate Age in Date time formatter module
+- Action: Turn on workflow in FlowMattic Tools
+- Action: Turn off workflow in FlowMattic Tools
+- Action: Get workflow status ( Active/Inactive )
+
+# Improved
+- Added more time formats for Date Time formatter
+- Added compatibility for some upcoming integrations
+- Using Iterator within Router is now possible
+
+# Fix 
+- Dynamic map toggle appearing for all input fields in some action steps where not required
+- Dynamic map toggle not working well with required fields 
+- Task history page throwing PHP warning on PHP 8.3 if there's a change in application or action event
+- Email and WordPress post editor not holding the dynamic tag value if only dynamic tag is added without additional content 
+
+4.1.10 - 24 May, 2024
+# New
+- Webhooks now accepts file uploads
+- Number Formatter module to format numbers, currencies and decimals
+
+# Fix
+- Dashboard stats for task count missing the numbers
+
+4.1.9 - 21 May, 2024
+# New
+- All modules will now have an option to map data in place of static dropdown field
+- PHP Array new action to itemize the simple array that you can use in Iterator easily 
+- Text Formatter new action to get text between two strings
+- API module now gives you raw response data to send the API response elsewhere
+- WordPress - trigger page view based on post type
+
+# Improvements
+- Webpage parser can now scan the relative links as well 
+- Task History Re-execute now work flawlessly on all browsers
+- Compatibility with PHP 8.3
+
+# Fix
+- Task history showing PHP Warning message for Scheduled workflow
+- Assigning workflow manager role to admin user was not working in some WP setups 
+
+4.1.8 - 28 March, 2024
+# New
+- Triggers in WordPress module - Category Created, Tag Created, Term Created
+- Actions in WordPress module - Update Category, Update Tag, Update Term
+
+# Improvements
+- FlowMattic Connects will now be able to work with your own apps for Oauth authentication
+- API module will now display the endpoing URL and headers in the payload in task history
+
+# Fix
+- RSS Feed trigger causing duplicate entries in some Feed formats
+- Iterator not working if the JSON has slashes wrapped within double quotes
+- WP New Media action throwing error on live execution in latest version of WordPress
+- Assigning workflow manager role to admin causing issues on multisite if child site has multiple admins
+- Passing JSON array to DELETE method in API module not working due to data escaping
+
+4.1.7 - 22 March, 2024
+# New
+- Option to ignore errors in action step. This will set the error status to success and also ignore the email notification
+- New options for the "New Post" action in WordPress module to set post date, date GMT, slug and password
+
+# Improvements
+- Better handling the background queue processing for all integration requests
+- Execute workflows when WordPress action hooks fired within the integrated plugins / themes
+- Better handling of the RSS Feed triggers for the feeds having different channel items
+- Added support for the future integration implementation based on the polling method for triggers
+
+# Fix 
+- New WordPress actions sometimes not working in Live workflow execution due to action hook preference
+
+4.1.6 - 15 March, 2024
+# New 
+- Add Tag to Post Action in WordPress module
+- Remove Tag from Post Action in WordPress module
+- Add Category to Post Action in WordPress module
+- Remove Category from Post Action in WordPress module
+- Check Plugin Active Action in WordPress module
+- Activate Plugin Action in WordPress module
+
+# Fix
+- JS error on workflows using schedule app trigger that preventing the workflow from loading in the editor
+
+4.1.5 - 11 March, 2024
+# New 
+- WordPress action to get all the users of a user role 
+
+# Improvements
+- JSON response wrapped within double quotes can be correctly parsed in API and Custom Apps
+- Added support for HTML content in variable values 
+
+# Fix 
+- Dynamic data dropdown not populating the data when the trigger app has events listed in sections
+- JS error on trigger if previously used the plugin actions module in trigger and changed to different app
+- Task history throwing PHP warning if trigger app using nested events with sections
+
+4.1.4 - 27 Feb. 2024
+# Fix 
+- RSS Feed item creation not respecting the image field values correctly 
+- Webhook Response module - Custom JSON response not working correctly 
+- Error on Workflow editor screen if trigger app is changed multiple times
+- PHP Array module action - Extract JSON not working on JSON with nested arrays if value contains double quotes
+
+4.1.3 - 23 Feb. 2024
+# New 
+- Option to redirect the user to custom URL after webhook based workflow is finished execution
+- PHP Array action - Extract JSON Data to extracts JSON data as individual items
+- WordPress action - Get Taxonomy by Name to retrieve the taxonomy details by its name or title
+- Webhook Response action to set the custom redirect for Webhooks
+
+# Fix 
+- Custom App Authentication failing on some apps due to strict checking of token type
+- Webhook capture all data missing for GET requests to webhook URL
+- REST API based webhook URLs not returning the custom response
+
+4.1.2 - 21 Feb. 2024
+# New 
+- PHP Array module action - New Line to Array to convert the data with new lines to an array
+
+# Improvements
+- Minutes delay execution on some server config
+
+# Fix
+- Workflow editor not loading for Scheduled trigger workflows 
+
+4.1.1 - 20 Feb. 2024
+# Fix
+- PHP warning for RSS Feed DB class if no feed is configured
+- JS error on webhooks if app action is set but is undefined causing workflow editor go blank
+- PHP warning - Attempt to read property "slug" on string
+- Task history not showing workflows if the task history link in workflow editor is accessed
+
+4.1.0 - 15 Feb. 2024
+# New 
+- API Polling Module - you can now fetch the NEW records from different services, RSS feeds easily
+- RSS Feed Trigger - Watch RSS Feed and trigger your workflow if new items are added
+- RSS Feed Actions - Create New RSS Feed and add new items on the go, retrieve any RSS feed items
+- FlowMattic Connect Compatibility for API keys input where base URL is required to connect
+- Search function added to the Connect Integration modal in Connects
+- Customization option for loading animation icon in chatbot assistant
+- PHP Array action: Convert List to Array
+- PHP Array action: Convert Array to List
+- PHP Array action: Insert Value at Index
+- Ability to call PHP Function as FlowMattic Variables value, eg. PHP:time() will call the time function and return its value
+- Two new system variables for data and time in ISO 8601 format
+- Webhook captured data now available as JSON in response, making it easy to forward the data received in Webhooks
+
+# Improvements
+- License update check for plugin update
+- Access Control headers for webhook fallback method
+- Text Split in Text Formatter now returns the results with empty string as well
+- WordPress get post taxonomies response will now be more useful for mapping 
+- WordPress get post term response will now be more useful for mapping
+- Iterator module can now accept custom JSON input for extraction
+
+# Fix
+- License expiry causing transient cache error on some servers
+- WordPress new actions - Delete Media and Post Taxonomies were not preserving the mapped values
+- Plugins Actions trigger hook name was not preserving the value
+- Task history not showing the request payload for API step if the JSON data is mixed with slashes
+
+4.0.2 - 6 Feb. 2024
+# New
+- Added Access Control Allow Origin header to webhook response 
+
+# Fix
+- Webhooks parsing not working in conjunction with the new method on some hosting environments
+
+4.0.1 - 4 Feb. 2024
+# Fix
+- Chatbot Assistant name change on settings update issue 
+- Schema parsing not working in webhpage parser module
+- License activation failing on some hosts
+
+4.0 - 4 Feb. 2024
+# New
+- FlowMattic Chatbot - Chatbot powered by OpenAI Assistant API
+- Chatbot Module - Trigger your workflows with Chatbot responses
+- FlowMattic Variables - New way to store and retrieve text data easily through workflows
+- FlowMattic Tools Module - Do more with the core features provided by FlowMattic
+- HARO Email Parser - Use email parser to parse the HARO emails
+- Test Run Workflow feature to help you execute the entire workflow without leaving the editor
+- WordPress multisite support for Email Parser module
+- WordPress actions: Delete Media, Rename Media, Get Post Taxonomies, Get Post Taxonomy Terms, Get Post by ID
+- WordPress triggers: New Page, Page Updated
+- Rate limit error handling for API and Custom APP modules with auto retries for 3 times with 30 sec. interval each
+- Webpage Parser module now includes - Heading Tags, Internal Links, External Links, Content without scripts
+- Option to choose Webhook URL base - Regular and REST API based. Useful when there are issues with permalink based webhooks
+- Option to set custom token type name for the Oauth based authentication headers
+
+# Improvements
+- Added option to fetch from database for the WordPress post and media triggers
+- WordPress post and media triggers will have more data compared to previous response
+- Added default response for the API requests where no response is generated by the service
+- Custom Apps in Router will now work more efficiently while editing
+- Custom Apps will be able to display the simple text response as well
+- Custom App in Router not getting executed due to a technical issue
+- Better handling of Cron registration for minute based delay
+- Improved queue management for Webhook requests
+- Better handling of boolean and number values of Custom App
+
+# Fixes
+- Delay in seconds within the Iterator causing data loss. You can now use the delay in seconds within Iterator
+- Error handling for integration list retrieval if the license is not registered
+- Possible fix for the issue where users were facing license key not active on the first time license activation on some WP Sites
+- Custom Apps not being saved correctly in the Routers, if the name has special characters
+- Multiple emails being combined if Email Module with FlowMattic Default is used within Iterator
+- Filters not working when condition checked against HTML content
+- Status page showing warning even if the permalink is set to have postname
+
+3.2.1 - 1 Sept. 2023
+# New
+- Workflow search feature to sort the workflows by their name or app used
+- Configuration to handle the Slack webhook challenge authentication
+
+# Improvements
+- Compatibility for upcoming PHP 8.3
+
+# Fixes
+- API module GET and POST requests not showing response if the response is just a single word string
+- Email Parser module not accepting the response on servers having Mod_Security installed
+
+3.2.0.1 - 22 August, 2023
+# Fixes
+- API parameters being converted to integer for float value
+
+3.2.0 - 21 August, 2023
+# New
+- CSV Parser module to allow users parse any CSV file to JSON
+- Webpage Parser module to extract data such as title, description, emails, social media, schema etc. from any web page
+- Conditional Execution for Delay module
+
+# Improvements
+- Webhook response time will be almost instant for all requests if the request queue is enabled
+- Iterator Storage as Array module now supports nested array through valid JSON data as value
+- Webhook response will be captured even before you click the Capture Response button, and stored in temp. option to use later
+
+# Fixes
+- Webhook background processing causing conflict on PHP 8.2.x
+- Custom App Compatibility with PHP 8.2.x
+- Iterator not working for invalid JSON sent by webhook app
+- Custom App with no connect causing conflict while executing the workflow
+- Custom App setting for No Authentication was not being saved correctly
+- License key not valid message due to cache
+
+3.1.2 - 20 July, 2023
+# Fixes
+- Task history popup status display was wrong for response having "fail" status key
+- API module throwing PHP warning for custom app with API key option in some cases
+- Custom Apps install button issue due to the version numbers conflict
+
+3.1.1 - 15 July, 2023
+# New
+- Added admin notice and update count for integration updates for FlowMattic integrations
+- Task history update: Now you can see the request payload for the following applications 
+    * API module
+    * Outgoing webhook
+    * Router
+    * PHP Functions
+    * Filters
+    * Custom Apps
+- Option to set blocking on outgoing webhooks module - use it when you don't need the response
+- Option to set connect in workflow for custom app - use custom app with different accounts easily
+
+# Improvements
+- WordPress import media can now work for the OpenAI generated image URLs to import in your media library
+- Task history task count bubble will display the complete number when the number is greater than 1000
+
+# Fixes
+- Task history details not showing the custom action step titles
+- Task history not showing action step titles correctly for steps in router
+- API module does not display response correctly with some APIs where the response is received as XML
+- Custom App import throwing PHP warning if no connect is selected
+- Custom App boolean option was not displaying the dropdown in workflow
+- Custom App throwing connect id not provided sometimes
+
+
+3.1.0 - 5 July, 2023
+- New: License registration moved to a new admin page
+- New: Workflow templates added to the dashboard to make it easy to get started
+- New: Option to exclude the post content from Get Posts by Post Type action response
+- New: Option to exclude the post content from Get Posts by Post Meta action response
+- New: Option to exclude the post meta from Get Posts by Post Type action response
+- New: Option to exclude the post meta from Get Posts by Post Meta action response
+- New: Option to assign the category 
+- New: Option to switch from editor to preview mode in the HTML editor for Email and Post editor
+- Improved: Dashboard UI improved, added connects and custom apps count and workflow templates
+- Improved: API module will display the response as single JSON response if the response array is indexed and not associative
+- Improved: PHP Functions module now returns the response in simple and JSON format as well to be used in Iterator
+- Improved: Email Parser message text encoding
+- Improved: Added support for the URL query param authentication
+- Improved: Integrations sort navigation misplace the integration blocks
+- Fix: Email with HTML code was being sent as HTML code instead of the decoded entities
+- Fix: FlowMattic Connects access token renewal will now work for the integration based connects as well
+- Fix: New line character issue with Google Sheet and some other apps
+- Fix: Conditional execution not working with AND condition against boolean data check
+- Fix: FlowMattic dashboard loader not getting hidden when jQuery is loaded in footer by some caching plugins
+- Fix: Re-execute workflow not working if the response data has JSON that is being used for Iterator
+
+3.0.2 - 23 May, 2023
+- Fix: Custom Apps - Body param encoding not working correctly for some apps
+- Fix: Text Formatter Pattern escaping was causing conflicts
+- Fix: PHP Array module having issues with reading JSON data
+- Fix: PHP Functions module response data being escaped incorrectly
+- Fix: Iterator module causing issues due to unescapped JSON data
+- Fix: WordPress get posts action was causing conflicts due to double quotes in the post content
+
+3.0.1 - 20 May, 2023
+- New: Added an option to set no authentication for custom apps where app is being built for open API
+- Improved: Workflow editor UI on smaller screens
+- Improved: Integrations admin page UI on smaller screens
+- Improved: Dashboard admin page on smaller screens
+- Improved: PHP Array and PHP Functions module improved for JSON reading
+- Improved: Updated the confirmation popup button text for disable core integrations
+- Fix: Dynamic tags not working in maths and other modules where they are used with other strings
+
+3.0 - 17 May, 2023
+- New: Custom Apps - Feature that allows you to create custom integrations with your apps without writing a single line of code
+- New: FlowMattic Connect - Feature to allow you connect any app that provides OAuth, Basic, Bearer Token or API Key based authentication
+- New: Drag and drop feature for action steps. Re-order your action steps easily with just drag and drop
+- New: API Module utilize the FlowMattic Connect to set the authentication
+- New: Webhook request queue - simultaneous webhook requests are now queued and processed immediately one after another to avoid data loss
+- New: Date and Time Formatter module to help you perform date operations easily
+- New: Auto adjust dynamic tags on add or remove action steps to improve the UX
+- New: Clone Iterator Route option added to make it easy to clone single routes
+- New: Added numbers to the steps in workflow to easily identify them
+- New: Iterator storage can now used multiple times within a single Iterator, and it does not store any data in your database
+- New: Dynamic tags will be replaced with blank string if related key is not present in the response data
+- New: Delay module can be used to set delay in seconds
+- New: Search task history for failed/success status
+- New: Task details popup shows which task has issues with status icons, so you can easily identify it
+- New: Ability to add your own custom integration based connects ( for developers )
+- New: HTML editor for the post content field in WordPress new/update post action
+- New: HTML editor for email body content to make the email content easy to edit
+- New: Option to set the iterator response in advanced format so the nested arrays will be returned as JSON
+- New: Status page to check and troubleshoot common issues due to misconfiguration
+- New: Option to Enable / Disable Core apps from integration page
+- Improved: Task history search is much faster and powerful. You can filter results with date and search within those results.
+- Improved: Admin UI icons redesigned with more meaningful way
+- Improved: Admin UI for choose application dropdown
+- Improved: Workflow execution process to update the executed tasks as they are finished
+- Improved: Delay step execution while using Iterators in workflow
+- Improved: Iterator module to handle multiple iterators in a single workflow flawlessly
+- Improved: FlowMattic Workflow Manager user role having issues on some hosting platforms
+- Improved: WordPress module new post action issue with post_excerpt not being inserted correctly
+- Improved: TutorLMS plugin JS files conflicting with workflow editor
+- Improved: Task re-execute functionality now supports JSON data correctly for the values
+- Improved: Task history admin page will load slightly faster
+- Improved: Error handling for the Filters module where date condition used, but the input date is not available
+- Improved: FlowMattic admin menu removed from WP admin menu to fix the duplicate menus
+- Improved: Better handling of boolean and numeric values for the API parameters in API Module
+- Improved: API module PATCH method now supports custom JSON
+- Improved: Maths module to do even more complex calculations. It also supports many PHP functions as well
+- Improved: PHP Functions module now return the response of array as JSON object
+- Improved: Dynamic tags replacement is now faster than before
+- Improved: Context menu on single routes disabled to avoid confusion
+- Improved: UI for add new action icon and the new action block
+- Improved: WordPress action new / update post now accepts the Image URL for the featured image
+- Improved: WordPress action new / update post now accepts email for the post author
+- Improved: UI for the integrations page to display core integrations alphabetically and easy to identify
+- Fix: Filters not working within Routers for certain conditions
+- Fix: API module showing errors in status for 20x status codes, such as 201, 202
+- Fix: API module PATCH method now supports the JSON content type through parameters
+- Fix: API module throws error if the endpoint URL has empty space before or after the URL
+- Fix: Outgoing webhook response with only single word throwing error while editing the workflow
+- Fix: Filter not working properly if condition checked against HTML data
+- Fix: Task history page PHP 8.2 Compatibility
+- Fix: Conflict with dynamic dropdown opening if there's an action step without the action event selected
+
+2.3.4 - 2 March, 2023
+- New: Option to set the PHP Function parameter value to be decoded as an Array if it is JSON while passing
+- Improved: API by FlowMattic now checks for the additional status codes for the success response
+- Fix: PHP Function parameter value escaping conflict
+
+2.3.3 - 27 Feb. 2023
+- Fix: API response data conflict with "length" keyword in response
+- Fix: Iterator not working well with some JSON having escaping issues
+
+2.3.2 - 24 Feb. 2023
+- Fix: Text Formatter regex causing conflicts with the dynamic tags
+
+2.3.1 - 22 Feb. 2023
+- Improved: API parameters can now create nested json
+
+2.3.0 - 22 Feb. 2023
+- New: Option to get the response in advance format like JSON for nested parameters in webhook based triggers
+- New: Ability to execute WordPress media functions in workflow
+- New: Option to set the post featured image for add new and update post actions
+- New: Option to set the post author for add new and update post actions
+- Improved: API module can now generate nested JSON based on the parameter key and value input
+- Improved: Text Formatter regex will now display all matching results
+- Improved: PHP Array module can now read the JSON messed with slashes
+- Improved: PHP Functions module can now process the array operations on JSON data as parameter value
+- Improved: Compatibility with themes that load the bootstrap CSS in backend
+- Improved: WordPress trigger for new post now compatible with plugins inserting the post via hooks
+- Improved: WordPress trigger for update post now compatible with bulk update
+- Improved: Action step can now be copied from router to outside router
+- Improved: WordPress action to upload media can now accept files without extensions
+- Improved: API endpoint URL input changed to textarea to easily manage long URLs
+- Fix: Delay inside router causing issues when the delay until setting is used
+- Fix: Outgoing webhooks causing error if the API url using self-signed SSL
+- Fix: Task history page PHP warning for failed step on some hosts
+- Fix: API Parameters are not saving on sites with slower AJAX response time
+- Fix: PHP Warning if conditional execution is turned on for action step but no conditions provided
+- Fix: Filters module not working correctly for "Exists" check if dynamic placeholder used
+- Fix: Webhooks not receiving data for some tools due to different encryption type sent by them
+- Fix: Dynamic dropdown throwing error when apps with grouped options are used multiple times in a workflow
+- Fix: Iterator not accepting JSON with slashes
+- Fix: WordPress module causing conflicts with user profile update action
+- Fix: Re-execute workflow escape the JSON data correctly
+- Fix: API parameters dynamic dropdown overlapping when add more button clicked
+- Fix: Filter condition display value field for the exists and does not exists conditions
+- Fix: WordPress user profile update trigger conflict with live data capture
+- Fix: Dynamic tags dropdown does not open if no response is captured in some integration action step
+
+2.2.1 - 16 Nov. 2022
+- Fix: WordPress new user custom password not working issue
+- Fix: API Module custom JSON block displayed on page load even if method is set to GET
+- Fix: API key being updated by browser autocomplete and cause the API request fails
+
+2.2.0 - 25 Oct. 2022
+- New: Email Parser trigger module
+- New: Text Formatter action module to help you format text with different methods
+- New: Counter module help you execute specific actions in a round-robin fashion.
+- New: Added an option to add/update the post excerpt in WordPress post actions
+- New: WordPress action to retrieve post meta by key or all
+- New: WordPress action to retrieve user meta by key or all
+- New: Option to add attachments to email in Email SMTP module
+- New: Option to match equal number in Filter conditions
+- Improved: User metadata on WordPress triggers and action now supports ACF user meta fields
+- Improved: Outgoing webhook data encoding and sanitization
+- Improved: Email module HTML encoding
+- Improved: WordPress post action custom fields can now accept HTML text as well
+- Fix: Webhook data capture not working for Pabbly webhooks
+- Fix: Pagination in task history for date range filter
+- Fix: Schedule trigger was not respecting the timezone
+- Fix: PHP warning on some sites where empty action step is saved in workflow
+- Fix: Task history PHP warning for workflows with no tasks in history
+
+2.1.0 - 27 Sept 2022
+- New: Webhook Response module to set custom and dynamic response to your webhook source
+- New: Maths by FlowMattic module to help you perform calculations on the data in your workflow
+- New: Iterator Storage module to save the data from iterator in string and JSON array format to use after iterator
+- New: Iterator End module to stop iterator after certain steps below iterator
+- New: WordPress trigger - Post/Page view can be conditionally executed based on the post ID from page/post or any custom post type
+- New: Expand / collapse all workflows in one click from the sidebar icon
+- New: Add Role action for WordPress to help you create user roles dynamically
+- Improved: Iterator will now return all the array items for single array instead of just the first array item
+- Improved: PHP Array module returns the data in more readable format
+- Improved: API module simple response is improved for better usability
+- Improved: Email notification for failed workflow execution now includes more information and the workflow link as well
+- Fix: Filter response will mention the status as success instead of error that shows the task as partially failed if conditions does not meet
+- Fix: Action hook firing workflow even after the trigger app is changed
+- Fix: Google Sheet to webhook not capturing data correctly if used Pabbly Google Sheet Add-on
+
+2.0.2 - 1 Sept 2022
+- New: Added FlowMattic default option in email provider for better error reporting with PHP default mail function
+- New: Simplified the workflow app icons display in workflows admin screen to display all the apps used in small popup
+- New: Simplified the workflow app icons display in task history screen to display all the apps used in small popup
+- New: Added support for SMTP plugins like FluentSMTP, WP Mail SMTP and other
+- Improved: Workflow icons in workflow admin screen will display the app name on hover for better understanding
+- Improved: Workflow icons in task history screen will display the app name on hover for better understanding
+- Improved: Added action step title / action name in dynamic tag dropdown to get more info about step
+- Improved: Dynamic tags dropdown now shows the steps with no response data for your reference
+- Improved: Email module WP default now uses the default wp_mail function to send emails with default configuration
+- Fix: Changing the field height not possible sometimes when the text reaches to the end
+- Fix: Step count was wrong sometimes when the action step was inserted incorrectly
+- Fix: Outgoing Webhook module conflict with the webhook URL click to copy functionality
+- Fix: Filter conditions does not work if the key or value is a JSON data
+
+2.0.1 - 23 Aug 2022
+- Fix: Insert before and insert after conflict in Router
+- Fix: Paste settings sometimes not working in router
+- Fix: Router steps conflicts with route steps execution due to wrong step number
+- Fix: Delay Until date was conflicting with the timezone and resulting in wrong scheduling
+- Fix: Delay not registering properly on some hosting environments
+- Fix: Scheduler does not on weekends if scheduled to be executed at X minutes
+- Fix: Custom action trigger issue on some servers due to PHP configuration
+- Fix: PHP warning messages on FlowMattic dashboard if workflow saved with no steps
+- Fix: Plugin Actions input not clickable in some browsers
+- Fix: Webhook authentication was not turning off for capture response
+- Fix: Plugin actions trigger was not firing correctly while in capture response mode
+
+2.0 - 15 Aug 2022
+- New: Router module with ability to insert router anywhere in workflow
+- New: Plugin Actions module to allow you execute triggers based on WP action from any plugin
+- New: Search for task history feature
+- New: Ability to re-execute any workflow in task history with options to modify the captured data
+- New: Filters on integrations page to easily find the core, external, installed and update available integrations
+- New: Filters on workflows admin page to filter workflows in Live and Draft mode
+- New: Option to authenticate incoming webhooks for the webhooks app
+- New: Option to set custom response in incoming webhook for webhooks app
+- New: Added WP PHP filter flowmattic_webhook_response to alter the response being sent to the webhook source
+- New: One click clone workflow is now possible on the workflow admin screen
+- New: Custom description option for trigger and action steps for adding notes about the app and use-case etc.
+- New: Workflow folders will be listed for easy selection in sidebar settings
+- New: Added Simple Response option to API module to get the response in simple format
+- New: Added an option to set auto password generation for new user action in WordPress
+- New: Added an option to send new user notification email on new user action in WordPress
+- New: Autosave feature - Now your workflow will be auto saved with every action and option change
+- New: Option to schedule workflow every x minutes
+- New: Option to copy webhook URL with just click on the webhook URL input
+- New: Ability to set or remove multiple user roles from WordPress user with single action step
+- New: History icon in the workflow editor sidebar to easily access the particular workflow history
+- New: History page will show the applied filters with a remove filters button
+- Improved: WordPress - New User action will return the existing user id if available instead of returning the error message
+- Improved: Apps with single action event will get the action event selected by default to save your time
+- Improved: Task history now shows the partially failed status correctly
+- Improved: Option to set post category and tags in WordPress - New Post action
+- Improved: Option to set post category, tags and post type in WordPress - Update Post action
+- Improved: Integrations page responsiveness
+- Improved: Custom step title can be more descriptive now with no text limit
+- Improved: Workflow Import process with more clear message for imported workflow
+- Improved: PHP Functions parameter type selection if used in multiple action steps
+- Improved: Passed date and time message updated for Delay module
+- Fix: Task filter results were not correct for date range
+- Fix: Task history pagination was wrong after applying the filter
+- Fix: PHP warning on dashboard and tasks admin page if too many task executions are recorded
+- Fix: WooCommerce nonce causing conflict with webhook response on some sites
+- Fix: Dynamic tags not available for Delay module
+- Fix: Empty response causing the capture response button keep spinning for Outgoing Webhooks module
+- Fix: Time recorded for tasks and workflow was not respecting the site timezone
+
+1.5.0 - 12 July 2022
+- New: Conditional Execution for action steps. Execute individual action step only if conditions meet.
+- Improved: Scheduled workflows cron will be registered for live workflows only
+- Improved: Workflows scheduled will be unscheduled automatically after trigger app is changed
+- Improved: Added dynamic tag icon to the Filter module conditions input
+- Fix: User ID option title typo in WordPress module
+- Fix: Delete Step popup being displayed if blank action step is saved in workflow
+- Fix: Autofocus on search field for dynamic tags causing conflicts with editing
+- Fix: Schedule trigger error on workflow save if hourly workflow execution is set
+
+v1.4.2 - 28 Jun 2022
+- New: API module can now send PATCH requests as well
+- Fix: Webhook not parsing multipart/form-data requests correctly
+
+v1.4.1 - 16 Jun 2022
+- Fix: Generate dynamic tags dropdown causing conflict with other steps
+- Fix: Task history displaying PHP warning for Pabbly Subscription Billing task
+- Fix: PHP error on PHP Functions module if no parameters present
+
+v1.4.0 - 07 Jun 2022
+- New: Import and Export workflow feature
+- New: Context Menu to perform more advanced actions on the action steps
+- New: Clone Action Steps with the help of Context Menu
+- New: Copy Action Step with its settings with the help of Context Menu
+- New: Paste settings of a step from one workflow to another with the help of Context Menu
+- New: Insert copied step before or after a certain step with the help of Context Menu
+- New: Options to disable individual core integrations for users with FlowMattic Workflow Manager role
+- New: WordPress page visit action now provides the HTTP Referer URL
+- New: Ability to validate webhook for WhatsApp Cloud API
+- Improved: Integrations admin page UI improvement
+- Fix: Multisite site creation using WP_CLI throwing an error
+- Fix: PHP error in create new media action for WordPress module
+
+v1.3.0 - 16 May 2022
+- New: User based workflows
+- New: Ability to share workflow with any user
+- New: Option to show/hide integrations menu from users with FlowMattic Workflow Manager role
+- New: Option to enable/disable integration uninstall ability for users with FlowMattic Workflow Manager role
+- New: Outgoing Webhook integration to help you send data to webhook from your app easily
+- New: Workflows list will show the user icon to see which user it belongs to
+- New: Stats about number of workflows, task executions and installed integrations on dashboard
+- Improved: WordPress page view action now provides URL params to track visits
+- Improved: Delay module value for delay until time can be dynamic
+- Fix: WordPress trigger for page view not working properly sometimes
+
+v1.2.0 - 08 May 2022
+- New: WordPress action - Update Post
+- New: WordPress action - Delete user
+- New: WordPress actions - Add / Change / Remove user roles
+- New: WordPress action - Create Tag
+- New: WordPress action - Create Category
+- New: WordPress action - Get user by email
+- New: WordPress action - Get user by id
+- New: WordPress trigger - User deleted
+- New: WordPress trigger - User reset password
+- New: WordPress trigger - User profile updated
+- New: WordPress trigger - Post meta updated
+- New: WordPress trigger - User delete a post
+- New: WordPress trigger - User Login
+- New: WordPress trigger - User visit page of any post type
+- New: Filter workflows by the workflow status - draft or live
+- Improved: Deleting integration will now pause the workflow using the app
+- Improved: WordPress action for new comment includes data for taxonomies and post type
+- Improved: WordPress actions for new post and update post includes the taxonomy data
+- Improved: Backend loading speed by caching the database requests for FlowMattic
+- Improved: PHP Array module can search for the multi-dimensional array as well
+- Fix: Iterator for single array JSON causing conflicts
+- Fix: Email module content encoding for languages other than english
+- Fix: Dynamic tags in keys for repeater fields were not replacing the correct values
+
+v1.1.1 - 18 Apr 2022
+- Fix: API password not saving correctly.
+
+v1.1.0 - 17 Apr 2022
+- New: Email module - send emails from your workflow using any SMTP provider
+- New: PHP Functions module - Call any public PHP function and pass parameters from your workflow
+- New: PHP Array module - perform array functions on the array data in your workflow
+- New: Iterator module - Loop through the array items and execute following steps.
+- New: Option to delete the installed integration if not in use
+- Improves: Task history to display repeated tasks in Iterator
+- Fix: PHP warning message on WordPress integration -> New Post action
+- Fix: Conflict with double quotes in API secret/password field, causing the value being truncated while display
+- Fix: Dynamic tags not available for the first action step if workflow starts with Schedule app
+- Fix: Compatibility with UiPress plugin causing the dashboard being slightly hidden from admin menu side
+- Fix: Piotnetgrid plugin conflict with workflow editor due to their JS loading everywhere
+
+v1.0.3 - 07 Apr 2022
+- Improved: Dynamic tag placement in dynamic key field will work fine now
+- Improved: Option to delete the new action step block
+- Fix: Step title rename feature was not working correctly
+- Fix: API module causing conflict with headers and authorization
+- Fix: Flickring issue when selecting the dynamic tags for the very last step
+
+v1.0.2 - 17 Mar 2022
+- New: Probooking integration
+- New: Pabbly Connect integration
+- New: OpenRead.io integration
+- New: WA.Team integration
+- Improved: Webhook capture is much stronger now to support the rawContent as well
+- Fix: Conflict with API module header field display if switching the method with having headers set.
+- Fix: The custom JSON field being hidden sometimes
+
+v1.0.1 - 15 Mar 2022
+- New: Forminator forms integration
+- New: API module now have an option to add your custom JSON to be sent to the external API endpoint
+- Improved: API module improved to make it easy sending nested JSON to API URL
+- Fix: Conflict with WP-Reset plugin
+- Fix: Workflow details sidebar overlapping on the buttons on small screens.
+- Fix: License expiry date displaying in past causing confusion for lifetime licenses.
+- Fix: Elementor form capture button not displaying
+
+v1.0 - 13 Mar 2022
+- Initial release

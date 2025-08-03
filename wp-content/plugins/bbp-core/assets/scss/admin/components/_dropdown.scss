@@ -1,0 +1,51 @@
+// Dropdown Menu
+.easydocs-dropdown {
+    @include absolute(top 130% right -20px);
+    @include shadow(0 30px 40px 0 rgba(4, 73, 89, 0.1));
+    background-color: var(--clr-white);
+    border-radius: 0.5rem;
+    z-index: 999;
+    @include property;
+    display: none;
+
+    &.is-active {
+        opacity: 1;
+        visibility: visible;
+        top: 130%;
+    }
+}
+.notification-dropdown {
+    width: 340px;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    border-left: 1px solid rgba(0,0,0,0.05);
+    border-radius: 3px;
+    box-shadow: 3px 2px 7px 1px rgba(0,0,0,0.08);
+    @include pseudo(top rem(-10px) right 28px){
+        @include triangle(top, 20px, 10px, #f9f9f9);
+    }
+}
+
+.notification-head {
+    padding: 9px 12px;
+    background: #f9f9f9;
+    &.no-notification-text{
+        padding: 20px 12px;
+        background: #bebebe26;
+        display: block;
+        text-align: center;
+    }
+    @include shadow($y: 1px, $color: #EDEEF2);
+
+    .header-text {
+        color: var(--clr-dark);
+        font-size: var(--fs-13);
+        font-weight: var(--fw-500);
+        line-height: 1;
+    }
+
+    .right-text {
+        color: var(--clr-text);
+        font-size: var(--fs-12);
+        line-height: 1;
+    }
+}

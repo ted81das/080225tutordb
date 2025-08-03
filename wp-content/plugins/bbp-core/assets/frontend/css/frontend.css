@@ -1,0 +1,38 @@
+/* FORUM CSS */
+.bbpc-widget-forum-info {
+  table {
+    img {
+      display: inline;
+    }
+    tr td:last-child {
+      text-align: right;
+    }
+  }
+}
+
+.icon_action {
+  font-family: ElegantIcons;
+  font-style: normal;
+  vertical-align: middle;
+}
+
+.icon_action::before {
+  content: "\e012";
+}
+
+.bbpc-widget-forum-info tr i {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.bbp__success-subscribe .is-subscribed a.subscription-toggle {
+  background: transparent !important;
+  color: #4c4cf1 !important;
+  margin: 0;
+  padding: 0 !important;
+}
+
+.bbp__success-subscribe.alert {
+  border: 1px solid #94e3a1;
+  text-align: center;
+}
